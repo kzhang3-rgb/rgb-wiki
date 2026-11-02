@@ -8,6 +8,7 @@
 
 | 专题 | 内容 |
 | --- | --- |
+| [AI 服务与模型入口](ai-services/README.md) | 大模型的官网与 API 入口，按厂商与地区组织 |
 | [GitHub 项目收藏](github-projects/README.md) | 值得保存的开源项目，按篇记录用途、适用场景与限制 |
 
 ## 笔记
