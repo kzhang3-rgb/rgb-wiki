@@ -121,6 +121,7 @@ docker run -it --rm \
 - **量化/回测类对照**：[ai_quant_trade](ai_quant_trade-AI量化交易操盘手.md)（量化学习合集）、[KHunter](KHunter-A股量化选股系统.md)（A 股选股）、[easy_investment_Agent_crewai](easy_investment_Agent_crewai-A股多Agent分析平台.md)（多 Agent 分析）、[US_Stock_Crash_Monitor](US_Stock_Crash_Monitor-美股风险监测面板.md)（风险面板）——可对照"**指标库**"与"**端到端系统**"的分工：本库只提供可组合的数学与回测原语，不含选股、AI 或界面。
 - **数据来源对照**：[a-stock-data](a-stock-data-A股全栈数据工具包.md)、[global-stock-data](global-stock-data-美股与全球市场数据工具包.md)、[cli-anything-tdx-tq](cli-anything-tdx-tq-通达信TQ命令行工具.md)——本库的行情**不是自带的**，回测得自己接源；这几篇正好是"数据从哪来"的不同答案。
 - **AGPL 传染性的另一例**：[ConcordRTS](ConcordRTS-用C++20重写红警2引擎.md) 是 GPL-3.0-only——两者都提示：**用之前先看许可证版本与条款**，不要只看仓库首页的徽章。
+- **同类回测/引擎对照**：[nautilus_trader](nautilus_trader-Rust原生交易引擎.md)——Rust 原生引擎（Python 当控制面），纳秒级、多资产多场所；本篇是 Go 侧的轻量指标 + 回测实现，两者的适用范围与依赖面差别很大。它的许可为 LGPL-3.0，比 AGPLv3 宽松，但同样不是 MIT。
 - **同类"AI 生成配置 + 校验"思路**（跨领域但可对照）：[zframes](zframes-让Agent用对话生成行情看板.md)。
 
 ## 参考来源

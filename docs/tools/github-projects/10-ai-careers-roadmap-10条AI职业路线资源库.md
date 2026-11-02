@@ -60,6 +60,7 @@
 - 大模型方向的系统教材：[Foundations-of-LLMs](Foundations-of-LLMs-大模型基础教材.md)——本清单给"学什么、去哪儿学"，那本教材给"原理怎么讲"，可配合使用。
 - 动手项目入口：[GPT_teacher-3.37M-cn](GPT_teacher-3.37M-cn-从零训练中文小GPT.md)——想按"边学边做"的方式入门小模型，比清单里的课程更具体。
 - 同为"清单/书稿"类笔记：[up](up-人生进阶指南.md)、[Financial_freedom](Financial_freedom-赚钱与投资书单.md)——可对照三种清单各自的信息密度与可信度标注方式。
+- 同为"资源清单"形态：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——面向安全/运维的清单仓（MIT），可对照其条目格式与收录原则。
 
 ## 参考来源
 

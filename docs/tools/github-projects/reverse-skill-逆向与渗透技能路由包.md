@@ -97,6 +97,7 @@ powershell -File skills/scripts/extract-summaries.ps1 -Check
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **给编码助手提供能力/上下文的同族**：[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)、[zframes](zframes-让Agent用对话生成行情看板.md)（skill + 校验契约）、[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)（也有 Skill/MCP 接入）。
 - **许可形态对照**：[indicator](indicator-Go技术指标与回测框架.md)（AGPLv3 分版本）、[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)（主库 AGPL + SDK MIT）。
+- **同面向安全、但给人看的形态**：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——那是安全/运维的资料索引（清单型、无代码、MIT），本篇是给 AI 的能力路由包；可对照"人查"与"模型用"两种组织方式，两者都涉及渗透类工具，使用前都需确认授权范围。
 
 ## 参考来源
 

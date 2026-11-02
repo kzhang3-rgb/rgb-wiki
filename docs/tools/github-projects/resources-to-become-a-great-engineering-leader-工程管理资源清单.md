@@ -64,6 +64,7 @@ README 的标题是 "200+ Resources to become a great engineering leader"，覆�
 - [up：人生进阶指南](up-人生进阶指南.md)：同为"真实项目 + 证据驱动"的学习框架，方法论层面可对照。
 - [HowToLiveBetter：高性价比人生指南](HowToLiveBetter-高性价比人生指南.md)：另一种"分条目、标来源"的个人经验清单。
 - [Financial_freedom：赚钱与投资书单](Financial_freedom-赚钱与投资书单.md)：同为"书单/片单"型资源仓，可比较其整理方式。
+- **同类"清单型资源仓"**：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——同为把外部资源按主题列成索引、本身不含代码的仓库；区别在它给了明确许可（MIT）且面向安全/运维，本篇无许可证且面向工程管理。
 
 ## 参考来源
 

@@ -71,6 +71,7 @@
 
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 同为"资源清单/科普型"而非工具的项目：[chinese-buy-us-stock-guide](chinese-buy-us-stock-guide-中国人投资美股指南.md)、[HowToLiveBetter](HowToLiveBetter-高性价比人生指南.md)。
+- 同为"书单/清单"型资源仓：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——那是安全/运维工具与资料索引（MIT），可比较两者在归类方式与许可标注上的差别。
 
 ## 参考来源
 

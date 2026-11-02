@@ -89,6 +89,7 @@ curl -o ~/.claude/skills/book-to-skill/scripts/extract.py https://raw.githubuser
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **"把外部内容变成模型可用素材"的同族**：[markitdown](markitdown-文件转Markdown工具.md)（文档转 Markdown）、[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)（网页转 LLM 数据）。
 - **给编码助手喂能力的技能层**：[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)、[zframes](zframes-让Agent用对话生成行情看板.md)、[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)、[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)。
+- **"把整本书译出来"的对照做法**：[translate-book](translate-book-用并行子代理翻译整本书.md)——那篇用并行子代理逐块翻译整本书并保留全文；本篇是**编译期提炼**（章节按需加载、只留能力不留原文），两者正好是"全量转换"与"提炼压缩"的两条路。
 - **书稿/教材类内容项目**：[everyone-can-use-english](everyone-can-use-english-人人都能用英语.md)、[up](up-人生进阶指南.md)、[Foundations-of-LLMs](Foundations-of-LLMs-大模型基础教材.md)——可对照"**内容本身**"与"**把内容变成能力**"两类做法。
 
 ## 参考来源
