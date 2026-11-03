@@ -80,6 +80,7 @@ README 里**自托管**也存在：仓库含 `SELF_HOST.md` 与 `docker-compose.
 - **"把内容转成 LLM 可用格式"的同族对照**：[markitdown](markitdown-文件转Markdown工具.md)（本地文件转 Markdown）、[bb-sites](bb-sites-把网站变成命令行指令的适配器集.md)（在已登录浏览器里读站点）。
 - **Agent / MCP 接入生态**：[servers](servers-MCP官方参考服务器合集.md)、[java-sdk](java-sdk-MCP官方JavaSDK.md)、[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)。
 - **许可与开源形态对照**：[indicator](indicator-Go技术指标与回测框架.md)（AGPLv3 + 商业双许可）、[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)（MIT 主体 + GPLv3/AGPL-3.0 子模块）。
+- **同属"把外部内容变成可用数据"，取向不同**：[newsnow](newsnow-实时热点新闻聚合阅读器.md) 是**面向人的热榜聚合**（顺带提供一个 MCP 出口），本篇是**把任意网页转成 LLM 可用数据的通用抓取 API**——一个偏"聚固定榜单"，一个偏"取任意页面"。
 
 ## 参考来源
 

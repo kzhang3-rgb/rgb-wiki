@@ -96,6 +96,7 @@ manimgl example_scenes.py OpeningManimExample
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同为"用工具产出视觉资产"，路径相反**：[agent-sprite-forge](agent-sprite-forge-给Codex的2D游戏精灵生成技能.md)——那是模型生成 + 脚本清理的非确定性产线（游戏精灵与地图）；本篇是代码驱动、帧帧确定性渲染的动画引擎。对照起来能看清"确定性渲染"与"生成后处理"两种思路各自适合什么场景。
 
 ## 参考来源
 

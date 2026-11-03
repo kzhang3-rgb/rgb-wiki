@@ -87,8 +87,10 @@ README 的目录只有 15 个主章节，全部是"链接集合"的形态：
 - **同为"清单型资源仓"**：[resources-to-become-a-great-engineering-leader](resources-to-become-a-great-engineering-leader-工程管理资源清单.md)（工程管理主题、无许可证）、[Financial_freedom](Financial_freedom-赚钱与投资书单.md)（书单/片单型）——可对照三者在**整理粒度与许可处理**上的差别。
 - **同为"长期策展"**：[HelloGitHub](HelloGitHub-每月一期的开源项目月刊.md)——那篇是**按期更新的月刊**（内容在动，只是 API 的 `pushed_at` 是陈旧值），本篇是**一次性攒成的大目录**（内容不动，`pushed_at` 是真陈旧）；两者的取舍刚好互补。
 - **安全研究方向**：[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)——同样面向安全研究，但它是"给 AI 的能力包 + 授权闸门"，本篇是"给人看的资料索引"。
+- **同属安全方向，但它是可执行工具**：[sherlock](sherlock-按用户名跨平台查找社媒账号.md)——按用户名跨平台做存在性探测的 OSINT CLI（MIT），本篇是给人看的资料索引；可对照"工具"与"清单"两类安全资源的记录方式。
 - **其他资源库形态**：[10-ai-careers-roadmap](10-ai-careers-roadmap-10条AI职业路线资源库.md)。
 - **方法论对照**：[a-stock-data](a-stock-data-A股全栈数据工具包.md)——记录"抓取层缓存假象"那次经历的项目。
+- **活跃度陷阱的第三个样本**：[squoosh](squoosh-浏览器内的图片压缩工具.md)——它的 `pushed_at` 是新的（2026-10-22），默认分支却两年没提交，属于"有推送但没推到主线"；与本篇的"真陈旧"、[a-stock-data](a-stock-data-A股全栈数据工具包.md) 的"抓取缓存"构成三种情形。
 
 ## 参考来源
 

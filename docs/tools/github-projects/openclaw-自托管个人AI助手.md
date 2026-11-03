@@ -94,8 +94,10 @@ openclaw dashboard
 
 ## 相关笔记
 
+- **把领域能力装进宿主 Agent 的例子**：[social-auto-upload：多平台视频自动发布 CLI 与 Agent 技能](social-auto-upload-多平台视频自动发布CLI与Agent技能.md)——该项目把"多平台发布"封装成 18 个 Skill，并把 OpenClaw 列为首选运行环境；可对照"通用宿主 + 领域 Skill"的分工方式。
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **可以直接配合这个宿主使用的项目**：[AiToEarn](AiToEarn-AI内容变现与多平台发布.md)——它的使用方式之一就是"在 OpenClaw 中使用"，通过插件安装后接收任务；两篇可以对照看"宿主 + 插件"的关系。
+- **以它为底座的垂直场景应用**：[Easel](Easel-开源AI社媒内容工作台.md)——浙大开源的社媒内容工作台（Apache-2.0），安装时会创建独立的 `easel` profile、不覆盖已有的 `~/.openclaw/`，v0.3.0 起还能把执行引擎切到 Codex / OpenCode / 通用 ACP。可对照"宿主 + 插件"（AiToEarn）与"宿主 + 垂直应用"（Easel）两种复用方式。
 
 ## 参考来源
 

@@ -97,7 +97,10 @@ powershell -File skills/scripts/extract-summaries.ps1 -Check
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **给编码助手提供能力/上下文的同族**：[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)、[zframes](zframes-让Agent用对话生成行情看板.md)（skill + 校验契约）、[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)（也有 Skill/MCP 接入）。
 - **许可形态对照**：[indicator](indicator-Go技术指标与回测框架.md)（AGPLv3 分版本）、[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)（主库 AGPL + SDK MIT）。
+- **形态对照（MCP vs SKILL）**：[playwright-mcp](playwright-mcp-给LLM用的浏览器自动化MCP服务器.md)——那是 MCP 形态的浏览器自动化服务器，其 README 亲自讨论了"MCP vs CLI+SKILLS"的取舍（编码 Agent 场景下 CLI+SKILLS 更省 token），可对照"同一份能力该以 MCP 还是 SKILL 交付"。
 - **同面向安全、但给人看的形态**：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——那是安全/运维的资料索引（清单型、无代码、MIT），本篇是给 AI 的能力路由包；可对照"人查"与"模型用"两种组织方式，两者都涉及渗透类工具，使用前都需确认授权范围。
+- **引入了授权分档的另一例**：[Claude-Guardian](Claude-Guardian-Claude账号防封与环境准备Skill.md)——那是给 Codex 用的 Claude 账号与环境准备 Skill，用 A/B/C 三档按风险分配授权；本篇是关于"先确认授权范围"的提醒，两者可对照"合规前置"在 Skill 里的不同落法。
+- **同为面向渗透 / OSINT，形态不同**：[sherlock](sherlock-按用户名跨平台查找社媒账号.md)——那是"给人用的单点 CLI"（按用户名到 400+ 站点做存在性探测，MIT），本篇是"给 AI 的能力路由包"；两者都面向授权范围内的安全研究，使用前都要先确认授权与合法性边界。
 
 ## 参考来源
 

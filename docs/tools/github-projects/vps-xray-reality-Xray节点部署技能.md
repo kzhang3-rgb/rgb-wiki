@@ -64,6 +64,7 @@ README 列出七步流程：
 
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 客户端侧：[Shadowrocket-Rules](Shadowrocket-Rules-小火箭分流规则配置.md)。
+- **同为"给 Coding Agent 的部署类技能"**：[Claude-Guardian](Claude-Guardian-Claude账号防封与环境准备Skill.md)——那是把 Claude 订阅与网络环境的准备流程做成 Skill（含三档分级授权、访谈状态机），本篇是把 VPS 上搭 Xray REALITY 的流程做成技能；可对照两者把操作固化成 Skill 的写法，以及各自如何标注风险与授权边界。
 
 ## 参考来源
 

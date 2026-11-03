@@ -12,6 +12,7 @@
 | [工具使用](docs/tools/README.md) | 软件选择、配置方法与效率技巧 |
 | [生活经验](docs/life/README.md) | 可复用的生活经验与实用信息 |
 | [思考与方法](docs/thinking/README.md) | 学习方法、决策过程与个人思考 |
+| [论文收藏](docs/papers/README.md) | arXiv 论文的元信息、结论摘要与可复现性记录 |
 
 ## 开始记录
 
@@ -20,6 +21,7 @@
 - [通用笔记模板](templates/note.md)：概念说明、经验总结和阅读笔记。
 - [问题排查模板](templates/troubleshooting.md)：症状、证据、解决过程与验证。
 - [资源清单模板](templates/resource-list.md)：带摘要和使用场景的资源集合。
+- [论文笔记模板](templates/paper.md)：arXiv 论文的元信息、结论摘要与可复现性记录。
 - [附件目录](assets/README.md)：图片与必要附件的存放说明。
 
 日常流程：随手收集 → 补充理解与来源 → 归入主题 → 更新主题导航。

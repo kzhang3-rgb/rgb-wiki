@@ -66,6 +66,8 @@ figure/                  配图
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同为"打数学底子"的教材**：[生成式 AI 基础小书：从 PCA 到扩散模型的推导路线](../../papers/生成式AI基础小书-从PCA到扩散模型的推导路线.md)——那是只讲生成式模型数学推导的 195 页预印本（arXiv 2605.29713），范围更窄、偏推导；本篇覆盖更广、偏系统讲解与前沿导览。两者都用 PDF 分发且都限制较严，引用前都需先确认协议。
+- **第 2 章讲的那套架构的原始论文**：[Attention Is All You Need](../../papers/Attention-Is-All-You-Need-纯自注意力取代循环与卷积的Transformer.md)——本篇按 Encoder-only / Encoder-Decoder / Decoder-only 梳理架构分叉，那篇是分叉之前的共同起点（arXiv 1706.03762，NeurIPS 2017），对照读能看清"原始设计"与"后来的取舍"。
 
 ## 参考来源
 

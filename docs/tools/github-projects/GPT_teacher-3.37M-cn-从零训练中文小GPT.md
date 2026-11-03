@@ -78,6 +78,7 @@ uv run python train/run.py   # 分词器 → 训练 → 验收 → Web Demo
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 大模型原理的中文系统教材：[Foundations-of-LLMs](Foundations-of-LLMs-大模型基础教材.md)——一个讲原理，一个给能跑起来的最小实现，可以对着看。
 - 同为小模型方向的另一条路线：[kev](kev-一次前向输出概率的小模型.md)——那是用 LoRA 微调 0.5B 模型做分类，本篇是从零训练 3.37M 做生成，可用于对比"微调"与"预训练"的取舍。
+- 本篇实现的架构来源：[Attention Is All You Need](../../papers/Attention-Is-All-You-Need-纯自注意力取代循环与卷积的Transformer.md)——那是提出 Transformer 的原始论文（arXiv 1706.03762，已发表于 NeurIPS 2017），给了架构与论证，本篇是能跑起来的最小实现；想搞清"代码里的每一层对应论文哪一节"，两篇对着看最省事。
 
 ## 参考来源
 

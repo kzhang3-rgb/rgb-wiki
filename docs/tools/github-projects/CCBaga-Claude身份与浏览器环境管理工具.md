@@ -63,6 +63,8 @@ npx skills add liseami/CCBaga --skill ccbaga-network --global
 ## 相关笔记
 
 - 本项目的索引位置：[GitHub 项目收藏](README.md)。
+- **同为"Claude 账号与环境"主题**：[Claude-Guardian](Claude-Guardian-Claude账号防封与环境准备Skill.md)——那是给 Agent 用的环境准备与检查 Skill（含三档分级授权），本篇是管理身份与浏览器环境的工具；两者都在处理"账号环境是否干净"，一个偏知识包、一个偏工具。
+- **同为"Claude 账号与环境"主题**：[claude-switcher](claude-switcher-Fail-Closed账号环境管理器.md)——那是把 14 项环境审计做成启动前硬门禁、并用进程级 Kill-Switch 兜底，本篇管的是本地身份与浏览器环境；一个偏"网络出口与环境指纹"，一个偏"身份与浏览器"。
 
 ## 参考来源
 

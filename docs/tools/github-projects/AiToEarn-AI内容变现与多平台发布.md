@@ -66,8 +66,10 @@
 
 ## 相关笔记
 
+- **同为"多平台发布工具"，路线不同**：[social-auto-upload：多平台视频自动发布 CLI 与 Agent 技能](social-auto-upload-多平台视频自动发布CLI与Agent技能.md)——那是以本地账号会话驱动浏览器自动化（17 个平台、统一 CLI + 18 个 Agent Skill），本篇是"内容变现 + 平台分发"一体化产品、授权经官方 Relay 中转；可对照"登录态留本地"与"授权走第三方"两条路线。
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 另一份同样通过 MCP / 技能方式接入 Agent 的项目：[deepseek-harness](deepseek-harness-DeepSeek开源Agent框架.md)——宿主不同，思路相近。
+- **同为"AI 内容生产 → 多平台发布"，取向不同**：[Easel](Easel-开源AI社媒内容工作台.md)——浙大开源的完整社媒内容工作台（发现 → 策划 → 创作 → 发布 → 归因 + 账号画像记忆，底座为 OpenClaw），本篇更偏"内容变现与多平台分发"。两者都能挂在 OpenClaw 上，可对照"全流程创作"与"分发变现"两种定位。
 
 ## 参考来源
 

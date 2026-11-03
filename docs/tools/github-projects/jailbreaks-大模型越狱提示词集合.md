@@ -45,6 +45,7 @@
 
 ## 相关笔记
 
+- **同为"不便镜像正文、只做结构记录"的清单型仓库**：[awesome-chinese-secondhand-slang：中国二手交易暗语全书](awesome-chinese-secondhand-slang-中国二手交易暗语全书.md)——那边记录的是二手平台上的交易黑话及其"存活状态"，本篇是越狱提示词；两者都可以对照"只记元数据与结构、不转载正文"的边界划法。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

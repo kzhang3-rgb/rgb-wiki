@@ -73,6 +73,7 @@ entry/                入口相关（2024 年后未更新）
 
 ## 相关笔记
 
+- **另一条"降低英语门槛"的路线**：[lexfridman-cn：Lex Fridman 播客中文站](lexfridman-cn-LexFridman播客中文站.md)——那是直接用 AI 中文导读绕开听力门槛（"替你先听一遍"），本篇是从学习方法入手"教会你听"；可对照两条路线的取舍。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

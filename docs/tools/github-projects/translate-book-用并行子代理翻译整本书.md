@@ -104,6 +104,7 @@ README 用四句话把"哪些归脚本、哪些归模型"讲明白了：
 
 ## 相关笔记
 
+- **同为"AI 大规模改写文本"**：[lexfridman-cn：Lex Fridman 播客中文站](lexfridman-cn-LexFridman播客中文站.md)——那是把 506 期访谈改写成中文长文导读（改写幅度大于翻译），本篇是把整本书并行翻译；可对照"翻译"与"二次创作"在准确性与版权上的不同处理。
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **最相近的"书 → 可用产物"技能**：[book-to-skill](book-to-skill-把技术书转成ClaudeCode技能.md)——那篇是把技术书**编译成按需加载的技能**（思考的是"怎么让模型少读"），本篇是把书**整本译出来**（思考的是"怎么把长任务拆开且不丢内容"）；两者可以并排对照"编译期提炼"与"全量转换"两种思路。
 - **同族的文档转 Markdown 底层**：[markitdown](markitdown-文件转Markdown工具.md)——本项目的 PDF/DOCX/EPUB 转换走 Calibre，如果想换轻一点的解析路径，它是另一个答案。

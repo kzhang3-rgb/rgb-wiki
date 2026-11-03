@@ -117,6 +117,7 @@ README 特别提醒：**要锁定说话人或歌手的音色，优先用 AV Pref
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **生成 / 可视化类**：[manim](manim-数学动画引擎.md)（用代码做数学动画）、[FlyCoder](FlyCoder-果蝇连接组控制CSS.md)。
 - **"给助手/工具加能力"的插件层对照**：[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)、[openclaw](openclaw-自托管个人AI助手.md)。
+- **这套节点被用在了什么产品里**：[nvzhuang](nvzhuang-拍片哥女装AI服装参考图集.md)——那边的本地零成本换装后端内置的就是 Qwen-Image-Edit-2511 与 **MiniMax H3** 双工作流，未就绪时自动回退 H3；一篇讲节点怎么用，一篇讲它在真实项目里的落法。
 
 ## 参考来源
 

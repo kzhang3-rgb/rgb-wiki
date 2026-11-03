@@ -127,6 +127,7 @@ print(result.markdown)
 - 同属 MCP 体系：本仓库同时包含 `markitdown-mcp` 包（在贡献范围内），与 [servers](servers-MCP官方参考服务器合集.md)（官方参考服务器）及 [java-sdk](java-sdk-MCP官方JavaSDK.md)（MCP Java SDK）构成"文档转 Markdown → 经 MCP 提供给模型"的一条链路。
 - 同为文档格式处理的笔记：[epublib](epublib-读写EPUB的Java库.md)——MarkItDown 也支持 EPub 转换，但那是"转成 Markdown 供模型读"，epublib 是"程序化读写 EPUB 文件"，用途不同可对照。
 - 可作为输入素材的笔记：[Foundations-of-LLMs](Foundations-of-LLMs-大模型基础教材.md)——该仓库提供 PDF 教材，当时的笔记标注了"未阅读 PDF 正文"，用 MarkItDown 转换正好补上这个缺口。
+- **同为"本地处理文件"的工具**：[squoosh](squoosh-浏览器内的图片压缩工具.md)——那是浏览器内的图片压缩（WASM 编解码器、图片不上传），本篇是服务端的文档转 Markdown；两者的坑刚好互补：本篇要防"插件静默降级"，那篇要看"本地之后还上报了什么"。
 
 ## 参考来源
 

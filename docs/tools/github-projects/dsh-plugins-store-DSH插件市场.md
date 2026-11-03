@@ -82,6 +82,7 @@ dsh plugin --profile web add npm:dsh-plugins-store
 ## 相关笔记
 
 - [deepseek-harness：DeepSeek 开源的 Agent 框架](deepseek-harness-DeepSeek开源Agent框架.md)：本市场服务的宿主项目。
+- **插件在手机端的落脚点**：[dsh-Go](dsh-Go-DeepSeek-Harness的安卓客户端.md)——dsh 的第三方 Android 客户端，提供原生工具卡、表单与面板，仓库内含插件 SDK 与示例；一个是"有哪些插件"的目录，一个是"插件在手机上怎么跑"的运行时。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

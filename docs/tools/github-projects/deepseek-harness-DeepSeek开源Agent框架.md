@@ -75,6 +75,7 @@ pnpm dsh web
 
 ## 相关笔记
 
+- **跑在手机上的第三方客户端**：[dsh-Go](dsh-Go-DeepSeek-Harness的安卓客户端.md)——把 Ubuntu + Node.js + dsh 打包进 Android App（免 Root、免 Termux），也能通过 SSH 或 DSHarness Remote 遥控电脑上的 dsh。本篇记录的"developer preview、会有破坏性变更"正是客户端能否长期跟进的直接前提。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

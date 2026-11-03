@@ -104,9 +104,12 @@ npx @modelcontextprotocol/inspector --transport http --server-url http://localho
 
 ## 相关笔记
 
+- **应用自带 MCP Server 的例子**：[boxplayer：聚合网盘与影视的全平台播放器](boxplayer-聚合网盘与影视的全平台播放器.md)——其 `clouddrive-cli` 可作 MCP Server 供 AI 客户端调用，并内置 dry-run 预览与操作记录；可作为对照官方参考服务器看"业务型 MCP"长什么样。
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 同属 AI 助手生态的笔记：[deepseek-harness](deepseek-harness-DeepSeek开源Agent框架.md)（Agent 框架）、[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)（插件市场，涉及插件校验逻辑）、[openclaw](openclaw-自托管个人AI助手.md)（自托管助手，涉及可替换的插件与执行器）。
 - 涉及 MCP 接入的实践笔记：[AiToEarn](AiToEarn-AI内容变现与多平台发布.md)。
+- **自带 MCP server 的具体应用**：[newsnow](newsnow-实时热点新闻聚合阅读器.md)（热榜聚合阅读器，对外提供 MCP server 当信息源）——与本篇"官方参考服务器清单"分别对应"清单/样例"与"实际落地的第三方服务器"。
+- **厂商官方出品的生产级服务器**：[playwright-mcp](playwright-mcp-给LLM用的浏览器自动化MCP服务器.md)（微软的浏览器自动化 MCP 服务器）——可对照本篇"参考实现"与"生产可用"的区别。
 
 ## 参考来源
 
