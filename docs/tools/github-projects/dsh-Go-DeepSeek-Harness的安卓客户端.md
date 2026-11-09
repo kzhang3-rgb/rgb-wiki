@@ -97,6 +97,7 @@ DSH_BETA_TOKEN_FILE= bash tooling/build-apk.sh -f arm64 --keep-daemon
 - **它服务的上游框架**：[deepseek-harness：DeepSeek 开源的 Agent 框架](deepseek-harness-DeepSeek开源Agent框架.md)——本篇是其第三方 Android 客户端；那篇记录的"developer preview、会有破坏性变更"直接影响本客户端能稳定跟进的前提。
 - **生态里的插件市场**：[dsh-plugins-store：DSH 插件市场](dsh-plugins-store-DSH插件市场.md)——那是社区插件目录与验证流水线，本篇提供插件在手机端运行的原生界面与 SDK；一个管"有哪些插件"，一个管"插件在手机上怎么跑"。
 - **同为"需要系统级权限的安卓应用"**：[aerial-tv：给国产电视的 tvOS 风格桌面](aerial-tv-给国产电视的tvOS风格桌面.md)——那是靠无障碍服务接管电视默认桌面（另需通知使用权与 WRITE_SECURE_SETTINGS），本篇是靠无障碍 / Shizuku / ADB 做手机操控；两篇都该先看清"权限范围 + 数据流向"。
+- **同为"系统级权限 + 远程 / 本地操控"，风险标注写法可对照**：[crossdesk](crossdesk-轻量跨平台远程桌面与MCP远控服务端.md)——本篇记录手机侧的无障碍 / Shizuku 等系统权限与数据流向，那边记录"键鼠输入发往远端"以及"Agent 拿到桌面操作权"这类权限（且作者主动声明防护边界：能读同用户进程 / 文件的 Agent 不受其隔离）；两篇合看可整理出一份"系统级操控类项目的权限与隐私标注清单"。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

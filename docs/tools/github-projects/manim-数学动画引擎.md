@@ -97,6 +97,7 @@ manimgl example_scenes.py OpeningManimExample
 
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同为"用工具产出视觉资产"，路径相反**：[agent-sprite-forge](agent-sprite-forge-给Codex的2D游戏精灵生成技能.md)——那是模型生成 + 脚本清理的非确定性产线（游戏精灵与地图）；本篇是代码驱动、帧帧确定性渲染的动画引擎。对照起来能看清"确定性渲染"与"生成后处理"两种思路各自适合什么场景。
+- **同属"把文字转成视觉动画"，驱动方式不同**：[srt-whiteboard-animation：把 SRT 字幕做成白板手绘动画的技能](srt-whiteboard-animation-把SRT字幕做成白板手绘动画的技能.md)——那是由**字幕驱动分镜**、笔迹生成式落墨的技能（分区遮罩 + stream 笔迹 + 分段确认），本篇是**代码定义场景、逐帧确定性渲染**的动画引擎；对照能看清"确定性渲染"与"按叙事排布的手绘笔迹"两种产线。
 
 ## 参考来源
 

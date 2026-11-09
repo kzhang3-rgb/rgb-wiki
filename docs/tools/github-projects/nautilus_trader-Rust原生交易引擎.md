@@ -113,6 +113,7 @@ README 用一整节列供应链控制，项目也确实在把它当工程问题�
 - **回测与指标实现对照**：[indicator](indicator-Go技术指标与回测框架.md)（Go 侧指标与回测；注意它 v2 起改为 AGPLv3 双许可，与本篇的 LGPL-3.0 属不同约束强度）。
 - **数据层**：引擎本身不带行情数据，取数要靠外部——见 [a-stock-data](a-stock-data-A股全栈数据工具包.md)、[global-stock-data](global-stock-data-美股与全球市场数据工具包.md)（其后者的合规分级思路，与接实盘前的数据授权评估是同一件事）。
 - **Agent 接入对照**：[servers](servers-MCP官方参考服务器合集.md)——本篇没有 MCP / Agent 层（AI 工具明确排除在开源范围外），可与 [QuantDinger](QuantDinger-开源AI交易操作系统.md) 的 Agent Gateway 对照。
+- **另一种"分层量化"架构（且已停更）**：[QuantMuse](QuantMuse-AI量化交易系统.md)——它是"Python 研究层 + C++ 执行层"的单人项目，2,982★ 但**只有 1 位贡献者、近一年无提交、README 疑似模板/AI 生成**（残留 `yourusername/tradingsystem` 占位符）；可与本篇"团队长期维护的 Rust 原生引擎"对照维护成熟度。
 
 ## 参考来源
 

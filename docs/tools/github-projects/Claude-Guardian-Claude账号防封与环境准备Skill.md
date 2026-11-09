@@ -97,6 +97,7 @@ README 的能力表主要覆盖这些方向（概括，非逐条搬运）：
 - **同为"给 Coding Agent 的部署类技能"**：[vps-xray-reality：Xray 节点部署技能](vps-xray-reality-Xray节点部署技能.md)——那是把 VPS 部署流程固化成技能，本篇也涉及 VPS 与线路部分；可对照两者把操作固化成 Skill 的写法与安全边界标注方式。
 - **合规与授权提醒**：[reverse-skill：逆向与渗透技能路由包](reverse-skill-逆向与渗透技能路由包.md)——涉及可能触及法律或平台规则边界的操作时，先确认授权与适用范围。
 - **同一件事的"交易方"视角**：[awesome-chinese-secondhand-slang：中国二手交易暗语全书](awesome-chinese-secondhand-slang-中国二手交易暗语全书.md)——那份词典的 `ai-services` 分类记录的正是"AI 账号/代充服务在二手平台上的暗语与存活状态（🟢现行 / 🔴平台拦截）"，可从"账号买卖侧"对照本篇的"账号环境准备侧"。
+- **同属"给 Agent 分层授权"的主题**：[NamiAgent：从零手写 Agent 的中文可运行教程](NamiAgent-从零手写Agent的中文可运行教程.md)——那是第 3 课"硬规则 → 风险分级 → 人工确认"三道关的**代码实现**，本篇是 A/B/C 三档分级授权的**操作规范**；一个把授权分层落在代码里，一个落在流程里，可对照"边界该写进程序还是写进规范"。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

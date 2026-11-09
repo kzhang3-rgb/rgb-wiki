@@ -62,6 +62,7 @@
 - [oracle：给编码助手请第二意见的 CLI](../github-projects/oracle-给编码助手请第二意见的CLI.md)：同样面向编码场景，但定位是"请第二个模型复核"，而非主力编码 Agent。
 - [prompt-optimizer：提示词优化器](../github-projects/prompt-optimizer-提示词优化器.md)：支持多家模型与 MCP，可对照其多模型接入方式。
 - [agents.md：给编码助手用的 AGENTS 文件格式](../github-projects/agents.md-给编码助手用的AGENTS文件格式.md)：编码 Agent 的项目级指令约定，与这里的 `/agents`、`/memory` 是同一类问题。
+- [opencode：开源终端编码 Agent](../github-projects/opencode-开源终端编码Agent.md)：本页 OpenCode 条目对应的**仓库侧笔记**——那里记了仓库迁移（`sst/opencode` → `anomalyco/opencode`、同一 repo id）、默认分支 `dev`、`AGENTS.md` 16.5 KB 等仓库层面的信息；本页侧重官网与定价口径，两处合看才完整。
 
 ## 参考来源
 

@@ -90,6 +90,7 @@ heretic Qwen/Qwen3-4B-Instruct-2507   # 换成想处理的模型
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 主题相关的另一篇：[jailbreaks](jailbreaks-大模型越狱提示词集合.md)——同属"绕过模型安全机制"，但层级不同：那篇是**提示词层面**的集合，本篇是**权重层面**的方法，后者不依赖具体模型版本的提示词技巧，因此不会随模型更新迅速失效。
 - 同为"在本地处理模型权重/小模型"方向：[kev](kev-一次前向输出概率的小模型.md)。
+- **把"提示词层面"与"权重层面"都讲一遍的中文长文**：[theAIMythbook：AI 迷思录](theAIMythbook-AI迷思录.md)——其 AI 安全篇含安全对齐、越狱与"自动化越狱"（遗传算法 / 梯度下降法）；另有 [PromptJailbreakManual](PromptJailbreakManual-Prompt越狱手册.md) 专注 Prompt 侧。可对照三条路径的记录方式。
 
 ## 参考来源
 

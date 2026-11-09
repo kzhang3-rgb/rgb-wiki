@@ -107,7 +107,7 @@ SDK 会拿官方的 [MCP conformance test suite](https://github.com/modelcontext
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 同属 MCP 官方体系：[servers](servers-MCP官方参考服务器合集.md)——那是官方参考服务器合集（7 个实现，含 TypeScript 与 Python 版本），本篇是 Java 侧的 SDK，两者配合可自建"Java 服务端 + 官方参考服务器对照"。该仓库列出的 10 个官方 SDK 中，Java 就是这一个。
 - 同属 AI 助手生态的笔记：[deepseek-harness](deepseek-harness-DeepSeek开源Agent框架.md)（Agent 框架）、[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)（插件市场）、[openclaw](openclaw-自托管个人AI助手.md)（自托管助手）。
-- 涉及 MCP 接入的实践笔记：[AiToEarn](AiToEarn-AI内容变现与多平台发布.md)。
+- 涉及 MCP 接入的实践笔记：[AiToEarn](AiToEarn-AI内容变现与多平台发布.md)、[xiaozhi-esp32](xiaozhi-esp32-基于MCP的ESP32语音聊天机器人.md)（把 MCP 用在硬件设备端的固件项目，可对照"服务端 SDK / 服务器"与"设备端 MCP"两种形态）。
 
 ## 参考来源
 

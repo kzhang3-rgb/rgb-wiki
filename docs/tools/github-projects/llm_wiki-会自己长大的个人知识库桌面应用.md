@@ -82,6 +82,7 @@ purpose.md       # 目标、关键问题、研究范围（原方法论没有，�
 - [markitdown：文件转 Markdown 工具](markitdown-文件转Markdown工具.md)：文档转 Markdown 的通用工具，与本文档摄入环节同源问题。
 - [Foundations-of-LLMs：大模型基础教材](Foundations-of-LLMs-大模型基础教材.md)：理解"检索、Embedding、图"这些基础概念的背景资料。
 - [agents.md：给编码助手用的 AGENTS 文件格式](agents.md-给编码助手用的AGENTS文件格式.md)：它内置的 `SKILL.md` 属于同一类"给 AI 的说明文件"约定。
+- [MarkDew：以 Typora 为参照物的桌面 Markdown 编辑器](MarkDew-Typora风格的桌面Markdown编辑器.md)：同为桌面端 Markdown 工具，但它是**通用编辑器**（CodeMirror 6 + Tauri、AGPL + 商业双许可），本应用是**带 AI 的知识库**；可对照"编辑器"与"知识库应用"的边界。
 
 ## 参考来源
 

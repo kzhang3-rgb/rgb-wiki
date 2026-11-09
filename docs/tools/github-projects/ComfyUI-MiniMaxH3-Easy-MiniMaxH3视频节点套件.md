@@ -118,6 +118,8 @@ README 特别提醒：**要锁定说话人或歌手的音色，优先用 AV Pref
 - **生成 / 可视化类**：[manim](manim-数学动画引擎.md)（用代码做数学动画）、[FlyCoder](FlyCoder-果蝇连接组控制CSS.md)。
 - **"给助手/工具加能力"的插件层对照**：[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)、[openclaw](openclaw-自托管个人AI助手.md)。
 - **这套节点被用在了什么产品里**：[nvzhuang](nvzhuang-拍片哥女装AI服装参考图集.md)——那边的本地零成本换装后端内置的就是 Qwen-Image-Edit-2511 与 **MiniMax H3** 双工作流，未就绪时自动回退 H3；一篇讲节点怎么用，一篇讲它在真实项目里的落法。
+- **同属"产出动画 / 视频"的产线**：[srt-whiteboard-animation：把 SRT 字幕做成白板手绘动画的技能](srt-whiteboard-animation-把SRT字幕做成白板手绘动画的技能.md)——那边是 ComfyUI 节点工作流，本篇是独立 `SKILL.md` + Python 脚本管线（`annotation.json` 编排 + stream 笔迹）；可对照"节点图"与"技能 + 脚本"两种组织方式。
+- **同一模型在完整产品里的另一种接线**：[huobao-drama](huobao-drama-一句话生成AI短剧的自动化生产平台.md)——它的视频生成把 **MiniMax H3** 作为可选厂商之一（与火山 Seedance 2.0、阿里百炼 Wan 3.0 并列）内嵌进短剧生产管线；本篇是把 H3 做成 ComfyUI 节点。可对照"节点图里调模型"与"产品里调模型"两种接法。
 
 ## 参考来源
 

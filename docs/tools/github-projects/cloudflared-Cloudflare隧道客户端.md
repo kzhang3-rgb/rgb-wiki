@@ -61,9 +61,11 @@ Cloudflare Tunnel 的命令行客户端（前身 Argo Tunnel），一个把流�
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同为"自建出入口"的另一种思路**：[mistgate](mistgate-自建小规模VPN车队面板.md)——那是**自建代理面板与节点车队**（Hysteria2 / VLESS / REALITY，AGPL-3.0），本篇是借助 Cloudflare 网络的隧道；可对照"自建代理"与"托管网络隧道"两类公网入口。
 - 同为"把服务暴露出去"的路线：[vps-xray-reality](vps-xray-reality-Xray节点部署技能.md)——那是自建 VPS 上的 Xray REALITY 直连节点（不依赖域名），本篇是借助 Cloudflare 网络的隧道（需要域名与 NS 托管），两条路线的取舍点在实际部署时对比。
 - 可能的需要场景：[openclaw](openclaw-自托管个人AI助手.md)（自托管服务的公网入口）。
 - 环境相关：[WSL](WSL-Windows上的Linux子系统.md)（Windows 上跑 Linux 工具链时，Tunnel 客户端常装在子系统里）。
+- **自托管服务需要公网入口时的典型场景**：[gitea：自托管一体化 Git 服务平台](gitea-自托管一体化Git服务平台.md)——自建 Gitea 想对外提供访问时，常配隧道（或反向代理）而非直接暴露公网端口。
 
 ## 参考来源
 

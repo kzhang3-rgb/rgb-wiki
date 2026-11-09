@@ -76,6 +76,11 @@ pnpm dsh web
 ## 相关笔记
 
 - **跑在手机上的第三方客户端**：[dsh-Go](dsh-Go-DeepSeek-Harness的安卓客户端.md)——把 Ubuntu + Node.js + dsh 打包进 Android App（免 Root、免 Termux），也能通过 SSH 或 DSHarness Remote 遥控电脑上的 dsh。本篇记录的"developer preview、会有破坏性变更"正是客户端能否长期跟进的直接前提。
+- **把它当教学案例拆解的中文教程**：[NamiAgent：从零手写 Agent 的中文可运行教程](NamiAgent-从零手写Agent的中文可运行教程.md)——该教程第 16 课专门拆解 DeepSeek Harness；先自己手写一遍最小循环、权限、上下文，再回头看框架，能更清楚"框架替你做了什么"。
+- **改宿主文件的第三方插件**：[dsh-purge：给 DeepSeek Harness 打补丁的破甲与红队插件](dsh-purge-给DeepSeek-Harness打补丁的破甲与红队插件.md)——它备份并替换 `@deepseek-ai/*` 包内文件、按会话注入提示词；本篇的"developer preview、会有破坏性变更"正是这类插件必须按 rc 版本逐个适配的直接原因。
+- **接入本宿主的搜索 / 研究插件**：[argo：给 Agent 用的搜索与深度研究工具](argo-给Agent用的搜索与深度研究工具.md)——它 topics 含 `dsh-ecosystem` / `dsh-plugin`、带 `cordis.patch.yml`，把"检索 / 抓取 / 证据核验"作为插件能力接进来；可对照"给宿主加一个能力"的接线方式。
+- **同为"可扩展的编码 Agent / 框架"，组织方式不同**：[opencode：开源终端编码 Agent](opencode-开源终端编码Agent.md)——那是终端优先、且自身大量用 Agent 参与开发的开源编码 Agent；本篇是插件化扩展的 Agent 框架。可对照"框架 + 插件"与"一体化编码 Agent"两条路。
+- **同一个官方组织维护的另一份仓库**：[awesome-deepseek-integration：DeepSeek 官方的"实用集成"清单](awesome-deepseek-integration-DeepSeek官方实用集成清单.md)——两份都属 `deepseek-ai`；那份是"官方收录第三方集成"的索引（已停更约 8.5 个月），本篇是"官方自己做的工具"。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

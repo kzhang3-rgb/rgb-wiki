@@ -46,6 +46,8 @@
 ## 相关笔记
 
 - **同为"不便镜像正文、只做结构记录"的清单型仓库**：[awesome-chinese-secondhand-slang：中国二手交易暗语全书](awesome-chinese-secondhand-slang-中国二手交易暗语全书.md)——那边记录的是二手平台上的交易黑话及其"存活状态"，本篇是越狱提示词；两者都可以对照"只记元数据与结构、不转载正文"的边界划法。
+- **把同类提示词工程化、打进客户端**：[dsh-purge：给 DeepSeek Harness 打补丁的破甲与红队插件](dsh-purge-给DeepSeek-Harness打补丁的破甲与红队插件.md)——那是提示词样本的收集，本篇把它做成插件、随会话自动注入；两者都属本站"仅记元数据与结构"的敏感类别。
+- **同主题的中文长文（同一组织 `Acmesec`、同一维护者 `0Chencc`）**：[PromptJailbreakManual：Prompt 越狱手册](PromptJailbreakManual-Prompt越狱手册.md)（体系化的 Prompt 攻防手册）与 [theAIMythbook：AI 迷思录](theAIMythbook-AI迷思录.md)（范围更宽，含 AI 应用与 AI 安全）。三者差别在**组织形态**：本篇是"一模型一文件、随版本跟进"的**集合**，那两本是"单文件长文"的**手册 / 书**；同属本站"仅记元数据与结构"的敏感类别。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

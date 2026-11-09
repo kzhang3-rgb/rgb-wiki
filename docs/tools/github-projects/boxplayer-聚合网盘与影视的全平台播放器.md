@@ -106,6 +106,8 @@ pnpm run build                        # 会自动递增 patch 版本，再类型
 - **同为"客厅 / 电视场景的客户端"**：[aerial-tv：给国产电视的 tvOS 风格桌面](aerial-tv-给国产电视的tvOS风格桌面.md)——那是改造电视桌面本身，本项目的 Android TV 端是"播放器装在电视上"；可对照两类"电视端改造"的切入方式。
 - **同为"Electron 跨平台桌面客户端"**：[hongguo-drama：红果短剧桌面版](hongguo-drama-红果短剧桌面版.md)——那类是把单一内容源包成桌面客户端，本项目是把**多个异构来源**统一进一个客户端；可对照两者在"来源聚合"与"账号凭据"上的复杂度差异。
 - **MCP 生态参照**：[servers：MCP 官方参考服务器合集](servers-MCP官方参考服务器合集.md)——本项目的 `clouddrive-cli` 自带 MCP Server，可用那份清单作对照，理解"应用自带 MCP"在整体生态里的位置。
+- **同为"桌面客户端 + 自带 CLI + MCP Server 三件套"，暴露的能力不同**：[crossdesk](crossdesk-轻量跨平台远程桌面与MCP远控服务端.md)——那边把**远端桌面的键鼠与画面**二次暴露给 Agent（且必须先在面板完成设备授权），本篇把**网盘与媒体资产**暴露给 Agent（`clouddrive-cli` + MCP，带 dry-run 预览）；两篇对照可以看清"桌面应用如何把能力抽象给 Agent"的两种落法。
+- **同为"多源媒体桌面客户端"，媒介不同**：[NonsPlayer](NonsPlayer-多音源跨平台音乐播放器与插件系统.md)——那边把**音乐的音源与插件**抽象成 SDK 与 WASM Component 契约（GPL-3.0），本篇把**网盘与媒体服务器**统一进客户端并自带 CLI / MCP；可对照"音乐多音源"与"影视 / 网盘多源"两种聚合抽象。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

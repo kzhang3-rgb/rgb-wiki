@@ -111,6 +111,7 @@ v5 的重构重点不是加功能，而是**划清运行时与运维边界**：
 - **同类引擎对照**：[nautilus_trader](nautilus_trader-Rust原生交易引擎.md)——Rust 原生引擎 + Python 控制面，同样把"同一份策略代码跑回测与实盘"当卖点；区别在于本篇是**带 UI / 编排 / Agent 层的应用**，而它明确把 UI、分布式编排与内置 AI 工具排除在开源范围之外。
 - **MCP / Agent 接入**：[servers](servers-MCP官方参考服务器合集.md)——本篇自带 MCP server 与 Agent Gateway，可与之对照。
 - **"开源主库 + 商业服务"许可分层**：[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)。
+- **同为"分层量化系统"，但维护状态相反**：[QuantMuse](QuantMuse-AI量化交易系统.md)——同样是"Python 研究层 + C++ 执行层"，但它**单人维护、近一年停更、README 疑似模板/AI 生成**（残留 `yourusername/tradingsystem`），且是 MIT；本篇则由公司维护、持续更新。可对照两者的成熟度与许可。
 
 ## 参考来源
 

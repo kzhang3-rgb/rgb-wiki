@@ -113,6 +113,7 @@ uv run python -m kev.train --n_per_source 1500 --epochs 2 --perm_kl 0 --ord_w 0 
 
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 同属"在本地跑小模型/端侧"方向：[deepseek-harness](deepseek-harness-DeepSeek开源Agent框架.md)（Agent 框架，非模型本身）。
+- 同为小模型方向的另一条路线：[minimind](minimind-从零训练64M小LLM的中文项目.md)——那是从零预训练一个 64M 生成式模型（覆盖完整后训练链路），本篇是在 0.5B 上挂 LoRA 做结构化决策（不生成文本、只出概率）。**一个"从零做生成"，一个"微调做分类"**，可对照两条路线的取舍；也见 [GPT_teacher](GPT_teacher-3.37M-cn-从零训练中文小GPT.md)（从零训练的 3.37M 中文小 GPT）。
 
 ## 参考来源
 

@@ -111,6 +111,7 @@ README 用四句话把"哪些归脚本、哪些归模型"讲明白了：
 - **运行宿主**：[openclaw](openclaw-自托管个人AI助手.md)——README 明确列出的三个宿主之一（另两个是 Codex 与 Claude Code）。
 - **给编码助手的技能层对照**：[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)、[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)、[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)。
 - **长文档/内容类项目**：[everyone-can-use-english](everyone-can-use-english-人人都能用英语.md)、[up](up-人生进阶指南.md)——都是"书稿工程化"的例子，可对照它们在**构建与校验**上的取舍。
+- **人工翻译整本书的成品**：[SystemDesign：系统设计面试内幕指南（中文翻译）](SystemDesign-系统设计面试内幕指南中译.md)——那是"人工逐章翻译的成品译文"，本篇是"用并行子代理翻译整本书的工具"；可对照"人译"与"AI 并行译"在推进方式、完成度（该书第二卷尚有 5 章未译）与许可口径上的差别。
 
 ## 参考来源
 

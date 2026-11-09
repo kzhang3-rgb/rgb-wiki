@@ -65,9 +65,15 @@ pnpm run dev
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **实际使用 `AGENTS.md`（并同时放 `llms.txt`）的项目样本**：[mistgate](mistgate-自建小规模VPN车队面板.md)——一个自托管代理面板，根目录同时有 `AGENTS.md` 与 `llms.txt`，并明写"由 AI 编码 Agent 写、提交带 `Co-Authored-By`"；可作"这类文件在真实仓库里怎么用"的实例。
 - **AI 助手生态的其他记录**：[deepseek-harness](deepseek-harness-DeepSeek开源Agent框架.md)（插件化 Agent 框架）、[openclaw](openclaw-自托管个人AI助手.md)（自托管助手）、[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)（插件市场）、[AiToEarn](AiToEarn-AI内容变现与多平台发布.md)——可对照"给助手提供上下文/能力"的不同层次：AGENTS.md 提供**项目级指令**，MCP 提供**工具能力**，插件市场提供**分发渠道**。
 - **MCP 体系三连**：[servers](servers-MCP官方参考服务器合集.md)、[java-sdk](java-sdk-MCP官方JavaSDK.md)、[markitdown](markitdown-文件转Markdown工具.md)——那一组解决的是"助手能调什么工具"，本篇解决的是"助手要遵守什么指令"，两者常一起出现。
 - **同时提到 AGENTS.md 的取数工作台**：[Vibe-Research](Vibe-Research-A股美股港股投研工作台.md)——其 README 把 `AGENTS.md` 用作部署与维护说明，并特别提醒 Codex 会读取用户全局的 `AGENTS.md`，说明这类文件的影响范围可能超出单个项目。
+- **真实项目里的 `AGENTS.md` 样本**：[openfox：本地模型优先的编码助手（`co-l/openfox` 的 fork）](openfox-本地模型优先的编码助手-co-l-openfox的fork.md)——其仓库根目录就放了一份 `AGENTS.md`，写明构建命令、端口与密码、TDD 流程与"hook 超时"提醒，可直接对照"这类文件在工程里怎么写"。
+- **大规模项目里的 `AGENTS.md` 样本（两则）**：[opencode：开源终端编码 Agent](opencode-开源终端编码Agent.md)（根目录 `AGENTS.md` 约 16.5 KB，且项目自身大量用 Agent 参与开发）与 [gitea：自托管一体化 Git 服务平台](gitea-自托管一体化Git服务平台.md)（根目录 `AGENTS.md` 约 2.8 KB）；可对照"不同规模的项目怎么写这份文件"。
+- **不放 `AGENTS.md`、但把 Agent 产物留档的对照样本**：[Ac-Wiki：大学生的百科全书](Ac-Wiki-大学生的百科全书.md)——它没有 `AGENTS.md`，却把 Agent 生成的 `plans/`、`specs/` 留在 `docs/superpowers/` 并用 MkDocs 的 `exclude_docs` 排除出站点（**内容入库、不发布**）。可对照"给助手写指令"与"把助手产物归档"两种做法。
+- **把提示词当指令注入的风险样本**：[PromptJailbreakManual：Prompt 越狱手册](PromptJailbreakManual-Prompt越狱手册.md)——一份中文的 Prompt 注入 / 越狱手册；它正好说明"来源不明的提示词若被当成 `AGENTS.md` 或系统提示使用"时的风险边界。本笔记只记其元数据与章节结构。
+- **"给 AI 的文件"的另一面：这份是 Agent 写给自己的**：[mnemos-mcp：让 AI 拥有自己长期记忆的 MCP 服务器](mnemos-mcp-让AI拥有自己长期记忆的MCP服务器.md)——`AGENTS.md` 是**你替助手写的静态指令**，那篇是**助手给自己写的动态记忆**（用它自己的话写下值得保留的事，每次会话带着它醒来）；可对照"人写给 AI 的说明"与"AI 写给下一个自己的记忆"。
 
 ## 参考来源
 

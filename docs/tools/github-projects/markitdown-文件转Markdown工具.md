@@ -124,6 +124,7 @@ print(result.markdown)
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同属"文档类工具的 Web 实现"**：[everything](everything-重建全世界软件的开源单仓.md)——其 `documents` / `pdf` / `spreadsheet` 等应用是**文档生产**方向（在线编辑器），本篇是**文档转换**方向（各种格式转 Markdown）；可对照文档工作流的产出端与转换端。
 - 同属 MCP 体系：本仓库同时包含 `markitdown-mcp` 包（在贡献范围内），与 [servers](servers-MCP官方参考服务器合集.md)（官方参考服务器）及 [java-sdk](java-sdk-MCP官方JavaSDK.md)（MCP Java SDK）构成"文档转 Markdown → 经 MCP 提供给模型"的一条链路。
 - 同为文档格式处理的笔记：[epublib](epublib-读写EPUB的Java库.md)——MarkItDown 也支持 EPub 转换，但那是"转成 Markdown 供模型读"，epublib 是"程序化读写 EPUB 文件"，用途不同可对照。
 - 可作为输入素材的笔记：[Foundations-of-LLMs](Foundations-of-LLMs-大模型基础教材.md)——该仓库提供 PDF 教材，当时的笔记标注了"未阅读 PDF 正文"，用 MarkItDown 转换正好补上这个缺口。

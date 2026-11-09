@@ -98,6 +98,9 @@ openclaw dashboard
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **可以直接配合这个宿主使用的项目**：[AiToEarn](AiToEarn-AI内容变现与多平台发布.md)——它的使用方式之一就是"在 OpenClaw 中使用"，通过插件安装后接收任务；两篇可以对照看"宿主 + 插件"的关系。
 - **以它为底座的垂直场景应用**：[Easel](Easel-开源AI社媒内容工作台.md)——浙大开源的社媒内容工作台（Apache-2.0），安装时会创建独立的 `easel` profile、不覆盖已有的 `~/.openclaw/`，v0.3.0 起还能把执行引擎切到 Codex / OpenCode / 通用 ACP。可对照"宿主 + 插件"（AiToEarn）与"宿主 + 垂直应用"（Easel）两种复用方式。
+- **直接调用本宿主内置浏览器的工具**：[bb-browser：把真实浏览器登录态给 Agent 当 API 的 CLI 与 MCP](bb-browser-把真实浏览器登录态给Agent当API的CLI与MCP.md)——它可走 OpenClaw 内置浏览器（`--openclaw`），**无需 Chrome 扩展与常驻守护进程**，是"宿主 + 领域工具"复用方式的一个具体例子。
+- **同为"本地 AI 客户端 / 助手"，形态不同**：[cherry-studio：把模型、Agent 与知识库收进一个桌面工作台](cherry-studio-多模型Agent与知识库的桌面工作台.md) 与 [chatbox：桌面 AI 客户端社区版](chatbox-桌面AI客户端社区版.md) 都是**安装在桌面的客户端**，本篇是**常驻自托管的助手服务**——可对照"给你一个客户端"与"给你一个服务"。
+- **给本宿主补"跨会话记忆"的外挂之一**：[mnemos-mcp：让 AI 拥有自己长期记忆的 MCP 服务器](mnemos-mcp-让AI拥有自己长期记忆的MCP服务器.md)——它明确支持 `mnemos connect openclaw --write` 并附专门集成文档，让 Agent 带着一份存在你本机的长期记忆醒来；可作"**记忆作为宿主 Agent 的外挂能力**"的实例。
 
 ## 参考来源
 

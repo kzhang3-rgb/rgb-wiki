@@ -94,6 +94,7 @@ tests/               测试
 ## 相关笔记
 
 - **同样把正文与工具分开授权**：[RUN：海外移居手册](RUN-海外移居手册.md)——本篇用 `LICENSE-CONTENT.md` + `LICENSE-CODE.md`（内容不受代码许可约束），那边用 `LICENSE`（CC BY-SA 4.0）+ `LICENSE-CODE`（MIT）；两本中文长文档都选择"内容与代码两套许可"，可对照其写法。
+- **同样"内容与代码分授权"，但划分口径不同**：[Ac-Wiki：大学生的百科全书](Ac-Wiki-大学生的百科全书.md)——本篇在**文件层**用 `LICENSE-CONTENT.md` + `LICENSE-CODE.md` 切分，那边在**目录层**把 `docs/`（CC BY 4.0）与 `src/`（MIT）分开。两本中文长文档都主张"内容不受代码许可约束"，可对照其写法。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

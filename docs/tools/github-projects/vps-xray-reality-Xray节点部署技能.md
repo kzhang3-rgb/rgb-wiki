@@ -63,7 +63,8 @@ README 列出七步流程：
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
-- 客户端侧：[Shadowrocket-Rules](Shadowrocket-Rules-小火箭分流规则配置.md)。
+- **同为"自建代理"，一个管节点、一个管车队**：[mistgate](mistgate-自建小规模VPN车队面板.md)——那是**单二进制 + SQLite 的自托管代理面板**（Hysteria2 / VLESS / AmneziaWG / MTProto，**AGPL-3.0**，自述面板空闲 16–20 MiB），本篇是把"单台 VPS 搭 Xray REALITY"写成 Agent 技能；一个解决"怎么把节点建起来"，一个解决"多节点怎么统管"。
+- 客户端侧：[Shadowrocket-Rules](Shadowrocket-Rules-小火箭分流规则配置.md)、[bowel](bowel-macOS上原生Go渲染的mihomo客户端.md)（macOS 上 Go 原生渲染的 mihomo 客户端）。
 - **同为"给 Coding Agent 的部署类技能"**：[Claude-Guardian](Claude-Guardian-Claude账号防封与环境准备Skill.md)——那是把 Claude 订阅与网络环境的准备流程做成 Skill（含三档分级授权、访谈状态机），本篇是把 VPS 上搭 Xray REALITY 的流程做成技能；可对照两者把操作固化成 Skill 的写法，以及各自如何标注风险与授权边界。
 
 ## 参考来源
