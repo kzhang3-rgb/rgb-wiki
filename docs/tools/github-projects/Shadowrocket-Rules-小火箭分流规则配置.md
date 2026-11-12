@@ -77,6 +77,7 @@ https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/m
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **服务端侧的另一条路线**：[mistgate](mistgate-自建小规模VPN车队面板.md)——那是**自建代理面板 + 节点车队**（Hysteria2 / VLESS / REALITY，AGPL-3.0、单二进制 + SQLite）；本篇是**客户端分流规则配置**。两者一个在服务端、一个在客户端，常配套使用。
 - **macOS 侧的图形客户端**：[bowel](bowel-macOS上原生Go渲染的mihomo客户端.md)——那是 **macOS 上用 Go 原生渲染（不走 WebView）的 mihomo 客户端**；本篇是**规则集**（另有 Clash 版本，mihomo 可直接吃 Clash 规则）。一个提供规则、一个消费规则。
+- **同涉及"网络 / 分流配置"，但一个是设备侧网络栈**：[Linux-Router](Linux-Router-把Debian设备变成路由器的Web控制台.md)——那篇是**把设备本身变成路由器 / 热点**（NetworkManager / 热点 / LAN 网段，设备侧网络栈管理）；本篇是**客户端分流规则**。想搭一台"能自己管网的家用网关"时，两篇分别覆盖"底下这台机器怎么管网"与"上面跑什么分流规则"。
 
 ## 参考来源
 

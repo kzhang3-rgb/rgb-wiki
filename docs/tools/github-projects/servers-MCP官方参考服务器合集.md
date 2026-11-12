@@ -111,6 +111,7 @@ npx @modelcontextprotocol/inspector --transport http --server-url http://localho
 - **自带 MCP server 的具体应用**：[newsnow](newsnow-实时热点新闻聚合阅读器.md)（热榜聚合阅读器，对外提供 MCP server 当信息源）——与本篇"官方参考服务器清单"分别对应"清单/样例"与"实际落地的第三方服务器"。
 - **厂商官方出品的生产级服务器**：[playwright-mcp](playwright-mcp-给LLM用的浏览器自动化MCP服务器.md)（微软的浏览器自动化 MCP 服务器）——可对照本篇"参考实现"与"生产可用"的区别。
 - **MCP 用在设备（端侧）的例子**：[xiaozhi-esp32：基于 MCP 的 ESP32 语音聊天机器人](xiaozhi-esp32-基于MCP的ESP32语音聊天机器人.md)——那是一个把 MCP 放在**硬件设备端**（控制音箱 / LED / 舵机 / GPIO）的固件项目，与本篇"服务器侧参考实现"分处 MCP 的两端。
+- **同为"围绕 MCP 的清单 / 入口"，形态不同**：[everything-ai-coding](everything-ai-coding-聚合编程AI扩展资源的索引与一键安装库.md)——本篇是**官方参考实现的少量样本**；那篇是**跨多个上游聚合的海量目录**（MCP / Skill / Rule / Prompt / Plugin，带 LLM 复合评分与一键安装）。想照官方样本自己写 MCP 看本篇，想海选现成 MCP 看那篇。
 
 ## 参考来源
 

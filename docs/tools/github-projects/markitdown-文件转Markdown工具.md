@@ -129,6 +129,8 @@ print(result.markdown)
 - 同为文档格式处理的笔记：[epublib](epublib-读写EPUB的Java库.md)——MarkItDown 也支持 EPub 转换，但那是"转成 Markdown 供模型读"，epublib 是"程序化读写 EPUB 文件"，用途不同可对照。
 - 可作为输入素材的笔记：[Foundations-of-LLMs](Foundations-of-LLMs-大模型基础教材.md)——该仓库提供 PDF 教材，当时的笔记标注了"未阅读 PDF 正文"，用 MarkItDown 转换正好补上这个缺口。
 - **同为"本地处理文件"的工具**：[squoosh](squoosh-浏览器内的图片压缩工具.md)——那是浏览器内的图片压缩（WASM 编解码器、图片不上传），本篇是服务端的文档转 Markdown；两者的坑刚好互补：本篇要防"插件静默降级"，那篇要看"本地之后还上报了什么"。
+- **同为"Markdown / 文档"这条线的编辑端**：[wiwme：轻量级本地 Markdown 编辑器](wiwme-轻量级本地Markdown编辑器.md)——本篇把各种文件**转成** Markdown（输入端），那篇是**在本地编辑** Markdown（编辑端）；可对照文档工作流的两端。
+- **同为"文档转 Markdown"，但专攻 PDF 且走 Rust**：[pdf-inspector：判断 PDF 类型并转 Markdown 的 Rust 库](pdf-inspector-判断PDF类型并转Markdown的Rust库.md)——本篇是微软的**多格式 Python 工具**（重覆盖面），那篇是**单点做 PDF 的 Rust 库**（重速度与 OCR 路由，约 20ms 判定是否需要 OCR）。
 
 ## 参考来源
 

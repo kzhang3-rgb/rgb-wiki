@@ -63,6 +63,7 @@
 - **它用的 `AGENTS.md` 格式本身也值得单看**：[agents.md：给编码助手用的 AGENTS 文件格式](agents.md-给编码助手用的AGENTS文件格式.md)——本篇是少数**同时放 `AGENTS.md` 与 `llms.txt`** 的项目，可作实例对照。
 - **同为"自托管服务"的成熟样本**：[gitea：自托管一体化 Git 服务平台](gitea-自托管一体化Git服务平台.md)——Go 单二进制、MIT、9 年持续维护、两条版本线并存；可对照"自托管产品的部署与分发形态"（Release 资产规模、Docker / rootless、版本节奏）。
 - 本页索引位置：[GitHub 项目收藏](README.md)
+- **同为"自托管网络基础设施面板"，层面不同**：[Linux-Router](Linux-Router-把Debian设备变成路由器的Web控制台.md)——那篇是**无特权 Flask Web + root Agent** 管**一台设备的有线 / Wi-Fi / 热点**；本篇是 **Go 单二进制 + SQLite** 管**多台服务器的代理节点**。可对照"管本机网络"与"管多台节点"两种取向。
 
 ## 参考来源
 

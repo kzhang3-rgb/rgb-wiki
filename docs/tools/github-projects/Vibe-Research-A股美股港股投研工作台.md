@@ -122,6 +122,7 @@ codex mcp add vibe-research -- node "$(pwd)/orchestrator/src/mcp.ts"
 - **A 股取数的其他路线对照**：[cli-anything-tdx-tq](cli-anything-tdx-tq-通达信TQ命令行工具.md)（本机通达信客户端 SDK、仅 Windows）、[bb-sites](bb-sites-把网站变成命令行指令的适配器集.md)（已登录浏览器内取数）、[KHunter](KHunter-A股量化选股系统.md)、[easy_investment_Agent_crewai](easy_investment_Agent_crewai-A股多Agent分析平台.md)——可对照"公开 HTTP 源 / 客户端 SDK / 浏览器适配器 / 建在工作台之上"的四种取数与组织方式。
 - **回测与指标**：[indicator](indicator-Go技术指标与回测框架.md)（Go 指标 + 回测库）、[ai_quant_trade](ai_quant_trade-AI量化交易操盘手.md)——本篇自带确定性回测引擎与 `calc` 计算库，可与独立指标库对照。
 - **风险与呈现**：[US_Stock_Crash_Monitor](US_Stock_Crash_Monitor-美股风险监测面板.md)、[zframes](zframes-让Agent用对话生成行情看板.md)、[wealthfolio](wealthfolio-本地优先个人财务追踪器.md)——**"缺数据怎么向下传递、怎么在界面如实标注"**在这些项目里是共同主题。
+- **几乎相同的"数据缺口不得伪装成 0"**：[QuantOrb](QuantOrb-Solana持仓扫描与memecoin风险评分.md)——那是 Solana memecoin 的持仓扫描与风险评分服务，README 明写"**没有来源的数字一律写 N/A，绝不写 $0**"，与本篇"找不到出处的数字换成占位符、缺口不改写成 0"**几乎一模一样**；可对照"**如实暴露数据缺口**"这条纪律在投研工具里的两种落地。**注意两者许可与形态不同**（本篇 MIT 可自托管，那篇是专有许可的闭源服务，还有项目方自发行代币）。
 - **AI 助手生态**：[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)（其 README 提到 Codex 会读用户全局 `AGENTS.md`）、[deepseek-harness](deepseek-harness-DeepSeek开源Agent框架.md)、[openclaw](openclaw-自托管个人AI助手.md)——可对照"给助手限定能力的边界"与"给助手提供工具"两种做法。
 
 ## 参考来源

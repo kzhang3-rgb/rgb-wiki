@@ -96,6 +96,7 @@ mnemos daemon uninstall --hours --write
 - **它明确支持的宿主之一**：[openclaw：自托管个人 AI 助手](openclaw-自托管个人AI助手.md)——README 提供 `mnemos connect openclaw --write` 与专门的集成文档；可作"**记忆作为宿主 Agent 的一个外挂能力**"的实例。
 - **"给 AI 的说明 / 记忆文件"是同一类约定的另一面**：[agents.md：给编码助手用的 AGENTS 文件格式](agents.md-给编码助手用的AGENTS文件格式.md)——`AGENTS.md` 是**你替 Agent 写的静态指令文件**，本篇是**Agent 给自己写的动态记忆**，一个"人写给人看的助手"，一个"助手写给自己的下一会话"。
 - **同为"本地优先的 AI 桌面/本地工具"、定位不同**：[llm_wiki：会自己长大的个人知识库桌面应用](llm_wiki-会自己长大的个人知识库桌面应用.md) 面向**你的知识库**（摄入文档、编译成 wiki），本篇面向**Agent 自己的记忆**；可对照"知识管理"与"身份连续性"两条路线。
+- **同为"装成一个 MCP server，给宿主 Agent 多一种能力"，且都本地优先**：[voicebox：本地优先的开源 AI 语音工作室](voicebox-本地优先的开源AI语音工作室.md)——那个给 Agent 一张**嘴**（本地 TTS，用克隆音色替 Agent 发声，并坚持"绝不静默"）；本篇给 Agent 一份**记忆**（本地 SQLite，跨会话带着自己的话醒来）。可对照"**记住**"与"**发声**"两种"给 Agent 补一块它缺的能力"的扩展方向。
 
 ## 参考来源
 

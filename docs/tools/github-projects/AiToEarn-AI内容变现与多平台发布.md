@@ -70,6 +70,7 @@
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 另一份同样通过 MCP / 技能方式接入 Agent 的项目：[deepseek-harness](deepseek-harness-DeepSeek开源Agent框架.md)——宿主不同，思路相近。
 - **同为"AI 内容生产 → 多平台发布"，取向不同**：[Easel](Easel-开源AI社媒内容工作台.md)——浙大开源的完整社媒内容工作台（发现 → 策划 → 创作 → 发布 → 归因 + 账号画像记忆，底座为 OpenClaw），本篇更偏"内容变现与多平台分发"。两者都能挂在 OpenClaw 上，可对照"全流程创作"与"分发变现"两种定位。
+- **同为"个人开发者把东西卖出去"，对象不同**：[edgeKey](edgeKey-零成本部署到CloudflareWorkers的开源发卡商城.md)——那篇是**数字商品 / 卡密的自助售卖站**（整站跑在 Cloudflare Workers + D1、含支付与自动发卡）；本篇是**内容创作者的变现与分发链路**。可对照"卖商品"与"卖内容"两条路径。
 
 ## 参考来源
 

@@ -91,6 +91,8 @@ curl -o ~/.claude/skills/book-to-skill/scripts/extract.py https://raw.githubuser
 - **给编码助手喂能力的技能层**：[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)、[zframes](zframes-让Agent用对话生成行情看板.md)、[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)、[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)。
 - **"把整本书译出来"的对照做法**：[translate-book](translate-book-用并行子代理翻译整本书.md)——那篇用并行子代理逐块翻译整本书并保留全文；本篇是**编译期提炼**（章节按需加载、只留能力不留原文），两者正好是"全量转换"与"提炼压缩"的两条路。
 - **书稿/教材类内容项目**：[everyone-can-use-english](everyone-can-use-english-人人都能用英语.md)、[up](up-人生进阶指南.md)、[Foundations-of-LLMs](Foundations-of-LLMs-大模型基础教材.md)——可对照"**内容本身**"与"**把内容变成能力**"两类做法。
+- **同为"把一整个领域编译成技能"，来源不同**：[goutoujunshi：先接住情绪再给策略的 AI 恋爱军师](goutoujunshi-先接住情绪再给策略的AI恋爱军师.md)——那篇是把**跨学科知识库（135 条参考资料）+ 分析流程**封成 Codex 技能，本篇是**把单本技术书编译期提炼**成按需加载的能力。可对照"多领域整合 + 流程固化"与"单书提炼 + 章节按需加载"两种知识编译方式。
+- **同为"把一个领域的知识整理成可被程序 / AI 使用的素材"，粒度不同**：[ziwei-doushu：倪海厦体系的紫微斗数开源排盘引擎与解读数据集](ziwei-doushu-倪海厦体系的紫微斗数开源排盘引擎与解读数据集.md)——那篇是把**一整个传统术数领域**（排盘引擎 + 1100+ 行格局规则库 + 古籍原文 + 14 主星 × 12 宫位知识图谱 + 67.5 万张盘解读数据集）整理成结构化素材；本篇是把**单本技术书**编译期提炼成按需加载的能力。可对照"**领域建库**"与"**单书提炼**"两种知识组织方式。
 
 ## 参考来源
 

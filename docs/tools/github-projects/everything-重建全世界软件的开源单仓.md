@@ -57,6 +57,7 @@
 - **文档处理这条线**：[markitdown：文件转 Markdown 工具](markitdown-文件转Markdown工具.md)——本篇的 `documents` / `pdf` / `spreadsheet` 应用属"文档生产"；那篇属"文档转换"，可对照文档类工具的两种方向。
 - **浏览器里跑游戏**：[ra2：浏览器运行红色警戒 2](ra2-浏览器运行红色警戒2.md)——本篇的 Games 类（chess / solitaire / sudoku 等）是轻量小游戏；那篇是把完整的红警 2 搬进浏览器，两者对照"Web 化游戏"的难度梯度。
 - 本页索引位置：[GitHub 项目收藏](README.md)
+- **名字都带 "Everything"，务必区分**：[Lertaro](Lertaro-Windows本地文件搜索与效率启动器.md)——本篇的 "Everything" 是 **Puter 团队用 Web 重写各类软件的 monorepo**；那篇对标的 **Everything** 是 **voidtools 的本地文件搜索工具**（Windows，闭源）。两篇名字最易混，互链消歧。
 
 ## 参考来源
 

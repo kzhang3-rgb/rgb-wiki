@@ -82,6 +82,7 @@ README 里**自托管**也存在：仓库含 `SELF_HOST.md` 与 `docker-compose.
 - **许可与开源形态对照**：[indicator](indicator-Go技术指标与回测框架.md)（AGPLv3 + 商业双许可）、[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)（MIT 主体 + GPLv3/AGPL-3.0 子模块）。
 - **同属"把外部内容变成可用数据"，取向不同**：[newsnow](newsnow-实时热点新闻聚合阅读器.md) 是**面向人的热榜聚合**（顺带提供一个 MCP 出口），本篇是**把任意网页转成 LLM 可用数据的通用抓取 API**——一个偏"聚固定榜单"，一个偏"取任意页面"。
 - **同为"给 Agent 的取数入口"，取向不同**：[argo：给 Agent 用的搜索与深度研究工具](argo-给Agent用的搜索与深度研究工具.md) 是**本地优先的多引擎检索 + 证据管线**（自述 284 源、240 免密钥，按证据分排序），本篇是**托管型通用抓取 API**；一个"多源召回再排序"，一个"取任意页面"。
+- **同一组织下的互补组件**：[pdf-inspector](pdf-inspector-判断PDF类型并转Markdown的Rust库.md)——同属 firecrawl 作者，**一个抓网页、一个解析 PDF**（约 20ms 判定是否需要 OCR），共同服务"把异构内容喂给 LLM"；README 明确标注 "Built by Firecrawl"。
 
 ## 参考来源
 
