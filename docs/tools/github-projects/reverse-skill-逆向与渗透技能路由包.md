@@ -103,6 +103,7 @@ powershell -File skills/scripts/extract-summaries.ps1 -Check
 - **同为面向渗透 / OSINT，形态不同**：[sherlock](sherlock-按用户名跨平台查找社媒账号.md)——那是"给人用的单点 CLI"（按用户名到 400+ 站点做存在性探测，MIT），本篇是"给 AI 的能力路由包"；两者都面向授权范围内的安全研究，使用前都要先确认授权与合法性边界。
 - **同为"AI 安全 / 渗透"的中文长文导览**：[theAIMythbook：AI 迷思录](theAIMythbook-AI迷思录.md)——覆盖 AI 应用（代码审计 / 侦察 / 渗透 / 漏洞利用 / 逆向）与 AI 安全（安全对齐 / 越狱 / 自动化越狱）；本篇是给 AI 的能力路由包，那本是给人的导览，两者都强调"先确认授权范围"。
 - **它路由到的那一层底层工具（本批新收录）**：本篇负责"该用哪个工具"，这一批则是被它调用的底层能力——[ghidra](ghidra-NSA开源的软件逆向工程框架.md)（反汇编/反编译平台）、[Apktool](Apktool-AndroidAPK反编译与打包工具.md)（APK 资源/smali 反编译）、[binwalk](binwalk-固件与二进制镜像分析工具.md) 与 [unblob](unblob-从任意容器格式中提取文件.md)（固件/容器提取）、[pwntools](pwntools-CTF与漏洞利用开发框架.md) 与 [pwndbg](pwndbg-为GDB与LLDB打造的调试与逆向插件.md)（Pwn 开发与调试）、[LIEF](LIEF-可执行文件格式解析与改写库.md)（可执行文件格式解析/改写）、[Detect-It-Easy](Detect-It-Easy-文件类型与加壳识别工具.md)（类型与加壳识别），以及"给逆向工具接 AI"的 MCP 层 [ghidra-mcp](ghidra-mcp-把Ghidra接给AI的MCP服务器.md)、[radare2-mcp](radare2-mcp-给radare2接AI的MCP服务器.md)、[mcp-windbg](mcp-windbg-给WinDbg接AI的MCP服务器.md)、[jadx-ai-mcp](jadx-ai-mcp-JADX的AI反编译插件.md) 与 [jadx-mcp-server](jadx-mcp-server-给JADX反编译接AI的MCP服务器.md)。
+- **同处"AI + 安全"的两端**：[codex-security](codex-security-OpenAI的开源安全扫描CLI与SDK.md)——本篇偏攻（逆向与渗透技能路由），那篇偏防（语义级漏洞扫描与修复）；可对照攻防两侧"把安全能力交给 Agent"的不同形态。
 
 ## 参考来源
 

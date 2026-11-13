@@ -86,6 +86,7 @@ README 的目录只有 15 个主章节，全部是"链接集合"的形态：
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同为"清单型资源仓"**：[resources-to-become-a-great-engineering-leader](resources-to-become-a-great-engineering-leader-工程管理资源清单.md)（工程管理主题、无许可证）、[Financial_freedom](Financial_freedom-赚钱与投资书单.md)（书单/片单型）——可对照三者在**整理粒度与许可处理**上的差别。
 - **同为"长期策展"**：[HelloGitHub](HelloGitHub-每月一期的开源项目月刊.md)——那篇是**按期更新的月刊**（内容在动，只是 API 的 `pushed_at` 是陈旧值），本篇是**一次性攒成的大目录**（内容不动，`pushed_at` 是真陈旧）；两者的取舍刚好互补。
+- **同为"策展型清单"，但把格式与链接交给 CI 守**：[public-apis：人工策展的免费 API 清单](public-apis-人工策展的免费API清单.md)——那篇同样把"统一条目格式 + 收录原则"写进 `CONTRIBUTING.md`，但额外用 `scripts/validate/`（`format.py` / `links.py`）与三个 workflow **在 PR 上强制校验**，且条目里带赞助方推广。可对照"人工策展"在两种维护强度下的样子。
 - **第三种"清单型"维护节奏**：[chinese-independent-developer](chinese-independent-developer-中国独立开发者项目列表.md)——按天追加、近十年不断更（内容持续增长，已大到被迫分册，默认分支 `master`、无 LICENSE）；与本篇"一次性沉淀后停更"、HelloGitHub"按月出刊"构成三种策展节奏。
 - **安全研究方向**：[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)——同样面向安全研究，但它是"给 AI 的能力包 + 授权闸门"，本篇是"给人看的资料索引"。
 - **同属安全方向，但它是可执行工具**：[sherlock](sherlock-按用户名跨平台查找社媒账号.md)——按用户名跨平台做存在性探测的 OSINT CLI（MIT），本篇是给人看的资料索引；可对照"工具"与"清单"两类安全资源的记录方式。

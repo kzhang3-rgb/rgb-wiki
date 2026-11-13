@@ -105,6 +105,7 @@
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同属"本地优先、不上传"的 AI 编码周边**：[pebrel：给 AI CLI 用的 GPU 加速终端与 SSH 工作区](pebrel-给AI-CLI用的GPU加速终端与SSH工作区.md)——那篇的**智能补全是本机引擎、不发 AI 请求**；本篇只读本机会话文件算成本。两者都把"**数据留在本机**"当默认，可对照。
 - **CodeBurn 把 OpenCode 当被追踪对象，它本身是"观测工具"而非"Agent"**：[opencode：开源终端编码 Agent](opencode-开源终端编码Agent.md)——仓库里确有 `docs/providers/opencode.md` 与对应 provider 图标；两篇合看正好是"跑编码 Agent"与"量它花了多少钱"的两端。
 - **CodeBurn 显式支持追踪 OpenClaw**：[openclaw：自托管的个人 AI 助手](openclaw-自托管个人AI助手.md)——仓库里有 `docs/providers/openclaw.md` 与 `app/renderer/assets/providers/openclaw.jpg`；若要给"本地 / 自托管 AI 助手"做用量观测，这是直接对应关系。
 - **同为"读本机文件、不要账号"的本地可观测 CLI**：[witr：追踪进程端口容器是怎么起来的](witr-追踪进程端口容器是怎么起来的.md)——思路相近（都从本机既有痕迹还原事实），但一个看**进程 / 端口 / 容器**、一个看**AI 会话花费**。

@@ -87,6 +87,7 @@ python main.py 茅台                    # 用部分中文名匹配
 - [a-stock-data：A 股全栈数据工具包](a-stock-data-A股全栈数据工具包.md)：同样是 A 股数据工具，但定位是取数库而非终端展示。
 - [cli-anything-tdx-tq：通达信 TQ 命令行工具](cli-anything-tdx-tq-通达信TQ命令行工具.md)：另一条"在命令行用行情数据"的路线。
 - [Vibe-Research：A 股/美股/港股投研工作台](Vibe-Research-A股美股港股投研工作台.md)：更偏投研工作流，数字出处可追溯。
+- **同为"终端 TUI 工具"**：[postcat](postcat-终端里的键盘优先HTTP调试TUI.md)——那是 Rust 写的 HTTP 调试 TUI（工作区全落本机、无账号）；两者主题不同，可对照终端 TUI 的交互设计与打包形态。
 
 ## 参考来源
 

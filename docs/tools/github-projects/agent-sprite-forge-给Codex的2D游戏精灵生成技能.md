@@ -71,9 +71,13 @@ macOS / Linux 用 `cp -R ./skills/* ~/.codex/skills/`。README 提醒**装完要
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同属"给 Codex / Claude Code 装能力"的插件与技能**：[vibe-wise：边写边学的 Claude Code 与 Codex 插件](vibe-wise-边写边学的Claude-Code与Codex插件.md)（在设计 / 实现间加检查点）· [svg-diagram：手写 SVG 图表的 Agent 技能与 linter](svg-diagram-手写SVG图表的Agent技能与linter.md)（house style + 零依赖 linter）。几篇都是"**把一类产出 / 流程固化进 Agent 技能**"，可对照它们的**规则组织与验收方式**。
+- **同为"AI 生成游戏素材"的另一条路**：[universal-modder：把改任何 PC 游戏做成一整套 Agent 技能](universal-modder-把改任何PC游戏做成一整套Agent技能.md)——本篇专做 **2D 精灵 / 地图**；那篇的素材面更宽（图 / 3D / 音频，走 fal / ComfyUI / Sprixen / Voidless），可对照"**素材生成该自建还是借服务**"。
+- **同样"AI 生成 3D / 视觉资产"的对岸**：[dioramas：用 AI 生成素材做电影感 3D 网站](dioramas-用AI生成素材做电影感3D网站.md)——那篇用 **Nano Banana + Meshy** 做 **3D 网页资产**；本篇是 **2D 精灵**。可对照"**生成素材**"在 2D 与 3D 两条路上的工具链差异。
 - **同为"用 AI 生图产出可复用视觉资产"**：[nvzhuang：拍片哥女装 AI 服装参考图集](nvzhuang-拍片哥女装AI服装参考图集.md)——那边是服装参考图集 + 虚拟试穿（资产是成品图库，靠多模型后端生成）；本篇是游戏精灵与地图（资产由 Agent 按管线现场生成，再交给引擎）。两者正好是"图库型"与"流水线型"两种 AI 生图用法。
 - **同为"用工具生成视觉产物"**：[manim：数学动画引擎](manim-数学动画引擎.md)——那是代码驱动、帧帧确定性渲染的动画引擎；本篇是模型生成 + 脚本清理的非确定性路径，对照起来能看清"确定性渲染"与"生成后处理"两种产线。
 - **同为"给编码助手（Codex）用的生图技能"**：[srt-whiteboard-animation：把 SRT 字幕做成白板手绘动画的技能](srt-whiteboard-animation-把SRT字幕做成白板手绘动画的技能.md)——一个产游戏精灵与地图，一个产白板手绘动画；两者都是"技能定义（`SKILL.md`）+ 脚本后处理"的形态，可对照技能该怎么写。
+- **同属"AI Agent 参与游戏制作"**：[screenplink](screenplink-把显示器当靶子的激光干射射击游戏.md)——那是用 Claude Code 写出整个激光干射射击游戏并现场调参，本篇是生成 2D 游戏精灵；可对照 Agent 在游戏项目里的分工与可信度边界。
 
 ## 参考来源
 

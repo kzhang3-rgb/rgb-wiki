@@ -109,6 +109,7 @@ pnpm run build                        # 会自动递增 patch 版本，再类型
 - **同为"桌面客户端 + 自带 CLI + MCP Server 三件套"，暴露的能力不同**：[crossdesk](crossdesk-轻量跨平台远程桌面与MCP远控服务端.md)——那边把**远端桌面的键鼠与画面**二次暴露给 Agent（且必须先在面板完成设备授权），本篇把**网盘与媒体资产**暴露给 Agent（`clouddrive-cli` + MCP，带 dry-run 预览）；两篇对照可以看清"桌面应用如何把能力抽象给 Agent"的两种落法。
 - **同为"多源媒体桌面客户端"，媒介不同**：[NonsPlayer](NonsPlayer-多音源跨平台音乐播放器与插件系统.md)——那边把**音乐的音源与插件**抽象成 SDK 与 WASM Component 契约（GPL-3.0），本篇把**网盘与媒体服务器**统一进客户端并自带 CLI / MCP；可对照"音乐多音源"与"影视 / 网盘多源"两种聚合抽象。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同为跨平台全功能播放客户端**：[BiliSail](BiliSail-跨平台Bilibili第三方客户端.md)——那是 Flutter / Dart 写的 B 站第三方客户端（**无开源许可证**），本篇是聚合网盘与影视的播放器（GPL-3.0）；可对照技术栈与许可态度。
 
 ## 参考来源
 

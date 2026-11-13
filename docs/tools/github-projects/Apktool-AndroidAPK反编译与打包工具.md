@@ -62,6 +62,7 @@ README 明确声明：Apktool **不**用于盗版及其他非法用途，其正�
 - **二进制格式的库级解析**：[LIEF](LIEF-可执行文件格式解析与改写库.md)——需要以代码方式解析/改写可执行文件格式时的选择。
 - **原生库层的逆向**：[ghidra](ghidra-NSA开源的软件逆向工程框架.md)——APK 里带 `.so` 原生库时，资源/smali 之外常要落到 Ghidra 做汇编级分析。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **"改包"能力的上下游**：[MapAdKiller](MapAdKiller-高德百度腾讯地图去广告LSPosed模块.md)——其免 root 内置版本质是重签名宿主 APK，与 Apktool 的反编译 / 重打包能力互为上下游。
 
 ## 参考来源
 

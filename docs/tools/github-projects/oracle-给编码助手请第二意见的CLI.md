@@ -105,6 +105,7 @@ oracle \
 - [zframes：让 Agent 用对话生成行情看板](zframes-让Agent用对话生成行情看板.md)：另一个"通过 skill 接入助手"的形态，可对照接线方式。
 - [openfox：本地模型优先的编码助手（`co-l/openfox` 的 fork）](openfox-本地模型优先的编码助手-co-l-openfox的fork.md)：同为面向编码助手的工具——本篇是"请第二意见"的旁路 CLI，那是"能自己动手改代码、跑命令"的编码 Agent 本体。
 - [opencode：开源终端编码 Agent](opencode-开源终端编码Agent.md)：同为面向编码场景的开源工具——本篇是"请第二个模型复核"的旁路 CLI，那是直接动手改代码的编码 Agent 本体。
+- **同为"挂在编码助手上、请外部能力帮忙"的 CLI**：[codex-security](codex-security-OpenAI的开源安全扫描CLI与SDK.md)——那是 OpenAI 的 AI 代码安全扫描（CLI / SDK / GitHub Action，云端按次计费），本篇是把"第二意见"的 CLI 接进编码助手；一个解决"这个方案对不对"、一个解决"代码有没有漏洞"。
 
 ## 参考来源
 

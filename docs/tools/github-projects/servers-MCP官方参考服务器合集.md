@@ -112,6 +112,9 @@ npx @modelcontextprotocol/inspector --transport http --server-url http://localho
 - **厂商官方出品的生产级服务器**：[playwright-mcp](playwright-mcp-给LLM用的浏览器自动化MCP服务器.md)（微软的浏览器自动化 MCP 服务器）——可对照本篇"参考实现"与"生产可用"的区别。
 - **MCP 用在设备（端侧）的例子**：[xiaozhi-esp32：基于 MCP 的 ESP32 语音聊天机器人](xiaozhi-esp32-基于MCP的ESP32语音聊天机器人.md)——那是一个把 MCP 放在**硬件设备端**（控制音箱 / LED / 舵机 / GPIO）的固件项目，与本篇"服务器侧参考实现"分处 MCP 的两端。
 - **同为"围绕 MCP 的清单 / 入口"，形态不同**：[everything-ai-coding](everything-ai-coding-聚合编程AI扩展资源的索引与一键安装库.md)——本篇是**官方参考实现的少量样本**；那篇是**跨多个上游聚合的海量目录**（MCP / Skill / Rule / Prompt / Plugin，带 LLM 复合评分与一键安装）。想照官方样本自己写 MCP 看本篇，想海选现成 MCP 看那篇。
+- **另一份"跨厂商 MCP 目录"**：[public-apis：人工策展的免费 API 清单](public-apis-人工策展的免费API清单.md)——那篇主体是 REST API 清单，**但近期新增了独立的 MCP Servers 板块**（改用 `Name / Description / Auth / Transport / Install`，只链 Cursor / Anthropic / Glama 三个市场），可与本篇"官方少量参考样本"对照同一件事的两种记录口径。
+- **"应用把自己开放给 Agent"的实例**：[screenplink](screenplink-把显示器当靶子的激光干射射击游戏.md)——它把自身测量数据经 MCP / HTTP 暴露给 Agent（只给"测量值"、不给结论），可对照本篇官方参考服务器的通用形态。
+- **"自带 MCP 的桌面应用"的另一个实例**：[VoiceStudio：全本地运行的 AI 语音工作室（AGPL 的 ElevenLabs 替代）](VoiceStudio-全本地运行的AI语音工作室与ElevenLabs替代.md)——它把语音能力（克隆 / 配音 / 听写 / 有声书）经**本地 API + 内置 MCP** 开放给 Agent，属"业务型 MCP 服务器"，可对照本篇"官方少量参考实现"看这类应用自带 MCP 的形态。
 
 ## 参考来源
 

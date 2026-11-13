@@ -118,6 +118,7 @@ codex mcp add vibe-research -- node "$(pwd)/orchestrator/src/mcp.ts"
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同为"投研工具"，交付形态不同**：[augur：本地优先的投资研究记忆系统](augur-本地优先的投资研究记忆系统.md)（CLI + Dashboard + MCP 的**研究记忆系统**）与 [ai-berkshire：AI 时代的伯克希尔价值投资研究框架](ai-berkshire-AI时代的伯克希尔价值投资研究框架.md)（挂在 Claude Code / Codex 上的 **Skill 框架**）——可对照"**工作台**"（本篇，自成一体的研究组织界面）与另外两种形态的差异。
 - **同作者的数据层**（必看关联）：[a-stock-data](a-stock-data-A股全栈数据工具包.md)、[global-stock-data](global-stock-data-美股与全球市场数据工具包.md)——本篇的数据端点分别同步自这两个包的指定版本，**三者是"取数 → 编排 → 界面"的同一条链路**。
 - **A 股取数的其他路线对照**：[cli-anything-tdx-tq](cli-anything-tdx-tq-通达信TQ命令行工具.md)（本机通达信客户端 SDK、仅 Windows）、[bb-sites](bb-sites-把网站变成命令行指令的适配器集.md)（已登录浏览器内取数）、[KHunter](KHunter-A股量化选股系统.md)、[easy_investment_Agent_crewai](easy_investment_Agent_crewai-A股多Agent分析平台.md)——可对照"公开 HTTP 源 / 客户端 SDK / 浏览器适配器 / 建在工作台之上"的四种取数与组织方式。
 - **回测与指标**：[indicator](indicator-Go技术指标与回测框架.md)（Go 指标 + 回测库）、[ai_quant_trade](ai_quant_trade-AI量化交易操盘手.md)——本篇自带确定性回测引擎与 `calc` 计算库，可与独立指标库对照。

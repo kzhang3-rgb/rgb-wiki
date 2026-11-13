@@ -93,6 +93,7 @@
 
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同为"围绕 MCP 的清单/入口"，但形态不同**：[servers：MCP 官方参考服务器合集](servers-MCP官方参考服务器合集.md)——那是**官方参考实现的少量样本**（现只保留约 7 个）；本篇是**跨多个上游聚合的海量目录 + 评分**。想"照着官方样本自己写 MCP"看前者，想"海选现成 MCP"看本篇。
+- **同为"聚合清单 + Actions 校验流水线"，但一个自动、一个人工**：[public-apis：人工策展的免费 API 清单](public-apis-人工策展的免费API清单.md)——本篇是**多上游采集 → LLM 评分 → 一键安装**的重型流水线；那篇是**人工策展 + 只校验格式与链接**的轻量做法（`scripts/validate/format.py`、`links.py` + 三个 workflow）。两者可对照"校验到什么程度"与"谁来做判断"。
 - **都覆盖"Skill 作为可复用能力包"**：[book-to-skill：把技术书转成 Claude Code 技能](book-to-skill-把技术书转成ClaudeCode技能.md)——那篇讲**如何把一本书编译成一个 Skill**；本篇讲**如何从生态里检索、评分并安装别人做好的 Skill**。两者合看覆盖"造 Skill"与"找 Skill"两端。
 - **都与"给编码助手下发项目级指令"相邻**：[agents.md：给编码助手用的 AGENTS 文件格式](agents.md-给编码助手用的AGENTS文件格式.md)——那篇是**AGENTS.md 这一格式约定**；本篇 `rules` 类目聚合的正是**编码助手的行为规范/规则集**，可对照"手写一份 AGENTS.md"与"从目录里挑现成规则"。
 

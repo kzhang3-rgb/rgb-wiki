@@ -131,6 +131,7 @@ print(result.markdown)
 - **同为"本地处理文件"的工具**：[squoosh](squoosh-浏览器内的图片压缩工具.md)——那是浏览器内的图片压缩（WASM 编解码器、图片不上传），本篇是服务端的文档转 Markdown；两者的坑刚好互补：本篇要防"插件静默降级"，那篇要看"本地之后还上报了什么"。
 - **同为"Markdown / 文档"这条线的编辑端**：[wiwme：轻量级本地 Markdown 编辑器](wiwme-轻量级本地Markdown编辑器.md)——本篇把各种文件**转成** Markdown（输入端），那篇是**在本地编辑** Markdown（编辑端）；可对照文档工作流的两端。
 - **同为"文档转 Markdown"，但专攻 PDF 且走 Rust**：[pdf-inspector：判断 PDF 类型并转 Markdown 的 Rust 库](pdf-inspector-判断PDF类型并转Markdown的Rust库.md)——本篇是微软的**多格式 Python 工具**（重覆盖面），那篇是**单点做 PDF 的 Rust 库**（重速度与 OCR 路由，约 20ms 判定是否需要 OCR）。
+- **同属"文档转格式"方向**：[pdf-manage](pdf-manage-免费开源的Windows-PDF工具箱纸序PDF.md)——那是 Windows 上一站式的本地 PDF 工具箱（自有代码 MIT，但发行版捆绑 AGPL / GPL 组件），本篇是可嵌入的轻量转换库；可对照"一站式应用"与"可嵌入库"的分工。
 
 ## 参考来源
 

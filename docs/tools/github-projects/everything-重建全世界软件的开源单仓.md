@@ -56,6 +56,7 @@
 - **同属"图片/创作工具"的 Web 实现**：[squoosh：浏览器内的图片压缩工具](squoosh-浏览器内的图片压缩工具.md)——那是单点做精（图片压缩）的 Web 工具；本篇是"什么都做一点"的大而全仓库。两篇最能对照"**一个功能做到极致**"与"**铺开几十个功能**"两种路线。
 - **文档处理这条线**：[markitdown：文件转 Markdown 工具](markitdown-文件转Markdown工具.md)——本篇的 `documents` / `pdf` / `spreadsheet` 应用属"文档生产"；那篇属"文档转换"，可对照文档类工具的两种方向。
 - **浏览器里跑游戏**：[ra2：浏览器运行红色警戒 2](ra2-浏览器运行红色警戒2.md)——本篇的 Games 类（chess / solitaire / sudoku 等）是轻量小游戏；那篇是把完整的红警 2 搬进浏览器，两者对照"Web 化游戏"的难度梯度。
+- **同属"重建既有软件"，但一个铺功能、一个走复刻流水线**：[craft-anything：看清任意软件怎么工作，再让 AI 重建一个自己的版本](craft-anything-看清软件如何工作再用AI重建自己的版本.md)——本篇是用 Web 技术把一堆办公 / 创作软件各重写一个开源版本（广铺功能）；那篇是"先逆向看清、再让 AI 按你指定的技术栈重建并逐项比对"的单条流水线（逐个复刻）。
 - 本页索引位置：[GitHub 项目收藏](README.md)
 - **名字都带 "Everything"，务必区分**：[Lertaro](Lertaro-Windows本地文件搜索与效率启动器.md)——本篇的 "Everything" 是 **Puter 团队用 Web 重写各类软件的 monorepo**；那篇对标的 **Everything** 是 **voidtools 的本地文件搜索工具**（Windows，闭源）。两篇名字最易混，互链消歧。
 

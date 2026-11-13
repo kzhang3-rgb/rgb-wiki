@@ -93,6 +93,7 @@ README 目录里另有 **AI Agents、Flags、Output Behavior、Platforms、Succe
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **系统运维与网络排查类**：[WSL](WSL-Windows上的Linux子系统.md)、[cloudflared](cloudflared-Cloudflare隧道客户端.md)。
 - **"给 AI agent 用"的 CLI 设计对照**：[cli-anything-tdx-tq](cli-anything-tdx-tq-通达信TQ命令行工具.md)（同为 Go CLI、同样把"给 agent 用的 JSON"当一等输出）。
+- **同为"不依赖外部服务的本地 CLI"**：[postcat](postcat-终端里的键盘优先HTTP调试TUI.md)——那是终端里的键盘优先 HTTP 调试 TUI（本地工作区、无账号）；两者功能不同，可对照纯本地 CLI 的取舍。
 
 ## 参考来源
 

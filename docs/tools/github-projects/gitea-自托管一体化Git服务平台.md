@@ -65,6 +65,7 @@ README 给出的入口比较直接：官方 Demo `demo.gitea.com`、托管服务
 - **自托管服务对外暴露的常见做法**：[cloudflared：Cloudflare 隧道客户端](cloudflared-Cloudflare隧道客户端.md)——自托管的 Gitea 想提供公网访问时，隧道是绕开公网端口暴露的一种选择。
 - **同为"自托管服务"的另一个样本**：[mistgate：自建小规模 VPN 车队面板](mistgate-自建小规模VPN车队面板.md)——那里是 Go 单二进制 + SQLite 的自托管面板；两篇可对照**"自托管产品的部署与分发形态"**（Release 资产、Docker/rootless、版本节奏）。
 - **真实项目里的 `AGENTS.md` 样本**：[agents.md：给编码助手用的 AGENTS.md 文件格式](agents.md-给编码助手用的AGENTS文件格式.md)——Gitea 根目录的 `AGENTS.md`（约 2.8 KB）是又一个大型样本。
+- **同为"开源替代 + 自托管"**：[docuseal](docuseal-开源自托管电子签名与PDF表单平台.md)——那是 DocuSign 的开源替代（AGPL-3.0 + Section 7(b) 附加署名条款，另有付费 Pro 功能），本篇是自托管 Git 平台；可对照两者的许可策略与自托管运维成本。
 
 ## 参考来源
 

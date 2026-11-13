@@ -64,6 +64,7 @@
 - **媒体下载这条线的其它样本**：[galaxy-downloader：多平台媒体下载器](galaxy-downloader-多平台媒体下载器.md)——同为"媒体获取"类，可与 `go-music-dl` 一起对照"下载器"与"播放器"的边界。
 - 本页索引位置：[GitHub 项目收藏](README.md)
 - **同为"桌面应用 + 开放插件 SDK"，且都桥接既有社区插件生态**：[Lertaro](Lertaro-Windows本地文件搜索与效率启动器.md)——那篇是 **Windows 本地文件搜索与效率启动器**（.NET/WPF，兼容 Flow Launcher 插件）；本篇是**多音源音乐播放器 + 插件系统**。可对照"插件契约怎么定、第三方插件如何桥接"这一层。
+- **同属"带插件系统的音乐应用"**：[honeydew](honeydew-用Rust复刻FL-Studio-Mobile的音乐工作室.md)——那是跨端音乐工作站（含 VST3 / VST2 / CLAP 插件宿主与 WASM 构建），本篇是播放侧的多音源播放器与插件系统；可对照"制作"与"播放"两端如何做扩展。
 
 ## 参考来源
 

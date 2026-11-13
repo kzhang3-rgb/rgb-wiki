@@ -79,6 +79,8 @@ PDF bytes
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同为"把文档转成 LLM 可用的 Markdown"，路线相反**：[markitdown：文件转 Markdown 工具](markitdown-文件转Markdown工具.md)——markitdown 是**微软的 Python 多格式工具**（PDF/Office/图片/音频/YouTube），重覆盖面、可接 Azure 增强；本篇是**单点做 PDF 的 Rust 库**，重速度与 OCR 路由，且在这份自报 benchmark 里**分数与速度都优于 markitdown**（markitdown 0.589 / 16.165s，数据为项目自述）。
 - **同一组织（firecrawl）下的互补组件**：[firecrawl：把网站转成 LLM 可用数据的抓取 API](firecrawl-把网站转成LLM可用数据的抓取API.md)——**一个是"抓网页"、一个是"解析 PDF"**，都服务于"把异构内容喂给 LLM"；本篇 README 明确标注 "Built by Firecrawl"。
+- **同属 PDF 处理，定位互补**：[pdf-manage](pdf-manage-免费开源的Windows-PDF工具箱纸序PDF.md)——那是面向 Windows 的成品 PDF 工具箱（阅读 / 整理 / 批注 / 对比 / 打印 / 转换 + 可选离线 OCR），本篇是给 PDF 管道做 OCR 路由的 Rust 库；一个给人用、一个给程序用。
+- **同属 PDF 处理，方向不同**：[docuseal](docuseal-开源自托管电子签名与PDF表单平台.md)——那是自托管的电子签名与 PDF 表单平台（AGPL-3.0 + Section 7(b) 附加署名条款）；本篇是解析 / 分类 PDF，那篇是填字段与签署。
 
 ## 参考来源
 

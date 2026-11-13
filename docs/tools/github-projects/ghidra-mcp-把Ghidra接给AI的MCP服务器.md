@@ -78,6 +78,7 @@ Windows 写作 `"command": "C:\\Users\\<you>\\.local\\bin\\bridge-mcp-ghidra.exe
 - **同类"给调试器接 AI"**：[mcp-windbg：给 WinDbg 接 AI 的 MCP 服务器](mcp-windbg-给WinDbg接AI的MCP服务器.md)——那是面向 Windows 崩溃转储/内核调试的 MCP；本篇侧重静态反汇编与（可选）实机调试。
 - **同域的上层封装**：[reverse-skill：逆向与渗透技能路由包](reverse-skill-逆向与渗透技能路由包.md)——技能层负责"该用哪个工具"，本篇是被调用的底层能力之一。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同属"把逆向能力交给 AI Agent"，粒度不同**：[universal-modder：把改任何 PC 游戏做成一整套 Agent 技能](universal-modder-把改任何PC游戏做成一整套Agent技能.md)——它把逆向**编进 Agent 技能与引擎手册**、按需调用 Ghidra；本篇是**把 Ghidra 单独接成 MCP**。一个偏"**用技能编排整个工作流**"，一个偏"**暴露单个工具给任意客户端**"。
 
 ## 参考来源
 

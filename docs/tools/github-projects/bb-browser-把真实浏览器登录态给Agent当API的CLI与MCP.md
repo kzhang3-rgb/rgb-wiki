@@ -80,6 +80,7 @@ bb-browser site youtube/transcript VIDEO_ID
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同为"让 Agent 用真实浏览器"的另一条路线**：[browser-use：给 AI 用的浏览器自动化 Python 库](browser-use-给AI用的浏览器自动化Python库.md)——那是**通用浏览器操控库**（可接管你已登录的 Chrome、官方明说"不是沙箱"、本地会开无鉴权调试端口）；本篇是**把网站变成命令、把真实登录态当 API**。两者都在"**Agent 如何安全地使用你的登录态**"这件事上踩同一片雷区。
 - **它的适配器仓库（同作者、成对出现）**：[bb-sites：把网站变成命令行指令的适配器集](bb-sites-把网站变成命令行指令的适配器集.md)——那是"命令怎么实现"，本篇是"命令怎么跑在你的浏览器上"，**两篇合看才是完整链条**。
 - **同为"给 Agent 的浏览器自动化"的另一条路线**：[playwright-mcp：给 LLM 用的浏览器自动化 MCP 服务器](playwright-mcp-给LLM用的浏览器自动化MCP服务器.md)——那是微软的 MCP 服务器，用无头/隔离浏览器 + 无障碍树快照；本篇坚持用**你自己的真实浏览器 + 真实登录态**。一个"给 Agent 一个干净沙箱"，一个"让 Agent 借用你的身份"，取舍完全不同。
 - **运行时宿主**：[openclaw：自托管个人 AI 助手](openclaw-自托管个人AI助手.md)——bb-browser 可直接走 OpenClaw 内置浏览器（`--openclaw`），无需 Chrome 扩展。
