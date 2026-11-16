@@ -82,6 +82,7 @@ pnpm dsh web
 - **同为"可扩展的编码 Agent / 框架"，组织方式不同**：[opencode：开源终端编码 Agent](opencode-开源终端编码Agent.md)——那是终端优先、且自身大量用 Agent 参与开发的开源编码 Agent；本篇是插件化扩展的 Agent 框架。可对照"框架 + 插件"与"一体化编码 Agent"两条路。
 - **同一个官方组织维护的另一份仓库**：[awesome-deepseek-integration：DeepSeek 官方的"实用集成"清单](awesome-deepseek-integration-DeepSeek官方实用集成清单.md)——两份都属 `deepseek-ai`；那份是"官方收录第三方集成"的索引（已停更约 8.5 个月），本篇是"官方自己做的工具"。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同属"Agent 框架 / harness"，形态不同**：[dontbemichael：用现有订阅跑一屋子 Agent 的本地多 Agent 框架](dontbemichael-用现有订阅跑一屋子Agent的本地多Agent框架.md)——本篇是**可编程的 Agent 框架**，那篇是**开箱即用的桌面编排应用**（一屋子会员 + 邮箱 + 审批）；可对照"框架"与"应用"两种形态。
 
 ## 参考来源
 

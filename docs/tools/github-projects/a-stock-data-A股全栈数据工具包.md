@@ -82,6 +82,7 @@
 - 同为 A 股方向：[KHunter](KHunter-A股量化选股系统.md)（形态选股）、[easy_investment_Agent_crewai](easy_investment_Agent_crewai-A股多Agent分析平台.md)（多 Agent 分析，数据源为 akshare）、[ai_quant_trade](ai_quant_trade-AI量化交易操盘手.md)（量化学习合集）。
 - 可作为数据层的助手端：[openclaw](openclaw-自托管个人AI助手.md)（README 明确列出兼容）。
 - **被第三方聚合目录收录**：[everything-ai-coding](everything-ai-coding-聚合编程AI扩展资源的索引与一键安装库.md)——该索引把编程 AI 扩展（含各类 Skill / MCP）跨上游聚合、打分并一键安装，本项目的某个技能曾出现在其 Skills Top5 中；可作"从目录落到一条真实条目"的对照入口。
+- **同为 A 股取数方向，边界不同**：[InStock：抓数到自动交易的 A 股量化系统](InStock-A股量化选股与自动交易系统.md)——那把取数做进一套**完整本地系统**（MySQL + Web + 指标 + 形态 + 回测 + 自动交易）；本篇是把多数据源封成**单个 Skill 文件、只取数**。可对照"**取数库**"与"**取数 + 系统**"两种边界。
 
 ## 参考来源
 

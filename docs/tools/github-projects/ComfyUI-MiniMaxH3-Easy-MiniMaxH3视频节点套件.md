@@ -120,6 +120,8 @@ README 特别提醒：**要锁定说话人或歌手的音色，优先用 AV Pref
 - **这套节点被用在了什么产品里**：[nvzhuang](nvzhuang-拍片哥女装AI服装参考图集.md)——那边的本地零成本换装后端内置的就是 Qwen-Image-Edit-2511 与 **MiniMax H3** 双工作流，未就绪时自动回退 H3；一篇讲节点怎么用，一篇讲它在真实项目里的落法。
 - **同属"产出动画 / 视频"的产线**：[srt-whiteboard-animation：把 SRT 字幕做成白板手绘动画的技能](srt-whiteboard-animation-把SRT字幕做成白板手绘动画的技能.md)——那边是 ComfyUI 节点工作流，本篇是独立 `SKILL.md` + Python 脚本管线（`annotation.json` 编排 + stream 笔迹）；可对照"节点图"与"技能 + 脚本"两种组织方式。
 - **同一模型在完整产品里的另一种接线**：[huobao-drama](huobao-drama-一句话生成AI短剧的自动化生产平台.md)——它的视频生成把 **MiniMax H3** 作为可选厂商之一（与火山 Seedance 2.0、阿里百炼 Wan 3.0 并列）内嵌进短剧生产管线；本篇是把 H3 做成 ComfyUI 节点。可对照"节点图里调模型"与"产品里调模型"两种接法。
+- **同属"本地跑开源图像 / 视频生成"，封装层不同**：[qwen-image-local：在 8 GB 显卡上本地跑 Qwen-Image 的桌面工具](qwen-image-local-在8GB显卡上本地跑Qwen-Image的桌面工具.md)——本篇是**挂在 ComfyUI 上的视频生成节点套件**（把多模式收进一个主节点）；qwen-image-local **把 ComfyUI 当引擎**，做**只面向 Qwen-Image 文生图与编辑的桌面应用 + `qil` CLI**（并锁定版 ComfyUI、自动装权重），可对照"**节点套件**"与"**开箱即用的单模型应用**"。
+- **同属"挂在 ComfyUI 上的出图 / 出视频工作流"，取向不同**：[qwen21-nsfw-pose-skill：Qwen-Image 2.1 的本地姿势出图配方技能](qwen21-nsfw-pose-skill-本地NSFW姿势出图配方技能.md)——那篇是**基于 ComfyUI + Qwen-Image 2.1 的姿势出图配方**（3D 人偶姿势库 + 第三方 VNCCS 工具，**NSFW 取向**）；本篇是 **Easy-MiniMaxH3 视频节点套件**。可对照"**姿势 / 图像配方**"与"**视频节点**"两类 ComfyUI 工作流的组织方式。
 
 ## 参考来源
 

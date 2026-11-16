@@ -89,6 +89,7 @@ CGO_ENABLED=0 go test ./... # 含会启动真实内核的测试
 - **同属"网络出入口"的不同思路**：[cloudflared：Cloudflare 隧道客户端](cloudflared-Cloudflare隧道客户端.md)——那是 Cloudflare Tunnel 客户端，与本篇的"本地代理客户端"是两种不同的打通方式。
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **"订阅产物 ↔ 读取客户端"的上下游**：[FreeSubsCheck](FreeSubsCheck-自动爬取并校验的免费节点订阅仓库.md)——它产出的 `mihomo.yaml` 正是本篇客户端可读的格式；请注意该订阅来源为第三方公开池，**本库不对其来源与合规性背书**。
+- **同为"代理客户端 GUI"，平台与内核不同**：[B-box：基于 sing-box 换 Flutter 新界面的安卓客户端](B-box-基于sing-box换Flutter新界面的安卓客户端.md)——那是 **Android + sing-box + Flutter 界面**（非官方分支，GPL-3.0 附加名称条款，且 `LICENSE` 不含 GPL 全文）；本篇是 **macOS + mihomo + Go 原生渲染**（PolyForm 非商用许可）。可对照"**客户端 GUI 的技术路线**"与"**许可形态**"两条差异线。
 
 ## 参考来源
 

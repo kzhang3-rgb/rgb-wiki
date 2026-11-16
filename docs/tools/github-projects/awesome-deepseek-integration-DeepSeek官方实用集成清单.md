@@ -90,6 +90,7 @@
 - **同为 `deepseek-ai` 官方组织的仓库**：[deepseek-harness：DeepSeek 开源的 Agent 框架](deepseek-harness-DeepSeek开源Agent框架.md)——那是官方开源的插件化 Agent 框架（`dsh`），本篇是官方维护的第三方集成清单。一个"官方自己做的工具"，一个"官方收录别人做的集成"。
 - **被本清单收录的桌面 AI 客户端**：[chatbox：桌面 AI 客户端社区版](chatbox-桌面AI客户端社区版.md)、[cherry-studio：把模型、Agent 与知识库收进一个桌面工作台](cherry-studio-多模型Agent与知识库的桌面工作台.md)——两者在清单里都有官方写的 `docs/chatbox/README_cn.md` 与 `docs/cherrystudio/README_cn.md`。可对照"被官方清单收录"与"项目自身的许可 / 维护状态"这两件独立的事。
 - **同为 awesome 清单，但治理与商业色彩不同**：[public-apis：人工策展的免费 API 清单](public-apis-人工策展的免费API清单.md)——本篇由**厂商官方**维护、许可 **CC0-1.0**、已停更；那篇由**社区组织**维护、**MIT**、仍在更新，且**顶部带赞助方推广**。可对照"官方清单"与"社区清单"在许可、更新节奏与商业内容上的差别。
+- **都涉及"把多家服务接起来"，产物不同**：[aimux：用 Rust 写的统一 LLM 接入层](aimux-用Rust写的统一LLM接入层.md)——本篇是**官方文档索引**（列"哪些软件能接 DeepSeek"，本身不是代码），aimux 是**可安装的代码库**（自己就是接入层，覆盖多家 provider）。可对照"**清单**"与"**实现**"。
 
 ## 参考来源
 

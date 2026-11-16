@@ -67,6 +67,7 @@ Cloudflare Tunnel 的命令行客户端（前身 Argo Tunnel），一个把流�
 - 环境相关：[WSL](WSL-Windows上的Linux子系统.md)（Windows 上跑 Linux 工具链时，Tunnel 客户端常装在子系统里）。
 - **自托管服务需要公网入口时的典型场景**：[gitea：自托管一体化 Git 服务平台](gitea-自托管一体化Git服务平台.md)——自建 Gitea 想对外提供访问时，常配隧道（或反向代理）而非直接暴露公网端口。
 - **同属 Cloudflare 栈、但形态相反**：[edgeKey](edgeKey-零成本部署到CloudflareWorkers的开源发卡商城.md)——本篇是把**自建源站**经隧道接进 Cloudflare 网络（需要域名的 NS 托管）；那篇是**整站（SSR + API + D1 数据库）本就跑在 Cloudflare Workers 上**，连源站与隧道都不需要。可对照"用 Cloudflare 接源站"与"用 Cloudflare 当主机"两种形态。
+- **同属"网络出入口"的不同思路**：[B-box：基于 sing-box 换 Flutter 新界面的安卓客户端](B-box-基于sing-box换Flutter新界面的安卓客户端.md)——那是**本地代理客户端**（Android，非官方 sing-box 分支，界面为 Flutter）；本篇是**托管网络隧道**客户端。可对照"**托管网络隧道**"与"**本地代理**"两类打通方式。
 
 ## 参考来源
 

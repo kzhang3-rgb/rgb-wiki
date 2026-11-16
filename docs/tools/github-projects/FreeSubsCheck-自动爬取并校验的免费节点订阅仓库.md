@@ -71,6 +71,7 @@
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同为"代理/分流"主题，但来源与用途不同**：[Shadowrocket-Rules：小火箭分流规则配置](Shadowrocket-Rules-小火箭分流规则配置.md)——那篇是**分流规则配置（节点需自备）**，本篇是**外部节点订阅产物**；对照可看"规则"与"节点来源"是两件事。
 - **同为消费代理订阅的客户端侧工具**：[bowel：macOS 上原生 Go 渲染的 mihomo 客户端](bowel-macOS上原生Go渲染的mihomo客户端.md)——本篇产出的 `mihomo.yaml` 正是 mihomo 类客户端可读的格式；两篇合看是"订阅产物"与"读它的客户端"两端。**注意：二者只是格式上的上下游关系，本篇不对该订阅做任何背书。**
+- **另一种客户端形态（格式不通用）**：[B-box：基于 sing-box 换 Flutter 新界面的安卓客户端](B-box-基于sing-box换Flutter新界面的安卓客户端.md)——那是 **Android 上的 sing-box 客户端**，读取的是 **sing-box JSON** 配置；本篇产出的订阅为 Clash / mihomo 格式，**两者并不通用**。同为"读订阅的客户端"，可对照不同内核的配置格式。
 
 ## 参考来源
 

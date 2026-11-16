@@ -85,6 +85,7 @@ bb-browser site youtube/transcript VIDEO_ID
 - **同为"给 Agent 的浏览器自动化"的另一条路线**：[playwright-mcp：给 LLM 用的浏览器自动化 MCP 服务器](playwright-mcp-给LLM用的浏览器自动化MCP服务器.md)——那是微软的 MCP 服务器，用无头/隔离浏览器 + 无障碍树快照；本篇坚持用**你自己的真实浏览器 + 真实登录态**。一个"给 Agent 一个干净沙箱"，一个"让 Agent 借用你的身份"，取舍完全不同。
 - **运行时宿主**：[openclaw：自托管个人 AI 助手](openclaw-自托管个人AI助手.md)——bb-browser 可直接走 OpenClaw 内置浏览器（`--openclaw`），无需 Chrome 扩展。
 - **同为"让 Agent 操作真实桌面/浏览器"的 MCP 实现**：[crossdesk：轻量跨平台远程桌面与 MCP 远控服务端](crossdesk-轻量跨平台远程桌面与MCP远控服务端.md)——那是远控整台桌面（含截图、点击），本篇聚焦网页取数；可与它的**授权模型**（设备白名单、密码不进模型上下文）对照"给 Agent 的边界怎么设"。
+- **都强调"把真实浏览器能力交给 Agent"，入口不同**：[moli：为 AI Agent 打造的 Rust 无头浏览器](moli-为AI-Agent打造的Rust无头浏览器.md)——本篇**复用你已登录的真实 Chrome**（把网站变成命令、登录态当 API）；moli 是**自带的独立无头内核**（Rust 自建、按需布局、不依赖你既有的浏览器），可对照"**复用既有浏览器**"与"**自带内核**"。
 
 ## 参考来源
 

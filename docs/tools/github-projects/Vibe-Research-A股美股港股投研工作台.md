@@ -125,6 +125,7 @@ codex mcp add vibe-research -- node "$(pwd)/orchestrator/src/mcp.ts"
 - **风险与呈现**：[US_Stock_Crash_Monitor](US_Stock_Crash_Monitor-美股风险监测面板.md)、[zframes](zframes-让Agent用对话生成行情看板.md)、[wealthfolio](wealthfolio-本地优先个人财务追踪器.md)——**"缺数据怎么向下传递、怎么在界面如实标注"**在这些项目里是共同主题。
 - **几乎相同的"数据缺口不得伪装成 0"**：[QuantOrb](QuantOrb-Solana持仓扫描与memecoin风险评分.md)——那是 Solana memecoin 的持仓扫描与风险评分服务，README 明写"**没有来源的数字一律写 N/A，绝不写 $0**"，与本篇"找不到出处的数字换成占位符、缺口不改写成 0"**几乎一模一样**；可对照"**如实暴露数据缺口**"这条纪律在投研工具里的两种落地。**注意两者许可与形态不同**（本篇 MIT 可自托管，那篇是专有许可的闭源服务，还有项目方自发行代币）。
 - **AI 助手生态**：[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)（其 README 提到 Codex 会读用户全局 `AGENTS.md`）、[deepseek-harness](deepseek-harness-DeepSeek开源Agent框架.md)、[openclaw](openclaw-自托管个人AI助手.md)——可对照"给助手限定能力的边界"与"给助手提供工具"两种做法。
+- **同为 A 股投研 / 选股工具，形态不同**：[InStock：抓数到自动交易的 A 股量化系统](InStock-A股量化选股与自动交易系统.md)——那是以**规则化指标 + 形态 + 策略**为主、并延伸到自动交易的单机系统（Python + MySQL + Web）；本篇更偏"**研究过程可追溯的工作台**"。
 
 ## 参考来源
 

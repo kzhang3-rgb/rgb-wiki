@@ -74,6 +74,7 @@ README 自述六大优势：AI 驱动的全域监控、超越 LLM 的复合分�
 - **同作者的姊妹项目**：[MiroFish：群体智能预测引擎](MiroFish-群体智能预测引擎.md)——BettaFish 完成"分析"（产出报告），MiroFish 在此之上做"预测"（仿真推演）；README 的"下一步开发计划"直接指向 MiroFish，其演示视频也用 BettaFish 生成的"武大舆情报告"作输入。
 - **同为中文 AI 应用向项目**：[NamiAgent](NamiAgent-从零手写Agent的中文可运行教程.md)（从零手写 Agent）、[minimind](minimind-从零训练64M小LLM的中文项目.md)（从零训练小 LLM）——三者都强调"从 0 实现 / 不依赖框架"，可对照"多 Agent 系统""Agent 骨架""小模型"三种"从零"的边界。
 - **数据采集相关**：[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)（把网站转成 LLM 可用数据）——可对照"通用抓取 API"与"面向特定社媒的专用爬虫子系统"的差别。
+- **同属"信息汇聚 + 研判 / 筛选"，深度不同**：[Horizon：把自己关注的源收成一份每日新闻简报](Horizon-把自己关注的源收成一份每日新闻简报.md)——本篇用**多 Agent 做舆情分析**（研判），Horizon 用**单条流水线做个人简报**（按 profile 筛选与摘要）；可对照"**分析研判**"与"**个人简报**"。
 
 ## 参考来源
 

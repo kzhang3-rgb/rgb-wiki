@@ -114,6 +114,7 @@ site/ ──rsync──► 任意静态主机
 - **同在降低英语内容门槛**：[everyone-can-use-english：人人都能用英语](everyone-can-use-english-人人都能用英语.md)——那是从学习方法入手，本篇是直接用中文导读绕开听力门槛；可对照"教会你听"与"替你听"两条路。
 - **同为"给人读、也给 Agent 读"的站点**：[newsnow：实时热点新闻聚合阅读器](newsnow-实时热点新闻聚合阅读器.md)——那边自带 MCP server 供 Agent 取数据，本篇提供 `llms.txt` + 全文 RSS + JSON-LD；可对照两种"面向 AI 消费"的站点做法。
 - **同属"结构化数据 → 脚本批量生成静态内容"的管线**：[RUN：海外移居手册](RUN-海外移居手册.md)——那边是 `src/` 源数据经 `scripts/build_docs.py` 生成 36 国页面（内容 CC BY-SA 4.0 / 代码 MIT），本篇是一个 `tools/build.py` 全量生成 506 个单集页（代码 MIT / 精读不受 MIT）；可对照两种"内容站当代码仓库维护"的目录分层与许可拆分。
+- **都做"给 Agent 读的内容入口"**：[Horizon：把自己关注的源收成一份每日新闻简报](Horizon-把自己关注的源收成一份每日新闻简报.md)——本篇是**一个站点**把内容结构化（`llms.txt` / 全文 RSS / JSON-LD + 自建 MCP），Horizon 是**一条流水线**把多源内容加工后经 MCP / Skill 交给 Agent；可对照"**结构化一个站**"与"**加工多个源**"。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

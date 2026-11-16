@@ -70,6 +70,7 @@ README 提供约 22 种语言版本（中 / 繁 / 日 / 韩 / 德 / 法 / 西 / 
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **被"上层环境"编排的 CLI 之一**：[paseo：跨桌面与移动编排多个编码 Agent 的开发环境](paseo-编排多个编码Agent的桌面与移动开发环境.md)——OpenCode 是它的**原生 provider**（其 provider 文档与仓库里的 `patches/@opencode-ai+sdk` 都有对应），并让 Agent 之间**跨 provider** 建 worktree、互相发消息。可对照"**Agent 本体**"与"**编排它的环境**"。
 - **同为 AI CLI 生态，分工不同**：[pebrel：给 AI CLI 用的 GPU 加速终端与 SSH 工作区](pebrel-给AI-CLI用的GPU加速终端与SSH工作区.md)——那篇是**承载 AI CLI 的工作台**（区分图标、抓答案、看活动状态）；本篇是**终端编码 Agent 本体**。可对照"**CLI 本体**"与"**宿主终端**"。
 - **同为"给编码助手"的工具与框架**：[openfox：本地模型优先的编码助手](openfox-本地模型优先的编码助手-co-l-openfox的fork.md)（本地模型优先、自带 Web 前端）、[deepseek-harness：DeepSeek 开源 Agent 框架](deepseek-harness-DeepSeek开源Agent框架.md)（插件化 Agent 框架）、[oracle：给编码助手请第二意见的 CLI](oracle-给编码助手请第二意见的CLI.md)（把上下文交给第二个模型复核）。opencode 属于"**直接动手改代码的 Agent**"这一类，可与"框架"和"辅助工具"分层对照。
 - **拆解主流编码 Agent 的中文教程**：[NamiAgent：从零手写 Agent 的中文可运行教程](NamiAgent-从零手写Agent的中文可运行教程.md)——其第三部分专门拆解 Claude Code / Codex 等，可对照"从零手写"与"成熟产品"的差别。

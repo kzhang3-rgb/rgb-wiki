@@ -66,6 +66,8 @@ README 的标题是 "200+ Resources to become a great engineering leader"，覆�
 - [Financial_freedom：赚钱与投资书单](Financial_freedom-赚钱与投资书单.md)：同为"书单/片单"型资源仓，可比较其整理方式。
 - **同类"清单型资源仓"**：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——同为把外部资源按主题列成索引、本身不含代码的仓库；区别在它给了明确许可（MIT）且面向安全/运维，本篇无许可证且面向工程管理。
 
+- **同类"清单型资源仓"，都无许可证**：[awesome-remote-job：远程工作资源清单](awesome-remote-job-远程工作资源清单.md)——那是**远程工作**主题清单（**无 `LICENSE`**），本篇面向工程管理；可对照"清单型仓库"在**许可标注与维护节奏**上的共同问题。
+
 ## 参考来源
 
 - 仓库主页：<https://github.com/gregorojstersek/resources-to-become-a-great-engineering-leader>

@@ -84,6 +84,8 @@ README 说明的完整流程是：**初始化数据 → 每日收盘后增量更
 
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 同属投资工具类、README 同样写明局限的项目：[stonkfly](stonkfly-果蝇连接组交易实验.md)、[chinese-buy-us-stock-guide](chinese-buy-us-stock-guide-中国人投资美股指南.md)。
+- **同为"选股 / 量化"工具，市场与方法不同**：[ai-hedge-fund：把 AI 对冲基金做成可长期运行的终端系统](ai-hedge-fund-可回测与模拟盘的AI对冲基金引擎.md)——本篇是 A 股形态选股（11 种策略 + 五维评分 + 回测 + Web 界面）；那篇是美股上的 LLM 投资者人格 + 量化模型基金。可对照两种市场与两种选股入口。
+- **同为 A 股选股，功能覆盖面不同**：[InStock：抓数到自动交易的 A 股量化系统](InStock-A股量化选股与自动交易系统.md)——那是覆盖面更宽的**完整系统**（筹码分布 + 61 种 K 线形态 + 综合选股 + 回测 + GUI 自动化自动交易，Python + MySQL + Web）；本篇是更轻的形态选股（Flask + SQLite）。
 
 ## 参考来源
 

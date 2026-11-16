@@ -95,6 +95,8 @@ README 的目录只有 15 个主章节，全部是"链接集合"的形态：
 - **方法论对照**：[a-stock-data](a-stock-data-A股全栈数据工具包.md)——记录"抓取层缓存假象"那次经历的项目。
 - **活跃度陷阱的第三个样本**：[squoosh](squoosh-浏览器内的图片压缩工具.md)——它的 `pushed_at` 是新的（2026-10-22），默认分支却两年没提交，属于"有推送但没推到主线"；与本篇的"真陈旧"、[a-stock-data](a-stock-data-A股全栈数据工具包.md) 的"抓取缓存"构成三种情形。
 
+- **同为"运维 / 安全"方向，一个是资料、一个是系统**：[openITCOCKPIT：给 Nagios / Naemon / Prometheus 做配置界面的开源监控平台](openITCOCKPIT-给Nagios与Prometheus做配置界面的监控平台.md)——那是可落地的监控平台（双许可 GPLv3 / 商业版），本篇是给人看的清单（MIT）；可对照"具体系统"与"资料索引"两类记录。
+
 ## 参考来源
 
 - 项目仓库与 README：https://github.com/trimstray/the-book-of-secret-knowledge

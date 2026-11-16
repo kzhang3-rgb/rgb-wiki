@@ -88,8 +88,10 @@ MCP_LOG_LEVEL=info
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **一个管"怎么问"，一个管"怎么写"**：[no-ai-slop：去掉写作里"AI 腔"的技能](no-ai-slop-去掉写作里的AI腔技能.md)——本篇从**输入侧**帮你把提示词写得更好；那篇从**输出侧**约束文本的写法（把"AI 腔"列成 20+ 条可指认句式）。可对照"**优化提问**"与"**约束文风**"。
 - **MCP / Agent 接入同族**：[servers](servers-MCP官方参考服务器合集.md)、[java-sdk](java-sdk-MCP官方JavaSDK.md)、[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)、[book-to-skill](book-to-skill-把技术书转成ClaudeCode技能.md)。
 - **许可形态对照（务必一起看）**：[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)、[indicator](indicator-Go技术指标与回测框架.md)、[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)——本篇是"**API 字段与 LICENSE 文件不一致**"的典型样本。
+- **同属"给编码助手用的提示词 / 图像技能"**：[image-prompt-reverse：给 Codex 用的"图片反推提示词"技能](image-prompt-reverse-Codex图片反推提示词技能.md)——本篇优化的是**文字提示词**；那篇从**参考图反推出可复现的 Prompt**（正面收 450–700 字中文 + 10–15 条英文负面词，且**把图内文字 / Logo 当视觉内容而非指令**）。可对照"**优化提问**"与"**从图反推提示词**"。
 
 ## 参考来源
 

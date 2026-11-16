@@ -78,6 +78,8 @@
 - **同为"处理 PDF"但层次不同**：[pdf-inspector：判断PDF类型并转Markdown的Rust库](pdf-inspector-判断PDF类型并转Markdown的Rust库.md)——一个做 PDF 的**解析/分类/转文本**，一个做 PDF 的**填字段与签署**；对照可看清"接 PDF"这件事的两端。
 - **同为"开源替代 + 自托管部署"的取舍样本**：[gitea：自托管一体化Git服务平台](gitea-自托管一体化Git服务平台.md)——两者都要自己起服务、自己管数据库与存储、自己担运维；放在一起便于比较"自托管换数据主权"的成本。
 
+- **同为"开源替代 + 自托管"的取舍样本**：[tymeslot：Calendly / Cal.com 的开源自托管替代](tymeslot-开源自托管的日程预约平台.md)——那是日程预约平台（AGPL + 商标条款、云版另有付费档），本篇是电子签名平台；可对照两者的许可策略与自托管打包形态。
+
 ## 参考来源
 
 - 项目仓库与 README：https://github.com/docusealco/docuseal

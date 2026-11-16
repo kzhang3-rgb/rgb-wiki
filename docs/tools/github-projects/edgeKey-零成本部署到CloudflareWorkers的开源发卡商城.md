@@ -108,6 +108,9 @@
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同属 Cloudflare 生态，一个讲"接进来"、一个讲"整站跑在上面"**：[cloudflared：Cloudflare Tunnel 客户端](cloudflared-Cloudflare隧道客户端.md)——那篇解决"不用在防火墙上开洞就能对外提供服务"，把**源站**接进 Cloudflare 网络；本篇则是**整站（SSR + API + 数据库）本就跑在 Cloudflare Workers + D1 上**，连服务器和隧道都不需要。两篇合看，正好覆盖"用 Cloudflare"的**自建源站接入**与**全托管边缘应用**两种形态。
 - **都关乎"把东西卖出去 / 变现"，但对象不同**：[AiToEarn：AI 内容变现与多平台发布](AiToEarn-AI内容变现与多平台发布.md)——那篇是**内容创作者的变现链路**（内容交易市场 + 多平台分发），面向"内容"；本篇是**数字商品（卡密）的自助售卖站**，面向"商品 / 卡密"。若关注"个人开发者怎么把产出变成收入"，两篇是不同路径的样本。
+- **同为"部署到 Cloudflare 的个人自托管小项目"**：[travel-roamradar：自托管的个人旅行中心](travel-roamradar-自托管的个人旅行中心.md)——那篇是**单 Worker + 单 KV 命名空间 `TRIPS` + PWA** 的旅行时间线（**PolyForm Noncommercial 1.0.0，且创建后未再推送**）；本篇是**卡密发卡商城**（MIT）。可对照同一平台上**两种小项目的许可与维护状态**——本篇 MIT 可商用，那篇只能自用。
+- **同样把部署压到 Cloudflare 免费档，复杂度不同**：[talorys：部署在自己 Cloudflare 账号里的个人 AI 助手](talorys-部署在自己Cloudflare账号里的个人AI助手.md)——本篇用 **Workers + D1** 搭**发卡商城**（同一套代码含前端 SSR + 服务端 API）；talorys 用 **Pages + Workers + Durable Objects（SQLite）+ Workers AI** 做**个人助手**，可对照同一平台上"**轻后端应用**"与"**带持久状态与定时任务的助手**"。
+- **都涉及"发卡 / 卡网"这一层生态，站位相反**：[PriceAI：AI 订阅卡网渠道比价工具](PriceAI-AI订阅卡网渠道比价工具.md)——本篇是**自己搭一个发卡商城**（卖方工具，下单 → 支付 → 自动发卡）；PriceAI 是**购买前的比价雷达**、顺带聚合卡网渠道（买方看价格），可对照"**卖方的工具**"与"**买方看价格**"。
 
 ## 参考来源
 

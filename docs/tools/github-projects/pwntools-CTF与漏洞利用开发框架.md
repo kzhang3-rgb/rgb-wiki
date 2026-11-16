@@ -63,6 +63,8 @@ pwntools 是一个用 Python 写的 **CTF 框架与漏洞利用开发库**，目
 - **逆向与渗透技能路由**：[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)——组织逆向/渗透相关技能与工具时的入口。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
+- **同属"漏洞利用 / 逆向"材料，一个是框架、一个是公告**：[NoisyTCP：Linux 内核 TCP 预认证远程崩溃漏洞（CVE-2026-99288）的披露仓库](NoisyTCP-Linux内核TCP预认证远程漏洞披露仓库.md)——那篇是一份**已公开的内核漏洞公告**（只记录元数据与结构，不含利用步骤），本篇是写 exploit 脚本的框架；两者常在研究具体漏洞时一起出现。
+
 ## 参考来源
 
 - 项目仓库与 README：<https://github.com/Gallopsled/pwntools>（README 取自 `raw.githubusercontent.com/Gallopsled/pwntools/dev/README.md`）

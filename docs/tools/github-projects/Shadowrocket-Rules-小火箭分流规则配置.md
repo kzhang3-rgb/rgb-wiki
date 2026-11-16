@@ -79,6 +79,7 @@ https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/m
 - **macOS 侧的图形客户端**：[bowel](bowel-macOS上原生Go渲染的mihomo客户端.md)——那是 **macOS 上用 Go 原生渲染（不走 WebView）的 mihomo 客户端**；本篇是**规则集**（另有 Clash 版本，mihomo 可直接吃 Clash 规则）。一个提供规则、一个消费规则。
 - **同涉及"网络 / 分流配置"，但一个是设备侧网络栈**：[Linux-Router](Linux-Router-把Debian设备变成路由器的Web控制台.md)——那篇是**把设备本身变成路由器 / 热点**（NetworkManager / 热点 / LAN 网段，设备侧网络栈管理）；本篇是**客户端分流规则**。想搭一台"能自己管网的家用网关"时，两篇分别覆盖"底下这台机器怎么管网"与"上面跑什么分流规则"。
 - **同属代理主题**：[FreeSubsCheck](FreeSubsCheck-自动爬取并校验的免费节点订阅仓库.md)——本篇是分流规则（节点自备），那篇是用 GitHub Actions 定时爬取与校验的**外部节点订阅产物**（无许可证，来源为第三方公开池，**本库不为其来源背书**）。
+- **同为"客户端侧的分流 / 规则"，平台不同**：[B-box：基于 sing-box 换 Flutter 新界面的安卓客户端](B-box-基于sing-box换Flutter新界面的安卓客户端.md)——那是 **Android 上带完整 Flutter 界面的 sing-box 客户端**（非官方分支）；本篇是 iOS 小火箭的分流规则集（另有 Clash 版本）。一个管"**规则怎么写**"，一个管"**客户端怎么用**"。
 
 ## 参考来源
 

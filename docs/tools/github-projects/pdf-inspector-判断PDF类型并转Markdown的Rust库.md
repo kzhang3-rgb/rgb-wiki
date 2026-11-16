@@ -81,6 +81,7 @@ PDF bytes
 - **同一组织（firecrawl）下的互补组件**：[firecrawl：把网站转成 LLM 可用数据的抓取 API](firecrawl-把网站转成LLM可用数据的抓取API.md)——**一个是"抓网页"、一个是"解析 PDF"**，都服务于"把异构内容喂给 LLM"；本篇 README 明确标注 "Built by Firecrawl"。
 - **同属 PDF 处理，定位互补**：[pdf-manage](pdf-manage-免费开源的Windows-PDF工具箱纸序PDF.md)——那是面向 Windows 的成品 PDF 工具箱（阅读 / 整理 / 批注 / 对比 / 打印 / 转换 + 可选离线 OCR），本篇是给 PDF 管道做 OCR 路由的 Rust 库；一个给人用、一个给程序用。
 - **同属 PDF 处理，方向不同**：[docuseal](docuseal-开源自托管电子签名与PDF表单平台.md)——那是自托管的电子签名与 PDF 表单平台（AGPL-3.0 + Section 7(b) 附加署名条款）；本篇是解析 / 分类 PDF，那篇是填字段与签署。
+- **同属"把文档转成 Markdown / 可读结构"，层次不同**：[learn-from-materials：把 PDF 与书变成可测验学习网页的技能](learn-from-materials-把PDF与书变成可测验学习网页的技能.md)——本篇是**判断 PDF 类型再转 Markdown 的底层解析库**，那篇是**端到端的学习页生成 Skill**（可追溯知识库 + 学习网页）。可对照"**解析层**"与"**产品层**"。
 
 ## 参考来源
 

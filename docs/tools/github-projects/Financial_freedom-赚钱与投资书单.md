@@ -73,6 +73,8 @@
 - 同为"资源清单/科普型"而非工具的项目：[chinese-buy-us-stock-guide](chinese-buy-us-stock-guide-中国人投资美股指南.md)、[HowToLiveBetter](HowToLiveBetter-高性价比人生指南.md)。
 - 同为"书单/清单"型资源仓：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——那是安全/运维工具与资料索引（MIT），可比较两者在归类方式与许可标注上的差别。
 
+- **同为"赚钱 / 书单"型资源仓，可比可信度**：[ai-money-maker-handbook：AI 副业赚钱方法合集](ai-money-maker-handbook-AI副业赚钱方法合集.md)——那是方法罗列型清单，本篇是书单 / 片单型资源仓；可对照两者在**信息密度、来源标注与可信度**上的差别。
+
 ## 参考来源
 
 - 项目仓库与 README：https://github.com/codeman008/Financial_freedom

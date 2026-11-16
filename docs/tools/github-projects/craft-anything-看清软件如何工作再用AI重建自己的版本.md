@@ -148,6 +148,7 @@ craft-anything-cli rebuild https://example.com "Recreate this website"
 - **Deep 模式依赖的外部逆向引擎**：[ghidra：NSA 开源的软件逆向工程框架](ghidra-NSA开源的软件逆向工程框架.md)——本篇装了 Ghidra 时会调用它做 Deep 分析；那篇是引擎本身。另见把它接给 AI 的那条线：[ghidra-mcp](ghidra-mcp-把Ghidra接给AI的MCP服务器.md)。
 - **同为"用新语言 / 新栈重做一个既有软件"**：[honeydew：用 Rust 复刻 FL Studio Mobile 的音乐工作室](honeydew-用Rust复刻FL-Studio-Mobile的音乐工作室.md)——那篇是**人工规格先行**的 clean-room 复刻（纯 Rust，不含原版代码 / 采样 / 预设 / 美术）；本篇把"复刻"过程交给编码 Agent，且给出 Clean room / Deep 两级可见性。对照看"谁来读原件、读到哪一层"。
 - **同类"重写既有商业软件"的另一个样本**：[ConcordRTS：用 C++20 重写红警 2 引擎](ConcordRTS-用C++20重写红警2引擎.md)——那是把一个具体游戏引擎逐步重写并接入 D3D11；两者都涉及"原件形态 → 新实现"的对应关系，但一个手写、一个 AI 生成。
+- **同为"看清软件 → 用 AI 重建"这条链路，引擎来源不同**：[REA：用 Agent 把软件从行为逆向到原生二进制](rea-用Agent逆向软件行为与原生二进制.md)——那篇是**自带本地 MCP + CLI**，把深度原生分析**外挂**回 Hopper / Ghidra / IDA / Kuna；本篇把 Study/Build/Check/Ready 串成**自带动引擎的流水线**并划 Clean room 边界。可对照"**自带引擎**"与"**编排外部引擎**"两种取舍。
 
 ## 参考来源
 

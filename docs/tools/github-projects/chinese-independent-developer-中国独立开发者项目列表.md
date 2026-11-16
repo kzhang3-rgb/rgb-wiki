@@ -62,6 +62,8 @@
 - **同为"清单型资源仓"**：[the-book-of-secret-knowledge：信息安全与运维清单集](the-book-of-secret-knowledge-信息安全与运维清单集.md)——那是一次性攒成的大目录（基本停更），本篇是持续追加（近十年不断）；可对照"一次性沉淀"与"持续增长"两种维护方式。
 - **同为中文资源清单/长文档**：[up：人生进阶指南](up-人生进阶指南.md)、[resources-to-become-a-great-engineering-leader：工程管理资源清单](resources-to-become-a-great-engineering-leader-工程管理资源清单.md)。
 
+- **同为"独立开发者"主题**：[ai-money-maker-handbook：AI 副业赚钱方法合集](ai-money-maker-handbook-AI副业赚钱方法合集.md)——那是**变现方法清单**，本篇是**独立开发者产品清单**；一个给"别人做了什么"，一个给"可能怎么赚钱"。
+
 ## 参考来源
 
 - 项目仓库与 README：<https://github.com/1c7/chinese-independent-developer>

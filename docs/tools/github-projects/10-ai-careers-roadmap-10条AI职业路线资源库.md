@@ -62,6 +62,8 @@
 - 同为"清单/书稿"类笔记：[up](up-人生进阶指南.md)、[Financial_freedom](Financial_freedom-赚钱与投资书单.md)——可对照三种清单各自的信息密度与可信度标注方式。
 - 同为"资源清单"形态：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——面向安全/运维的清单仓（MIT），可对照其条目格式与收录原则。
 
+- **同为"资源清单 / 职业发展"形态**：[awesome-remote-job：远程工作资源清单](awesome-remote-job-远程工作资源清单.md)——那是**远程工作**主题清单（无 `LICENSE`），本篇是 **AI 职业路线**资源清单；可对照两者在主题覆盖与条目组织上的差异。
+
 ## 参考来源
 
 - 项目仓库与 README：https://github.com/Moh4696/10-ai-careers-roadmap

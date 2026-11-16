@@ -125,6 +125,7 @@ sau dayu upload-article --account creator --title "标题" --content-file exampl
 - **同为"内容生产 → 多平台发布"，取向不同**：[Easel：开源 AI 社媒内容工作台](Easel-开源AI社媒内容工作台.md)——那是从选题到复盘的全流程工作台，本篇只解决"发布"这一段；两者都涉自动发布，**Easel 反而把风控风险写进了 README**，可对照两种风险披露态度。
 - **Agent 宿主**：[openclaw：自托管个人 AI 助手](openclaw-自托管个人AI助手.md)——本项目 README 把 OpenClaw 与 Codex、Claude Code 并列为 Skill 的首选运行环境；可对照"通用 Agent 宿主 + 领域 Skill"的分工方式。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **都做"多平台发布"，路线相反**：[Y2A-Auto：把 YouTube 视频自动搬运到 AcFun 与 bilibili](Y2A-Auto-把YouTube视频自动搬运到AcFun与bilibili.md)——本篇用**浏览器自动化 + 本地会话**绕开各家 API 的审核门槛、覆盖 17 个平台；那篇用**平台 Cookie / 扫码登录 + 自建 Web 后台**，只做 YouTube → AcFun/bilibili 这一条链。可对照"**通用发布层**"与"**单条搬运链**"。
 
 ## 参考来源
 

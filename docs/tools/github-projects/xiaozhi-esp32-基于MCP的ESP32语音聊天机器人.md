@@ -61,6 +61,8 @@
 - **另一个把 AI 接入实体/端侧的项目**：[NamiAgent](NamiAgent-从零手写Agent的中文可运行教程.md)（从零手写 Agent，可接入聊天软件）、[bb-browser](bb-browser-把真实浏览器登录态给Agent当API的CLI与MCP.md)（把浏览器登录态当 API）——可对照"AI 能力接到不同宿主（硬件 / 浏览器 / 聊天软件）"的差异。
 - **同为"把语音与 MCP 放在一起"，方向相反**：[voicebox：本地优先的开源 AI 语音工作室](voicebox-本地优先的开源AI语音工作室.md)——那是**软件端**：Tauri 桌面 App 自带 MCP server，是"**机器对你说**"（`voicebox_speak` 克隆音色发声，且坚持绝不静默）；本篇是**硬件端**：ESP32 音箱 / 麦克风 + 设备端 MCP，是"**人对着机器说话**"。**两篇合看正好覆盖语音与 Agent 结合的"输出端"与"输入端"。**
 
+- **同为"ESP32 上的开源固件项目"**：[esp32-usb-to-airprint：用一块 ESP32-S3 给旧 USB 打印机加上 AirPrint 与 AirScan](esp32-usb-to-airprint-用ESP32-S3给旧打印机加AirPrint与AirScan.md)——那是把打印 / 扫描协议接进 ESP32 固件，本篇是把大模型语音能力接进 ESP32；同是"给一块 MCU 写完整固件"，业务方向完全不同。
+
 ## 参考来源
 
 - 项目仓库与 README（英文）：<https://github.com/78/xiaozhi-esp32>

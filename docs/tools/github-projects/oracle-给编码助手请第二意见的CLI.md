@@ -106,6 +106,7 @@ oracle \
 - [openfox：本地模型优先的编码助手（`co-l/openfox` 的 fork）](openfox-本地模型优先的编码助手-co-l-openfox的fork.md)：同为面向编码助手的工具——本篇是"请第二意见"的旁路 CLI，那是"能自己动手改代码、跑命令"的编码 Agent 本体。
 - [opencode：开源终端编码 Agent](opencode-开源终端编码Agent.md)：同为面向编码场景的开源工具——本篇是"请第二个模型复核"的旁路 CLI，那是直接动手改代码的编码 Agent 本体。
 - **同为"挂在编码助手上、请外部能力帮忙"的 CLI**：[codex-security](codex-security-OpenAI的开源安全扫描CLI与SDK.md)——那是 OpenAI 的 AI 代码安全扫描（CLI / SDK / GitHub Action，云端按次计费），本篇是把"第二意见"的 CLI 接进编码助手；一个解决"这个方案对不对"、一个解决"代码有没有漏洞"。
+- **同为"让第二个模型 / 多个 Agent 参与编码流程"，形态不同**：[agent-orchestrator：编排编码 Agent 编队的桌面与移动工作台](agent-orchestrator-编排编码Agent编队的桌面与移动工作台.md)——本篇是**单独的"请第二意见"旁路 CLI**，那篇是**把评审 Agent 嵌进工作流**（评审 Agent 先读 PR，失败 CI / 评审意见 / 冲突自动回到 owning worker）；可对照"旁路复核"与"内建评审环节"。
 
 ## 参考来源
 

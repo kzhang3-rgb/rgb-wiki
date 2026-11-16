@@ -59,6 +59,7 @@ Ghidra 是美国国家安全局（NSA）研究理事会创建并维护的一套�
 - **先识别文件类型与加壳**：[Detect-It-Easy](Detect-It-Easy-文件类型与加壳识别工具.md)——在动 Ghidra 之前判断样本类型与是否加壳。
 - **调试环节的补充**：[pwndbg](pwndbg-为GDB与LLDB打造的调试与逆向插件.md)——Ghidra 偏静态分析，动态调试常配合 GDB/LLDB 类工具进行。
 - **把 Ghidra 当作其中一层的上层外壳**：[craft-anything：看清任意软件怎么工作，再让 AI 重建一个自己的版本](craft-anything-看清软件如何工作再用AI重建自己的版本.md)——那是"逆向理解 + AI 重建"的流水线，其 Deep 模式在检测到本机装了 Ghidra 时会调用它；本篇是被调用的那一层。
+- **把它当作外部引擎调用的上层**：[REA：用 Agent 把软件从行为逆向到原生二进制](rea-用Agent逆向软件行为与原生二进制.md)——那篇在需要深度原生分析时**外挂** Hopper / Ghidra / IDA / Kuna，Ghidra 是可选 provider 之一；本篇是引擎本身。可对照"**把引擎当工具的编排层**"与"**引擎本体**"。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
 ## 参考来源

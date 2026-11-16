@@ -87,6 +87,8 @@ curl -o ~/.claude/skills/book-to-skill/scripts/extract.py https://raw.githubuser
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **都是"把知识变成技能"，知识源不同**：[Supervisor-Skills：把博导经验炼化成 AI 科研副导师技能](Supervisor-Skills-把博导经验炼化成AI科研副导师技能.md)——那篇把**作者的科研经验**蒸馏成一组并列技能 + 六章教程；本篇把**一本技术书**编译成"SKILL.md 核心模型 + 按需加载章节"。可对照"**知识源是人的经验**"与"**知识源是书**"。
+- **都是"造技能的技能"，一个手工一个脚本**：[github-skill-forge：把任意 GitHub 仓库转成 Trae 技能](github-skill-forge-把GitHub仓库转成Trae技能.md)——那篇用**脚本把仓库脚手架成技能**（含"克隆并删 `.git`、写入 `.trae/skills/`"，且仓库**无许可证**、已停更）；本篇是**按章拆书、人工定义的技能**。可对照"**机器搬运**"与"**结构化编译**"。
 - **同属"用 AI 边做边学"的取向**：[vibe-wise：边写边学的 Claude Code 与 Codex 插件](vibe-wise-边写边学的Claude-Code与Codex插件.md)——那篇在**真实编码过程中**陪你推理（三级检查点）；本篇把**技术书**转成可被 Agent 调用的技能。一个偏"**动手中学**"，一个偏"**把知识装进技能**"，可对照。
 - **"把外部内容变成模型可用素材"的同族**：[markitdown](markitdown-文件转Markdown工具.md)（文档转 Markdown）、[firecrawl](firecrawl-把网站转成LLM可用数据的抓取API.md)（网页转 LLM 数据）。
 - **给编码助手喂能力的技能层**：[agents.md](agents.md-给编码助手用的AGENTS文件格式.md)、[zframes](zframes-让Agent用对话生成行情看板.md)、[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)、[dsh-plugins-store](dsh-plugins-store-DSH插件市场.md)。
@@ -94,6 +96,9 @@ curl -o ~/.claude/skills/book-to-skill/scripts/extract.py https://raw.githubuser
 - **书稿/教材类内容项目**：[everyone-can-use-english](everyone-can-use-english-人人都能用英语.md)、[up](up-人生进阶指南.md)、[Foundations-of-LLMs](Foundations-of-LLMs-大模型基础教材.md)——可对照"**内容本身**"与"**把内容变成能力**"两类做法。
 - **同为"把一整个领域编译成技能"，来源不同**：[goutoujunshi：先接住情绪再给策略的 AI 恋爱军师](goutoujunshi-先接住情绪再给策略的AI恋爱军师.md)——那篇是把**跨学科知识库（135 条参考资料）+ 分析流程**封成 Codex 技能，本篇是**把单本技术书编译期提炼**成按需加载的能力。可对照"多领域整合 + 流程固化"与"单书提炼 + 章节按需加载"两种知识编译方式。
 - **同为"把一个领域的知识整理成可被程序 / AI 使用的素材"，粒度不同**：[ziwei-doushu：倪海厦体系的紫微斗数开源排盘引擎与解读数据集](ziwei-doushu-倪海厦体系的紫微斗数开源排盘引擎与解读数据集.md)——那篇是把**一整个传统术数领域**（排盘引擎 + 1100+ 行格局规则库 + 古籍原文 + 14 主星 × 12 宫位知识图谱 + 67.5 万张盘解读数据集）整理成结构化素材；本篇是把**单本技术书**编译期提炼成按需加载的能力。可对照"**领域建库**"与"**单书提炼**"两种知识组织方式。
+- **同为"把书 / 长材料转成 Agent 可用技能"，产物更厚**：[learn-from-materials：把 PDF 与书变成可测验学习网页的技能](learn-from-materials-把PDF与书变成可测验学习网页的技能.md)——那篇**致谢本篇为其上游之一**，在本篇"编译成技能"的基础上扩展出**可交互学习网页 + 可追溯知识库 + 覆盖审计**。可对照"**仅技能化**"与"**技能 + 可交互页面**"。
+- **同属"把长文本编译成可复用资产"，输入来源不同**：[chinese-novelist-skill：让 AI 从零写出一部完整中文小说的 Agent 技能](chinese-novelist-skill-从零生成10到50章中文小说的技能.md)——那篇**从零起点问答**出发生成一整部小说目录，本篇把**一本既有技术书**编译成技能。可对照"**输入是既有书稿**"与"**输入是零起点问答**"。
+- **同为"把外部内容变成 Agent 可用资产"，方向不同**：[imozuru：芋づる式地把未知领域挖到原文的 Claude Code 技能](imozuru-逐条溯源到原文的ClaudeCode技能.md)——那篇把**未知领域顺引用 / 链接挖到原文**（先建术语与人物地图，再存 `sources/`，回答只标"哪个文件第几行"，引用还由脚本逐字核对）；本篇把**一本技术书编译成按需加载的技能**。可对照"**溯源到原文**"与"**提炼成能力**"两种知识处理方向。
 
 ## 参考来源
 

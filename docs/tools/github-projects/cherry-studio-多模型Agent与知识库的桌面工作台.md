@@ -60,6 +60,9 @@ README 的开场描述就是功能清单：**"Chat with multiple models, work wi
 - **自托管的个人 AI 助手**：[openclaw：自托管个人 AI 助手](openclaw-自托管个人AI助手.md)——那是以自托管/常驻服务为形态的助手，本篇是本地安装的桌面客户端；一个"提供服务"，一个"给你一个客户端"。
 - **面向编码场景的 Agent**：[opencode：开源终端编码 Agent](opencode-开源终端编码Agent.md)、[openfox：本地模型优先的编码助手](openfox-本地模型优先的编码助手-co-l-openfox的fork.md)——那两者聚焦"改代码"，本篇覆盖对话 / 知识库 / 生图等更宽的工作台场景。
 - **被官方清单收录**：[awesome-deepseek-integration：DeepSeek 官方的"实用集成"清单](awesome-deepseek-integration-DeepSeek官方实用集成清单.md)——DeepSeek 官方为该清单里的条目写了 `docs/cherrystudio/README_cn.md`。注意"被收录"与"本项目自身的许可 / 维护状态"是两件独立的事。
+- **同属"聚合多家 AI 服务"，用途不同**：[PriceAI：AI 订阅卡网渠道比价工具](PriceAI-AI订阅卡网渠道比价工具.md)——本篇是**把多家模型接进一个客户端使用**（偏"用起来"），那篇是**比较这些服务的价格与渠道来源**（偏"买得起"）；可对照"用起来"与"买得起"。
+- **同为"多模型 + 知识库的桌面工作台"，广度不同**：[pinvou-agent：面向工作、设计与代码的开源桌面 AI Agent 工作台](pinvou-agent-开源桌面AI-Agent.md)——两篇都做多模型接入、知识库与 Agent 编排，那篇额外把**可视化设计与 ACP 编码 Agent（Codex / Claude Code / Kimi）**收进同一壳；可对照"知识库 + Agent"与"工作 / 设计 / 代码三合一"。
+- **都在"多模型"上用力，层级不同**：[aimux：用 Rust 写的统一 LLM 接入层](aimux-用Rust写的统一LLM接入层.md)——本篇是**面向用户的桌面客户端**（一个界面里用多家模型），aimux 是**面向开发者的接入层**（一个接口调多家模型）；可对照"**多模型产品**"与"**多模型基础设施**"。
 
 ## 参考来源
 

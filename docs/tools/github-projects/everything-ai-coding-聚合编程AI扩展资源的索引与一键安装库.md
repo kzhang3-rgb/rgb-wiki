@@ -92,10 +92,14 @@
 ## 相关笔记
 
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **都覆盖"Skill 作为可复用能力包"，一端是检索、一端是生产**：[github-skill-forge：把任意 GitHub 仓库转成 Trae 技能](github-skill-forge-把GitHub仓库转成Trae技能.md)——本篇从生态里**检索、评分并安装**别人做好的 Skill；那篇是**把任意仓库自动变成 Skill**（脚本克隆 + 生成上下文包 + 写入 `.trae/skills/`，仓库**无许可证**且已停更）。两者合看覆盖"找 Skill"与"造 Skill"，且都涉及"往本地装东西"的供应链风险。
 - **同为"围绕 MCP 的清单/入口"，但形态不同**：[servers：MCP 官方参考服务器合集](servers-MCP官方参考服务器合集.md)——那是**官方参考实现的少量样本**（现只保留约 7 个）；本篇是**跨多个上游聚合的海量目录 + 评分**。想"照着官方样本自己写 MCP"看前者，想"海选现成 MCP"看本篇。
 - **同为"聚合清单 + Actions 校验流水线"，但一个自动、一个人工**：[public-apis：人工策展的免费 API 清单](public-apis-人工策展的免费API清单.md)——本篇是**多上游采集 → LLM 评分 → 一键安装**的重型流水线；那篇是**人工策展 + 只校验格式与链接**的轻量做法（`scripts/validate/format.py`、`links.py` + 三个 workflow）。两者可对照"校验到什么程度"与"谁来做判断"。
 - **都覆盖"Skill 作为可复用能力包"**：[book-to-skill：把技术书转成 Claude Code 技能](book-to-skill-把技术书转成ClaudeCode技能.md)——那篇讲**如何把一本书编译成一个 Skill**；本篇讲**如何从生态里检索、评分并安装别人做好的 Skill**。两者合看覆盖"造 Skill"与"找 Skill"两端。
 - **都与"给编码助手下发项目级指令"相邻**：[agents.md：给编码助手用的 AGENTS 文件格式](agents.md-给编码助手用的AGENTS文件格式.md)——那篇是**AGENTS.md 这一格式约定**；本篇 `rules` 类目聚合的正是**编码助手的行为规范/规则集**，可对照"手写一份 AGENTS.md"与"从目录里挑现成规则"。
+- **同属"把别人的 Agent 资产装到你机器上"，来源与规模不同**：[agency-agents：326 个 AI 专家角色的 Agent 定义库](agency-agents-326个AI专家角色的Agent定义库与多工具安装器.md)——那篇是**单一上游的自有成套资产**（326 个角色 `.md` + 约 15 种工具格式的 `convert.sh`/`install.sh`；README 自报 "230+" 而实测 326，OpenCode 只注册约 119 个）；本篇是**跨上游聚合 + 评分 + 一键安装**。可对照"**一家成套出品**"与"**海选聚合**"两种分发形态。
+- **同属"Agent Skill 的聚合与索引"**：[qiaomu-seo：覆盖 Google、Bing 与 AI 搜索的 SEO 技能](qiaomu-seo-覆盖Google与Bing及AI搜索的SEO技能.md)——本篇是**技能 / 扩展的索引与一键安装入口**，那篇是**可直接装入的一个具体技能**。可对照"**资源目录**"与"**单体技能**"。
+- **同属"分发给多种 Agent 的技能 / 资源库"，粒度不同**：[learn-from-materials：把 PDF 与书变成可测验学习网页的技能](learn-from-materials-把PDF与书变成可测验学习网页的技能.md)——本篇是**资源索引 + 一键安装**（跨上游聚合、评分、分发），那篇是**单一但完整的 Skill**。可对照"**目录 / 分发层**"与"**单体技能**"。
 
 ## 参考来源
 

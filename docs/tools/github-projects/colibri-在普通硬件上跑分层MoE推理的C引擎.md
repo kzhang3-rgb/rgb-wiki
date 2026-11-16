@@ -106,6 +106,7 @@ README 称"今天有 13 个引擎在跑"：
 - **它默认在 `localhost:8000/v1` 暴露 OpenAI 兼容服务，正好是"本地模型优先"助手的默认后端**：[openfox：本地模型优先的编码助手](openfox-本地模型优先的编码助手-co-l-openfox的fork.md)——openfox 默认探测定位于 `http://localhost:8000/v1` 的本地 OpenAI 兼容服务，与 colibri 启动后打印的 `OpenAI base URL` 端口一致，两者可组合成"本地引擎 + 本地编码助手"。
 - **同为"不让大模型生成文本、直接给选项概率"的思路**：[kev：一次前向输出概率的小模型](kev-一次前向输出概率的小模型.md)——colibri 的 System One（`/v1/systemone`）也是"给状态与带类型的问题、返回每个选项的概率与置信度、不做生成"，可对照两种实现路径（C 引擎内 vs Python 小模型）。
 - **同为"在本机跑模型、并对外暴露本地接口"**：[VoiceStudio：全本地运行的 AI 语音工作室（AGPL 的 ElevenLabs 替代）](VoiceStudio-全本地运行的AI语音工作室与ElevenLabs替代.md)——那篇是**语音模型**的本地工作室（本地 API + MCP，硬门槛是显存 / 时间）；本篇是**文本大模型**的本地推理引擎（本地 OpenAI / Anthropic 兼容网关 + MCP，硬门槛是磁盘）。可对照"**把模型跑在本机，再开一个本地接口给 Agent 用**"的两种落地。
+- **都与"模型访问"有关，一个在推理侧、一个在接入侧**：[aimux：用 Rust 写的统一 LLM 接入层](aimux-用Rust写的统一LLM接入层.md)——colibri 解决"**在本地把大模型跑起来**"（分层放置 + 流式读盘），aimux 解决"**把云上各家模型统一起来调**"（一个接口多 provider）；可对照"本地推理引擎"与"多 provider 接入层"。
 
 ## 参考来源
 

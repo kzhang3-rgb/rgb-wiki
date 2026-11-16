@@ -133,6 +133,7 @@ GPU 后端：macOS = MLX（Metal，README 称经神经引擎快 4–5 倍）· W
 - **同为"把语音与 MCP 放在一起"，形态相反**：[xiaozhi-esp32：基于 MCP 的 ESP32 语音聊天机器人](xiaozhi-esp32-基于MCP的ESP32语音聊天机器人.md)——那是**硬件端**：音箱 / 麦克风 + 设备端 MCP，语音是"人对着机器说话"；本篇是**软件端**：Tauri 桌面 App + 对外的 MCP server，语音是"**机器对你说**"（`voicebox_speak`，且坚持不静默）。**两篇合看正好覆盖语音与 Agent 结合的"输入端"与"输出端"。**
 - **同为"给 MCP Agent 补一块它自己缺的能力、且本地优先"**：[mnemos-mcp：让 AI 拥有自己长期记忆的 MCP 服务器](mnemos-mcp-让AI拥有自己长期记忆的MCP服务器.md)——那个给 Agent 一份**记忆**（本地 SQLite，跨会话延续）；本篇给 Agent 一张**嘴**（本地 TTS，克隆音色发声）。两者都靠"**装成一个 MCP server，让宿主 Agent 多一种能力**"来扩展 Agent，可对照"**记住**"与"**发声**"两种扩展方向。
 - **几乎同题的另一篇，差别正好互补**：[VoiceStudio：全本地运行的 AI 语音工作室（AGPL 的 ElevenLabs 替代）](VoiceStudio-全本地运行的AI语音工作室与ElevenLabs替代.md)——两篇都是"本地优先的开源 AI 语音工作室 / ElevenLabs 替代"，但**许可**（本篇 **MIT**，那篇 **AGPL-3.0**）、**桌面壳**（本篇特意强调"**不是 Electron**"用 Tauri，那篇 0.5.3 后改为 Electron）、**规模**（本篇 8 个 TTS 引擎 / 23 语种，那篇自称 646 语种）、**给 Agent 发声的契约**（本篇坚持"**绝不静默**"并按客户端绑定音色，那篇走"本地 API + MCP"）、**维护方式**（本篇由外部 Agent 团队推进，那篇有 Agent PR 指南 + 身份校验 + CLA 自动化）各不相同。**要选型时建议两篇对着读。**
+- **本篇所装引擎的独立单篇（同组三篇）**：[Qwen3-TTS](Qwen3-TTS-阿里开源的端到端语音生成与克隆模型.md)（**Apache-2.0**，授权最宽松）· [VibeVoice](VibeVoice-微软开源语音AI的TTS下架与ASR演进.md)（**TTS 已下架**，引用其 TTS 段落时须注意）· [fish-speech](fish-speech-Fish-Audio的开源语音生成与克隆模型.md)（**FACL：营收门槛 + Hosted Service 需单独授权**）。想弄清"某个引擎能不能商用、还在不在维护"时，回这三篇看细节。
 
 ## 参考来源
 

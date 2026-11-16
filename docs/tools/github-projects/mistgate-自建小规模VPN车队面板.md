@@ -64,6 +64,10 @@
 - **同为"自托管服务"的成熟样本**：[gitea：自托管一体化 Git 服务平台](gitea-自托管一体化Git服务平台.md)——Go 单二进制、MIT、9 年持续维护、两条版本线并存；可对照"自托管产品的部署与分发形态"（Release 资产规模、Docker / rootless、版本节奏）。
 - 本页索引位置：[GitHub 项目收藏](README.md)
 - **同为"自托管网络基础设施面板"，层面不同**：[Linux-Router](Linux-Router-把Debian设备变成路由器的Web控制台.md)——那篇是**无特权 Flask Web + root Agent** 管**一台设备的有线 / Wi-Fi / 热点**；本篇是 **Go 单二进制 + SQLite** 管**多台服务器的代理节点**。可对照"管本机网络"与"管多台节点"两种取向。
+- **客户端侧的另一个平台**：[B-box：基于 sing-box 换 Flutter 新界面的安卓客户端](B-box-基于sing-box换Flutter新界面的安卓客户端.md)——那是 **Android 上的 sing-box 客户端**（非官方分支，界面为 Flutter）；本篇在**服务端**管节点车队。一个"建节点 / 管节点"，一个"在 Android 上消费节点"，常配套使用。
+
+- **同为"自托管服务"的样本**：[tymeslot：Calendly / Cal.com 的开源自托管替代](tymeslot-开源自托管的日程预约平台.md)——那是"单容器内含 Postgres"的日程预约平台，与本篇的 Go 单二进制 + SQLite 可对照**自托管产品的打包与分发形态**。
+- **同为"运维面板 / 自托管服务"，体量不同**：[openITCOCKPIT：给 Nagios / Naemon / Prometheus 做配置界面的开源监控平台](openITCOCKPIT-给Nagios与Prometheus做配置界面的监控平台.md)——那是 `development` 分支、PHP + MySQL、前后端分仓的企业向监控平台，本篇是轻量自托管面板；可对照两种体量与部署方式。
 
 ## 参考来源
 

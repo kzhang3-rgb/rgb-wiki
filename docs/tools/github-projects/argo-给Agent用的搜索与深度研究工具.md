@@ -82,6 +82,9 @@
 - **都提供 MCP 出口，给出的东西不同**：[newsnow：实时热点新闻聚合阅读器](newsnow-实时热点新闻聚合阅读器.md) 通过 MCP 给**热榜数据**，本篇通过 MCP 给**检索与核验能力**——"给数据"与"给能力"两类 MCP 服务器。
 - **它接入的宿主生态**：[deepseek-harness：DeepSeek 开源 Agent 框架](deepseek-harness-DeepSeek开源Agent框架.md)——argo 自带 DSH 插件（topics 含 `dsh-ecosystem` / `dsh-plugin`），可对照"给宿主加一个搜索 / 研究能力"的接线方式。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **都服务"深度研究"，一个给证据、一个管流程**：[Supervisor-Skills：把博导经验炼化成 AI 科研副导师技能](Supervisor-Skills-把博导经验炼化成AI科研副导师技能.md)——本篇是**搜索与证据评分后端**（200+ 源、RRF 融合、证据快评）；那篇的 `deep-research` 技能是**流程与写作规范**（多视角检索 + 逐条引用核验 + MECE 综合）。可对照"**提供证据**"与"**约束怎么用证据**"。
+- **同属"给 Agent 的检索能力"，垂直度不同**：[qiaomu-seo：覆盖 Google、Bing 与 AI 搜索的 SEO 技能](qiaomu-seo-覆盖Google与Bing及AI搜索的SEO技能.md)——那篇把检索聚焦到**搜索链路与 SEO 证据**上（并分别检查各 AI 搜索面的可访问性）；本篇做**通用搜索与深度研究**。可对照"**泛研究**"与"**垂直诊断**"。
+- **都服务"深度研究"，一个给证据、一个溯源到原文**：[imozuru：芋づる式地把未知领域挖到原文的 Claude Code 技能](imozuru-逐条溯源到原文的ClaudeCode技能.md)——本篇是**搜索与证据评分后端**（多源召回再排序）；imozuru 的取向相反：**不给你摘要、只把每条论断指回"哪个文件第几行"**（并逐字机械核对引用）。可对照"**召回并排序证据**"与"**只给原文位置**"两种可信度策略。
 
 ## 参考来源
 

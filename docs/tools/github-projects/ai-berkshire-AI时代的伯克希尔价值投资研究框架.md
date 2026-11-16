@@ -79,6 +79,7 @@
 - **几乎同题、形态相反的另一篇**：[augur：本地优先的投资研究记忆系统](augur-本地优先的投资研究记忆系统.md)——两篇都做"**AI + 价值投资研究**"，但**路子相反**：本篇是**挂在 Claude Code / Codex 上的 Skill 合集**（**四位**大师、多 Agent 并行、22 个 Skill、三层架构、反偏见清单），那篇是**独立 CLI / 库 + Dashboard + MCP**（**十八位**大师、**强调证据时间语义与不可变 RunBundle 复查**、缺数据 `abstain`）。**一个把"决策纪律"写进流程，一个把"证据可审计"写进数据模型。**选型建议两篇对着读。
 - **A 股多 Agent 分析的近邻**：[easy_investment_Agent_crewai：A股多 Agent 分析平台](easy_investment_Agent_crewai-A股多Agent分析平台.md)——那篇用 **CrewAI** 编排 A 股分析 Agent；本篇是**大师方法论 + 多 Agent 对抗**的价值投资框架。可对照"**多 Agent 投研**"的两种编排方式与目标市场。
 - **投研工作台的近邻**：[Vibe-Research：A股美股港股投研工作台](Vibe-Research-A股美股港股投研工作台.md)——可对照"**投研工具**"的两种交付形态：一个是**提示词/Skill 框架**（挂在你已有的编码 Agent 上），一个是**工作台**（自成一体的研究组织界面）。
+- **A 股 AI 投研工作台的近邻（许可反而更紧）**：[easy-stock：A 股 AI 智能投研工作台](easy-stock-A股AI智能投研工作台.md)——那篇是 **Go + React/TS + Electron 的完整工作台**（行情 / 题材 / 四级研究 / 持仓巡检四维评分 / 持仓优化），但许可是 **PolyForm Noncommercial 1.0.0（源码可用、非商业）**；本篇是 **MIT + Skill 框架**（挂在你已有的编码 Agent 上）。两者可对照"**开源授权**"与"**源码可用**"的实际差别。
 
 ## 参考来源
 

@@ -100,6 +100,7 @@ docker compose up --build
 - **取数与依赖对照**：[a-stock-data](a-stock-data-A股全栈数据工具包.md)（把多数据源封成单个 Skill 文件）、[cli-anything-tdx-tq](cli-anything-tdx-tq-通达信TQ命令行工具.md)（本机通达信客户端 SDK）、[stock-tui](stock-tui-终端里看A股K线与基本面.md)（AKShare 终端查询）——本篇走的是"**商业数据服务 + 插件化自定义源**"路线。
 - **回测与指标**：[indicator](indicator-Go技术指标与回测框架.md)、[ai_quant_trade](ai_quant_trade-AI量化交易操盘手.md)。
 - **"数据缺失不填 0"的同类实践**：[US_Stock_Crash_Monitor](US_Stock_Crash_Monitor-美股风险监测面板.md)、[Vibe-Research](Vibe-Research-A股美股港股投研工作台.md)。
+- **同为"自托管 A 股量化系统"，技术栈与授权口径对照**：[InStock：抓数到自动交易的 A 股量化系统](InStock-A股量化选股与自动交易系统.md)——那是 **Python + MySQL + Web + TA-Lib** 的传统单机栈、**Apache-2.0 但依赖含"第三方商业控件评估版"**、且已 **7 个多月无提交**（15k Star）；本篇是 **Polars / DuckDB / Parquet + FastAPI + React** 的现代栈、README"严禁商用"与 MIT 冲突。两篇放在一起看"**技术选型**"与"**授权 / 维护口径**"很直观。
 
 ## 参考来源
 

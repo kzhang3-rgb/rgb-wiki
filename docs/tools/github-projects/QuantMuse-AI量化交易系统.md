@@ -66,6 +66,7 @@
 - **同为 AI 量化平台**：[QuantDinger：开源的 AI 交易操作系统](QuantDinger-开源AI交易操作系统.md)、[ai_quant_trade：AI 量化交易操盘手](ai_quant_trade-AI量化交易操盘手.md)——那两者一个自带 MCP/Agent 层、一个更偏"操盘手"流程；本篇更偏"因子 + 策略 + 回测"的经典量化栈。
 - **投研/选股方向**：[Vibe-Research：A股美股港股投研工作台](Vibe-Research-A股美股港股投研工作台.md)、[KHunter：A股量化选股系统](KHunter-A股量化选股系统.md)、[tick-stock-panel：自托管A股量化工作台](tick-stock-panel-自托管A股量化工作台.md)——多聚焦 A 股；本篇覆盖加密 + 美股。
 - **入门读物对照**：[xquant-beginner：人人都是量化交易员开源书](xquant-beginner-人人都是量化交易员开源书.md)。
+- **同为 A 股量化系统，技术栈与维护状态不同**：[InStock：抓数到自动交易的 A 股量化系统](InStock-A股量化选股与自动交易系统.md)——那是 **Python + MySQL + Web + TA-Lib** 的传统单机栈、功能一路覆盖到自动交易，但已停更约 7 个月；本篇是"因子 + 策略 + 回测"的经典量化栈。
 
 ## 参考来源
 

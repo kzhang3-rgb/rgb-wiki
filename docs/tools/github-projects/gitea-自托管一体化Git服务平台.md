@@ -67,6 +67,8 @@ README 给出的入口比较直接：官方 Demo `demo.gitea.com`、托管服务
 - **真实项目里的 `AGENTS.md` 样本**：[agents.md：给编码助手用的 AGENTS.md 文件格式](agents.md-给编码助手用的AGENTS文件格式.md)——Gitea 根目录的 `AGENTS.md`（约 2.8 KB）是又一个大型样本。
 - **同为"开源替代 + 自托管"**：[docuseal](docuseal-开源自托管电子签名与PDF表单平台.md)——那是 DocuSign 的开源替代（AGPL-3.0 + Section 7(b) 附加署名条款，另有付费 Pro 功能），本篇是自托管 Git 平台；可对照两者的许可策略与自托管运维成本。
 
+- **同为"开源替代 + 自托管"的取舍样本**：[tymeslot：Calendly / Cal.com 的开源自托管替代](tymeslot-开源自托管的日程预约平台.md)——那是日程预约平台（单容器内含 Postgres、**AGPL-3.0 + 商标条款**、云版另有付费档），本篇是自托管 Git 平台；可对照两者的许可策略与运维成本。
+
 ## 参考来源
 
 - 项目仓库与 README：https://github.com/go-gitea/gitea

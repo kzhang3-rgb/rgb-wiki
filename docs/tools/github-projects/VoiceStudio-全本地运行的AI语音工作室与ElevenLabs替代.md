@@ -91,6 +91,7 @@
 - **同属"在本机跑大模型、并对外暴露本地接口"**：[colibri：在普通硬件上跑分层 MoE 推理的 C 引擎](colibri-在普通硬件上跑分层MoE推理的C引擎.md)——那篇是**文本大模型**的本地推理引擎（本地 OpenAI / Anthropic 兼容网关 + MCP，硬门槛是磁盘）；本篇是**语音模型**的本地工作室（本地 API + MCP，硬门槛是显存 / 时间）。可对照"把模型跑在本机再开一个本地接口"的两种落地。
 - **同属"桌面音频应用"**：[honeydew：用 Rust 复刻 FL Studio Mobile 的音乐工作室](honeydew-用Rust复刻FL-Studio-Mobile的音乐工作室.md)——那篇是**音乐制作**（插件宿主 VST3 / CLAP、纯 Rust、GPL-3.0）；本篇是**语音生成与处理**（多引擎可插拔、Electron + Python、AGPL-3.0）。两者在"多引擎 / 插件化管理"与许可选择上可对照。
 - **MCP 作为"应用把自己开放给 Agent"的入口**：[servers：MCP 官方参考服务器合集](servers-MCP官方参考服务器合集.md)——本篇内置 MCP 与本地 API，属于"业务型 MCP 服务器"；可对照官方参考实现看这类"自带 MCP 的应用"长什么样。
+- **同组语音模型的独立单篇（选引擎前先看许可）**：[Qwen3-TTS](Qwen3-TTS-阿里开源的端到端语音生成与克隆模型.md)（Apache-2.0）· [fish-speech](fish-speech-Fish-Audio的开源语音生成与克隆模型.md)（**FACL 营收门槛 + Hosted Service 须单独授权**）· [VibeVoice](VibeVoice-微软开源语音AI的TTS下架与ASR演进.md)（**TTS 已下架**）。本篇是"把引擎装进成品工作室"，那三篇是"引擎本身"——**本篇强调的'模型 / 音色 / 输出许可要分层展示'，正好要用到这三篇的许可细节**。
 
 ## 参考来源
 

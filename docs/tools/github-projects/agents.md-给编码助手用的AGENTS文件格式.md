@@ -74,6 +74,9 @@ pnpm run dev
 - **不放 `AGENTS.md`、但把 Agent 产物留档的对照样本**：[Ac-Wiki：大学生的百科全书](Ac-Wiki-大学生的百科全书.md)——它没有 `AGENTS.md`，却把 Agent 生成的 `plans/`、`specs/` 留在 `docs/superpowers/` 并用 MkDocs 的 `exclude_docs` 排除出站点（**内容入库、不发布**）。可对照"给助手写指令"与"把助手产物归档"两种做法。
 - **把提示词当指令注入的风险样本**：[PromptJailbreakManual：Prompt 越狱手册](PromptJailbreakManual-Prompt越狱手册.md)——一份中文的 Prompt 注入 / 越狱手册；它正好说明"来源不明的提示词若被当成 `AGENTS.md` 或系统提示使用"时的风险边界。本笔记只记其元数据与章节结构。
 - **"给 AI 的文件"的另一面：这份是 Agent 写给自己的**：[mnemos-mcp：让 AI 拥有自己长期记忆的 MCP 服务器](mnemos-mcp-让AI拥有自己长期记忆的MCP服务器.md)——`AGENTS.md` 是**你替助手写的静态指令**，那篇是**助手给自己写的动态记忆**（用它自己的话写下值得保留的事，每次会话带着它醒来）；可对照"人写给 AI 的说明"与"AI 写给下一个自己的记忆"。
+- **同属"给编码助手用的指令 / 角色资产"，载体不同**：[agency-agents：326 个 AI 专家角色的 Agent 定义库](agency-agents-326个AI专家角色的Agent定义库与多工具安装器.md)——它把角色定义**转成约 15 种工具格式**（Cursor `.mdc`、Codex TOML、Kimi YAML、OpenClaw `SOUL`/`AGENTS`/`IDENTITY` 等），可作"**`AGENTS.md` 之外的其它指令载体长什么样**"的对照样本。
+
+- **"给 AI 的静态说明"与"自动积累的动态记忆"之分**：[memorax-code：给 AI 编程助手加一层跨会话记忆的插件](memorax-code-给AI编程助手加跨会话记忆的插件.md)——`AGENTS.md` 是**人写的、随仓库走的静态指令文件**，那篇是**Agent 后台自动积累、需连云端的动态记忆**（其 Repo Memory 与 `AGENTS.md` 目的重叠）；可对照"**静态约定**"与"**动态记忆**"两条路线。
 
 ## 参考来源
 

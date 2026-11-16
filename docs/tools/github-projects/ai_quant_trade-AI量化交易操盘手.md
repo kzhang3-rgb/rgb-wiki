@@ -81,6 +81,8 @@ README 的"新特性"表里有一些很醒目的结论：
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 同属 A 股分析类、可对比实现路线：[KHunter](KHunter-A股量化选股系统.md)（技术形态与评分，不涉及机器学习）、[easy_investment_Agent_crewai](easy_investment_Agent_crewai-A股多Agent分析平台.md)（CrewAI 多 Agent）。
 - 同为"开源本体 + 付费内容"模式：[wealthfolio](wealthfolio-本地优先个人财务追踪器.md)（本体开源、券商同步为订阅）。
+- **同属"AI + 量化交易"，形态不同**：[ai-hedge-fund：把 AI 对冲基金做成可长期运行的终端系统](ai-hedge-fund-可回测与模拟盘的AI对冲基金引擎.md)——本篇是持续更新的量化交易学习合集（策略 / 机器学习 / 强化学习 / 大模型 / 实盘部署）；那篇是一个具体项目的完整实现。可对照"资料索引"与"可运行系统"。
+- **同属"量化交易"，一个偏资料、一个能直接跑**：[InStock：抓数到自动交易的 A 股量化系统](InStock-A股量化选股与自动交易系统.md)——本篇是**学习合集**；那是一套**可直接运行的 A 股系统**（含筹码分布、61 形态、回测与 GUI 自动化自动交易）。
 
 ## 参考来源
 

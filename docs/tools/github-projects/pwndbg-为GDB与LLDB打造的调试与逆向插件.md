@@ -71,6 +71,8 @@ pwndbg（读作 /paʊnˈdiˌbʌɡ/）是一个 **GDB 与 LLDB 插件**，目标�
 - **逆向与渗透技能路由**：[reverse-skill](reverse-skill-逆向与渗透技能路由包.md)——组织逆向/渗透相关技能与工具时的入口。
 - 索引位置：[GitHub 项目收藏](README.md)。
 
+- **同属"漏洞利用 / 逆向"材料，一个是工具、一个是公告**：[NoisyTCP：Linux 内核 TCP 预认证远程崩溃漏洞（CVE-2026-99288）的披露仓库](NoisyTCP-Linux内核TCP预认证远程漏洞披露仓库.md)——那篇是一份**已公开的 Linux 内核竞态漏洞公告**（只记录元数据与结构，不含利用步骤），本篇是研究这类漏洞时用来**动态调试**的工具；可对照"研究一个漏洞"时"**一手公告**"与"**调试工具**"两种材料。
+
 ## 参考来源
 
 - 项目仓库与 README：<https://github.com/pwndbg/pwndbg>（README 取自 `raw.githubusercontent.com/pwndbg/pwndbg/dev/README.md`）

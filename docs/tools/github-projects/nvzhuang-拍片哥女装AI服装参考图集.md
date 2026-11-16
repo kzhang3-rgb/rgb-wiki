@@ -72,6 +72,8 @@
 - **它的本地生图工作流，正是那套 ComfyUI 节点**：[ComfyUI-MiniMaxH3-Easy：MiniMax H3 视频节点套件](ComfyUI-MiniMaxH3-Easy-MiniMaxH3视频节点套件.md)——本项目的本地零成本换装走的正是 ComfyUI，内置工作流就是 Qwen-Image-Edit-2511 与 **MiniMax H3** 双方案，未就绪时回退 H3；一篇讲"这些节点怎么用"，一篇讲"这些节点被用在什么产品里"。
 - **同为"用 AI 生图产出可复用视觉资产"**：[agent-sprite-forge：给 Codex 的 2D 游戏精灵生成技能](agent-sprite-forge-给Codex的2D游戏精灵生成技能.md)——本篇是图库型（成品图集 + 多模型换装），那边是流水线型（Agent 现场按管线生成精灵与地图），可对照两种 AI 生图组织方式。
 - **本地生图吃的那口算力**：[nv-uefi-unlocker：在驱动加载前解锁 NVIDIA 显卡的算力钳制](nv-uefi-unlocker-驱动加载前解锁NVIDIA显卡算力.md)——本项目的 ComfyUI 本地模式是否跑得动、多快，直接取决于本机显卡的可用张量吞吐。
+- **都用 AI 生成图像素材，角色不同**：[qwen-image-local：在 8 GB 显卡上本地跑 Qwen-Image 的桌面工具](qwen-image-local-在8GB显卡上本地跑Qwen-Image的桌面工具.md)——本篇是**用 AI 做的女装参考图集（内容产物）**，换装可选接本地 ComfyUI；qwen-image-local 是**生产这类图像的本地工具**（8 / 12 GB 显卡上跑 Qwen-Image-2.1 文生图与编辑），可对照"**产物**"与"**工具**"。
+- **同属"用 AI 做人物图像 / 姿势参考"，取向不同**：[qwen21-nsfw-pose-skill：Qwen-Image 2.1 的本地姿势出图配方技能](qwen21-nsfw-pose-skill-本地NSFW姿势出图配方技能.md)——那篇是 **ComfyUI 本地出图的姿势配方技能**（136 个姿势库 + 大胆度阶梯 L0–L3，**NSFW 取向**，本仓库同样只记元数据与结构）；本篇是**女装 AI 服装参考图集 + 虚拟试穿**。可对照"**姿势控制**"与"**服装参考图库**"两种人物图像组织方式。
 
 ## 参考来源
 

@@ -118,6 +118,8 @@ npm test               # 984 个测试
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同属"把图形 / 可视化做成 Agent 技能"**：[srt-whiteboard-animation：把 SRT 字幕做成白板手绘动画的技能](srt-whiteboard-animation-把SRT字幕做成白板手绘动画的技能.md)——那篇把**字幕 → 白板手绘动画**；本篇把**需求 → 手写 SVG 图表**。两者都**让 Agent 产出规范化图形**，可对照它们的**规则固化和验收方式**。
 - **同属"给 Codex / Claude Code 装能力"的技能与插件**：[agent-sprite-forge：给 Codex 的 2D 游戏精灵生成技能](agent-sprite-forge-给Codex的2D游戏精灵生成技能.md) · [vibe-wise：边写边学的 Claude Code 与 Codex 插件](vibe-wise-边写边学的Claude-Code与Codex插件.md) · [jobflow-for-codex：面向 Codex 的本地求职工作流](jobflow-for-codex-面向Codex的本地求职工作流.md)——都是"**把一类流程 / 规则固化进 Agent 插件**"，**本篇的独特之处是配了一个可判定的 linter**，可对照"**技能 + 检查器**"与"**纯技能 / 纯提示词**"的差异。
+- **同属"助手直接产出视觉资产"，产物形态相反**：[ip-as-logo-skill：把 IP 吉祥物做成极简圆润 Logo 的 Agent 技能](ip-as-logo-skill-把IP吉祥物做成极简圆润logo的Agent技能.md)——那篇只出**位图角色形象**、明确**不碰 SVG**；本篇产**可校验的矢量 SVG 图表**。可对照"**确定性的矢量产物**"与"**随机的位图抽取**"。
+- **同属"让 Agent 产出 SVG 图形"，产物取向不同**：[anatomy：做机器等距解剖插图的 Agent 技能](anatomy-做机器等距解剖插图的Agent技能.md)——那篇**用绘图库造等距机械实体图并做几何审计**（无穿透证明 + 线条端点检查）；本篇偏**手写 SVG 做常规图表并配零依赖 linter**。可对照"**一般图表**"与"**机制插图**"。
 
 ## 参考来源
 

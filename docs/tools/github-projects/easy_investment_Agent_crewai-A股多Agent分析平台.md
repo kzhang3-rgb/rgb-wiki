@@ -89,6 +89,7 @@ inputs = {
 - **同为"多 Agent 投研"，编排方式与目标市场不同**：[ai-berkshire：AI 时代的伯克希尔价值投资研究框架](ai-berkshire-AI时代的伯克希尔价值投资研究框架.md)——那篇是**四大师方法论 + 多 Agent 对抗**（挂 Claude Code / Codex 的 Skill 框架，强制结论、反偏见清单），本篇是用 **CrewAI** 编排的 A 股分析平台。可对照"**多 Agent 投研**"的两种编排方式。
 - 同为 A 股分析工具、可对比实现路线：[KHunter](KHunter-A股量化选股系统.md)（技术形态与评分模型，不依赖 LLM）。
 - 同属投资类项目：[US_Stock_Crash_Monitor](US_Stock_Crash_Monitor-美股风险监测面板.md)、[stonkfly](stonkfly-果蝇连接组交易实验.md)。
+- **同属"用多个 Agent 做投资分析"，工程重心不同**：[ai-hedge-fund：把 AI 对冲基金做成可长期运行的终端系统](ai-hedge-fund-可回测与模拟盘的AI对冲基金引擎.md)——本篇用 CrewAI 编排多角色分析 A 股、数据源为 akshare；那篇把"基金"当持久对象，重点在回测 / 模拟盘走同一条代码路径与哈希链账本。可对照"多 Agent 分工"与"可长期运行的基金引擎"。
 
 ## 参考来源
 

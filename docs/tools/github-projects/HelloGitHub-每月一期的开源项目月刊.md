@@ -67,6 +67,7 @@ HelloGitHub 是**一个已经运转了约十年的开源项目推荐月刊**，�
 - **许可证"藏在正文/API 误报"的同类**：[KHunter](KHunter-A股量化选股系统.md)、[servers](servers-MCP官方参考服务器合集.md)、[xquant-beginner](xquant-beginner-人人都是量化交易员开源书.md)。
 - **另一种"策展型"**：[the-book-of-secret-knowledge](the-book-of-secret-knowledge-信息安全与运维清单集.md)——同为长期策展，但它是攒成一份大目录后基本停更（最新提交停在 2024-11-19，经 commits 接口确认为真陈旧），本篇是按月持续出刊；可对照"一次性沉淀"与"持续更新"两种维护方式。
 - **同属"持续更新的中文清单"，但对象不同**：[chinese-independent-developer](chinese-independent-developer-中国独立开发者项目列表.md)——那是按天追加、面向**中国独立开发者产品**的清单（62,007★，默认分支 `master`，无 LICENSE）；本篇是按月出刊、面向**开源项目**的月刊。可对照"产品清单"与"开源项目月刊"两种策展对象与筛选口径。
+- **同属"帮人发现新项目 / 新东西"，节奏相反**：[new-term-radar：赶在关键词工具收录前捕捉 AI 新名字的雷达](new-term-radar-每天抢先捕捉新AI名词的雷达.md)——那篇是**每日自动雷达**（读 X / HF / GitHub / sitemap 信号，快、需自证）；本篇是**人工策展的月度月刊**（慢、可信）。可对照"**自动信号**"与"**人工策展**"。
 
 ## 参考来源
 

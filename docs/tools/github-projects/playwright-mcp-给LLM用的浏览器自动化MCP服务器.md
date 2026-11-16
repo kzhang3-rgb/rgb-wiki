@@ -92,6 +92,7 @@ README 为 20 多个客户端分别给了装法（含 `claude mcp add playwright
 - **同为"提供 MCP server"，暴露的东西不同**：[newsnow](newsnow-实时热点新闻聚合阅读器.md) 通过 MCP 暴露**热榜数据**，本篇通过 MCP 暴露**浏览器自动化能力**——可对照"给 Agent 送数据"与"给 Agent 一双会点鼠标的手"。
 - **同一条"浏览器能力"路线的另一种交付**：[bb-browser：把真实浏览器登录态给 Agent 当 API 的 CLI 与 MCP](bb-browser-把真实浏览器登录态给Agent当API的CLI与MCP.md)——它同样提供 MCP 服务器，但走的是**你自己的真实 Chrome + 真实登录态**（即 bb-sites 适配器的执行宿主），与本篇"干净隔离浏览器"正好是两种取舍。
 - **形态对照（MCP vs SKILL）**：[reverse-skill](reverse-skill-逆向与渗透技能路由包.md) 是把能力打包成 **SKILL 技能路由包**；本篇 README 亲自讨论了 MCP 与 CLI+SKILLS 的取舍，两篇合看能看清"同一份能力用哪种形态交付"。
+- **都通过标准协议把浏览器暴露给 LLM，封装层次不同**：[moli：为 AI Agent 打造的 Rust 无头浏览器](moli-为AI-Agent打造的Rust无头浏览器.md)——本篇是 **MCP 服务器 + Playwright**（靠无障碍树快照、工具化接入）；moli 是**协议原生的无头内核**，一个二进制同时说 **CDP / WebDriver Classic / WebDriver BiDi**，可对照"**MCP 封装**"与"**协议原生内核**"。
 
 ## 参考来源
 

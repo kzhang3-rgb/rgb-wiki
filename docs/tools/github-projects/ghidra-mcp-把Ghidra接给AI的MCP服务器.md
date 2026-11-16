@@ -79,6 +79,7 @@ Windows 写作 `"command": "C:\\Users\\<you>\\.local\\bin\\bridge-mcp-ghidra.exe
 - **同域的上层封装**：[reverse-skill：逆向与渗透技能路由包](reverse-skill-逆向与渗透技能路由包.md)——技能层负责"该用哪个工具"，本篇是被调用的底层能力之一。
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同属"把逆向能力交给 AI Agent"，粒度不同**：[universal-modder：把改任何 PC 游戏做成一整套 Agent 技能](universal-modder-把改任何PC游戏做成一整套Agent技能.md)——它把逆向**编进 Agent 技能与引擎手册**、按需调用 Ghidra；本篇是**把 Ghidra 单独接成 MCP**。一个偏"**用技能编排整个工作流**"，一个偏"**暴露单个工具给任意客户端**"。
+- **同为"把逆向能力接给 Agent"，接的深度不同**：[REA：用 Agent 把软件从行为逆向到原生二进制](rea-用Agent逆向软件行为与原生二进制.md)——那篇自带本地 MCP，把 Ghidra 当作众多 provider 之一（还含 IDA / Kuna / Hopper 与大量内置静态解析）；本篇只服务 Ghidra 一个宿主。可对照"**单工具深接**"与"**多引擎总闸**"。
 
 ## 参考来源
 

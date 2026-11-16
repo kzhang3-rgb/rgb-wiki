@@ -130,6 +130,7 @@ cd lessons/lesson-11 && pytest -q
 - **"成熟产品"一侧的对照样本**：[opencode：开源终端编码 Agent](opencode-开源终端编码Agent.md)——终端优先的开源编码 Agent，可与本教程手写的骨架对照"产品化之后多了什么"。
 - **同为 Datawhale 系中文可运行教程，"驱动模型"之后怎么"训得更好"**：[agentic-rl-lab：用 PyTRIO 复现 LLM / Agent 强化学习算法的中文实验手册](agentic-rl-lab-复现LLMAgent的强化学习算法实验手册.md)——本篇教"从零手写 Agent"（循环 / 工具 / 权限 / 记忆），那篇教"用 Agentic RL 把模型训得更会做事"（GRPO / DAPO / GSPO / Search-R1 / ReTool…）。一个管"怎么驱动"，一个管"怎么训练"。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同属"手写 / 使用 Agent"，形态不同**：[dontbemichael：用现有订阅跑一屋子 Agent 的本地多 Agent 框架](dontbemichael-用现有订阅跑一屋子Agent的本地多Agent框架.md)——本篇**讲原理、带你手写**从零 Agent（循环 / 工具 / 权限 / 记忆），那篇是**开箱即用的桌面编排应用**（一屋子会员 + 邮箱 + 审批）；可对照"教程"与"应用"两种形态。
 
 ## 参考来源
 

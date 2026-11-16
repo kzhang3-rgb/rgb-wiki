@@ -79,6 +79,8 @@ public/models/     optimized GLBs     docs/   engine guide, briefs, media
 - **同用 fal 生成资产，产物不同**：[universal-modder：把「改任何 PC 游戏」做成一整套 Agent 技能](universal-modder-把改任何PC游戏做成一整套Agent技能.md)——两篇都靠 **fal** 出美术/3D（本篇是"图 → 3D 模型 → WebGL 网站"，那篇是"图 → 3D 模型 → 游戏 Mod"）。可对照**同一条资产管线在不同产物上的复用**，以及**许可处理方式**（那篇不分发游戏资源，本篇明确"代码 MIT / 资产 CC BY 4.0"）。
 - **同为"AI 生成游戏/网页素材"**：[agent-sprite-forge：给 Codex 的 2D 游戏精灵生成技能](agent-sprite-forge-给Codex的2D游戏精灵生成技能.md)——那篇专攻 **2D 精灵**（单张/动画表），本篇是 **3D 资产 + 引擎**。可对照"**生成素材**"在 2D 与 3D 两条路上的工具链差异。
 - **"由 AI 编码 Agent 搭出成品"的近邻**：[craft-anything：看清软件如何工作，再用 AI 重建自己的版本](craft-anything-看清软件如何工作再用AI重建自己的版本.md)——那篇用 AI 重建**已有软件**（clean-room），本篇用 AI **从 brief 搭新页面**（对着自己的引擎）。可对照"**把 AI 编码 Agent 当主力施工队**"的两种任务类型。
+- **同属"用 AI 生成素材做出成品"，分工不同**：[qwen-image-local：在 8 GB 显卡上本地跑 Qwen-Image 的桌面工具](qwen-image-local-在8GB显卡上本地跑Qwen-Image的桌面工具.md)——那篇**产出图像本身**（本地跑权重、文生图 / 编辑），本篇把生成的 3D 素材**组装成 3D 网站**。可对照"**素材生成**"与"**素材组装**"。
+- **同属"用 AI 素材做 3D 感视觉"，驱动方式不同**：[anatomy：做机器等距解剖插图的 Agent 技能](anatomy-做机器等距解剖插图的Agent技能.md)——那篇是**代码生成的等距技术插图**（偏工程化几何与自检），本篇是**AI 素材组装成的电影感 3D 网站**（偏观感驱动）。可对照"**结构驱动**"与"**观感驱动**"。
 
 ## 参考来源
 

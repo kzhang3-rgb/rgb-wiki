@@ -96,6 +96,8 @@
 - **同为"多平台聚合下载"，媒介与许可不同**：[galaxy-downloader](galaxy-downloader-多平台媒体下载器.md) 是**视频/图文为主的网页应用**（解析靠作者自建后端、自定义非开源许可），本篇是**音频为主的 Go 服务**（可 Docker 自托管、AGPL-3.0）——前者托管、后者自持。
 - **同为"多平台下载器"，许可取向相反**：[videodl](videodl-纯Python的轻量级多平台视频下载器.md) 是**视频、PolyForm Noncommercial（允许非商业、禁止商用）**，本篇是**音频、AGPL-3.0（强传染）**——一个要求"不得商用"、一个要求"衍生也开源"，正好是两种相反的许可取向。
 
+- **同为"下载工具"，媒介与许可不同**：[FluxDown：Rust 驱动的多协议下载管理器](FluxDown-Rust写的多协议下载管理器.md)——那是 Rust 引擎的多协议管理器（含桌面 / 移动 / Web / CLI），本篇是音频为主、可 Docker 自托管的 Go 服务；可对照两者在"自托管 + AGPL"上的不同落点。
+
 ## 参考来源
 
 - 项目仓库与 README：https://github.com/guohuiyuan/go-music-dl
