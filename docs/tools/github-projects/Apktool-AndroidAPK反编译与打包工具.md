@@ -63,6 +63,7 @@ README 明确声明：Apktool **不**用于盗版及其他非法用途，其正�
 - **原生库层的逆向**：[ghidra](ghidra-NSA开源的软件逆向工程框架.md)——APK 里带 `.so` 原生库时，资源/smali 之外常要落到 Ghidra 做汇编级分析。
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **"改包"能力的上下游**：[MapAdKiller](MapAdKiller-高德百度腾讯地图去广告LSPosed模块.md)——其免 root 内置版本质是重签名宿主 APK，与 Apktool 的反编译 / 重打包能力互为上下游。
+- **同为"把平台分发的应用包还原成可分析形态"，平台相对**：[fairplay-decrypt：离线解密 App Store IPA 的 FairPlay 工具](fairplay-decrypt-离线解密App-Store-IPA的FairPlay工具.md)——那是 **iOS** 侧把 App Store IPA **离线解密**（移除 FairPlay 加密）成可分析 Mach-O；本篇是 **Android** 侧 APK 反编译 / 重打包。两者都是"拿到平台应用包后把它变成可读 / 可改的形态"，可对照 iOS 与 Android 在"加密—打包—签名"上的差异（⚠️ 前者涉及 DRM 规避，使用时须先确认授权与合法性边界）。
 
 ## 参考来源
 

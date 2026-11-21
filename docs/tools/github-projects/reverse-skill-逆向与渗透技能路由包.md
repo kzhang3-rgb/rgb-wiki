@@ -105,6 +105,8 @@ powershell -File skills/scripts/extract-summaries.ps1 -Check
 - **它路由到的那一层底层工具（本批新收录）**：本篇负责"该用哪个工具"，这一批则是被它调用的底层能力——[ghidra](ghidra-NSA开源的软件逆向工程框架.md)（反汇编/反编译平台）、[Apktool](Apktool-AndroidAPK反编译与打包工具.md)（APK 资源/smali 反编译）、[binwalk](binwalk-固件与二进制镜像分析工具.md) 与 [unblob](unblob-从任意容器格式中提取文件.md)（固件/容器提取）、[pwntools](pwntools-CTF与漏洞利用开发框架.md) 与 [pwndbg](pwndbg-为GDB与LLDB打造的调试与逆向插件.md)（Pwn 开发与调试）、[LIEF](LIEF-可执行文件格式解析与改写库.md)（可执行文件格式解析/改写）、[Detect-It-Easy](Detect-It-Easy-文件类型与加壳识别工具.md)（类型与加壳识别），以及"给逆向工具接 AI"的 MCP 层 [ghidra-mcp](ghidra-mcp-把Ghidra接给AI的MCP服务器.md)、[radare2-mcp](radare2-mcp-给radare2接AI的MCP服务器.md)、[mcp-windbg](mcp-windbg-给WinDbg接AI的MCP服务器.md)、[jadx-ai-mcp](jadx-ai-mcp-JADX的AI反编译插件.md) 与 [jadx-mcp-server](jadx-mcp-server-给JADX反编译接AI的MCP服务器.md)。
 - **同处"AI + 安全"的两端**：[codex-security](codex-security-OpenAI的开源安全扫描CLI与SDK.md)——本篇偏攻（逆向与渗透技能路由），那篇偏防（语义级漏洞扫描与修复）；可对照攻防两侧"把安全能力交给 Agent"的不同形态。
 - **同为"把逆向能力交给 AI"，分工不同**：[REA：用 Agent 把软件从行为逆向到原生二进制](rea-用Agent逆向软件行为与原生二进制.md)——那篇是**实现层**（自带本地 MCP + CLI，把深度逆向做成工具并产出证据），本篇是**路由层**（只做技能路由与动手前的范围闸门，不自己实现工具）。可对照"**执行**"与"**路由**"。
+- **同为"把逆向能力交给 AI"，交付形态不同**：[IDA-NO-MCP：把 IDA 反编译结果导出成源码文件交给 AI 的免 MCP 工具](IDA-NO-MCP-把IDA反编译结果导出成源码交给AI的工具.md)——它把 IDA（原生二进制宿主）的反编译结果**一次性导出成源码工作区**（含 `AGENTS.md`）交给 AI IDE，属**底层能力 / 交付形态**；本篇是**路由层**（答"该用哪个工具"）。可对照"**导出 + IDE 索引**"与"**技能路由**"。
+- **"上手前的还原步骤"与"该用哪个技能"**：[fairplay-decrypt：离线解密 App Store IPA 的 FairPlay 工具](fairplay-decrypt-离线解密App-Store-IPA的FairPlay工具.md)——它把 **iOS App Store IPA 的 FairPlay 加密离掉**（移除 DRM 保护）产出可分析的 Mach-O，属**上手前的前置还原步骤**；本篇是**技能路由层**（答"该用哪个工具"、并在动手前设范围闸门）。可对照"**先还原 / 解密**"与"**该用哪个技能**"，两者使用前都需确认授权与合法性边界。
 
 ## 参考来源
 

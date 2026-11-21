@@ -85,6 +85,7 @@ dsh plugin --profile web add npm:dsh-plugins-store
 - **插件在手机端的落脚点**：[dsh-Go](dsh-Go-DeepSeek-Harness的安卓客户端.md)——dsh 的第三方 Android 客户端，提供原生工具卡、表单与面板，仓库内含插件 SDK 与示例；一个是"有哪些插件"的目录，一个是"插件在手机上怎么跑"的运行时。
 - **目录里的一类激进插件**：[dsh-purge：给 DeepSeek Harness 打补丁的破甲与红队插件](dsh-purge-给DeepSeek-Harness打补丁的破甲与红队插件.md)——它直接改官方客户端文件而非外围挂载；本篇回答"有哪些插件"，那一篇是"插件能做到多深"的极端样本。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **目录里"按标准插件协议挂载"的一例**：[dsh-pixluna：把 PixLuna 图片能力移植成 DSH 插件的图像工具](dsh-pixluna-把PixLuna图片能力移植成DSH插件的图像工具.md)——它是这类目录可能收录的内容获取类插件，走 **Cordis 标准插件形态**（而非直接改宿主文件）；可对照"有哪些插件"与"这一枚怎么做"。
 
 ## 参考来源
 

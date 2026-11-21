@@ -79,6 +79,7 @@
 - **另一条"把真实浏览器登录态交给 Agent"的路线**：[bb-browser：把真实浏览器登录态给 Agent 当 API 的 CLI 与 MCP](bb-browser-把真实浏览器登录态给Agent当API的CLI与MCP.md)——它把**网站**变成命令行指令（sites → commands），本篇是**通用浏览器操作**。两者都在"Agent 如何安全地使用你的登录态"这件事上踩同一片雷区。
 - **AI 抓取/研究方向的近邻**：[firecrawl：把网站转成 LLM 可用数据的抓取 API](firecrawl-把网站转成LLM可用数据的抓取API.md)——那是"**取数据**"的专精路线（抓取 → 干净 Markdown/JSON），本篇是"**像人一样操作网页**"的通用路线；需要"登录后点按钮办事"时只能选本篇这类。
 - **同属"给 AI 用的浏览器自动化"，层次不同**：[moli：为 AI Agent 打造的 Rust 无头浏览器](moli-为AI-Agent打造的Rust无头浏览器.md)——本篇是**驱动浏览器完成任务的 Python 库**（Agent 层，写代码对着 CDP 执行）；moli 是**被驱动的独立无头浏览器内核**（执行层，Rust 自建、按需布局），可对照"**Agent 编排**"与"**内核 / 运行时**"。
+- **本篇 `mode='ultrafast'` 的前身就是这个实验仓库**：[Jev Ultrafast：让浏览器 Agent"选择"而非"生成"的索引化动作空间](jev-ultrafast-让浏览器Agent选择而非生成的索引化动作空间.md)——那是 Browser Use × TypeSafe 的**原始实现**（索引化元素表 + 一次往返同时给"操作 + 目标"，仅 `TYPE_TEXT` 才调小 LLM），后被吸收为本篇的 `ultrafast` 模式。**要"用"看本篇；要读"它从哪来、怎么设计的"看那篇。**
 
 ## 参考来源
 

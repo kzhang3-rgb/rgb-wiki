@@ -67,6 +67,7 @@
 - **固件/镜像分析里的格式识别与提取**：[binwalk](binwalk-固件与二进制镜像分析工具.md)——与 LIEF 的格式解析能力互补。
 - **识别文件类型与加壳的工具**：[Detect-It-Easy](Detect-It-Easy-文件类型与加壳识别工具.md)——常与 LIEF 出现在同一条逆向分析流程里。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同为"处理 Mach-O"，场景不同**：[fairplay-decrypt：离线解密 App Store IPA 的 FairPlay 工具](fairplay-decrypt-离线解密App-Store-IPA的FairPlay工具.md)——它解密 iOS IPA 时会处理 **arm64 Mach-O**（解密加密页并清除 `cryptid`），可视为"**面向 Mach-O 的一种特定改写**"；LIEF 提供通用的 Mach-O / PE / ELF 解析与改写能力，两者在"处理 Mach-O"上互补（⚠️ 前者涉及 DRM 规避，见该篇的法律与授权提示）。
 
 ## 参考来源
 

@@ -120,6 +120,7 @@ moli serve --layout --resource  # 再抓取可选的图像/字体/音频/视频/
 - **都通过标准协议把浏览器暴露给 LLM**：[playwright-mcp：给 LLM 用的浏览器自动化 MCP 服务器](playwright-mcp-给LLM用的浏览器自动化MCP服务器.md)——那篇是 **MCP 服务器 + Playwright**；本篇以**统一二进制同时说 CDP / WebDriver**。可对照"**MCP 封装**"与"**协议原生内核**"。
 - **都强调"把真实浏览器能力交给 Agent"，入口不同**：[bb-browser：把真实浏览器登录态给 Agent 当 API 的 CLI 与 MCP](bb-browser-把真实浏览器登录态给Agent当API的CLI与MCP.md) 与 [bb-sites：把网站变成命令行指令的适配器集](bb-sites-把网站变成命令行指令的适配器集.md)——前者复用**真实浏览器登录态**、后者把**网站做成命令行**；本篇是**独立无头内核**。可对照"**复用既有浏览器**"与"**自带内核**"。
 - **都做网页 → LLM 可用数据**：[firecrawl：把网站转成 LLM 可用数据的抓取 API](firecrawl-把网站转成LLM可用数据的抓取API.md)——那篇是**抓取 API / 服务**（`moli fetch --dump markdown` 的输出形态与之相近）；本篇是**本地无头浏览器 + CLI**。可对照"**托管抓取服务**"与"**本地渲染引擎**"。
+- **同属"给 AI 用的浏览器自动化"，本篇是内核、那篇是策略**：[Jev Ultrafast：让浏览器 Agent"选择"而非"生成"的索引化动作空间](jev-ultrafast-让浏览器Agent选择而非生成的索引化动作空间.md)——那是跑在**真实 Chrome 上的 Agent 策略循环**（索引化元素表，把动作空间收窄成"选择"，已并入 `browser-use` 的 `ultrafast` 模式）；本篇是**被驱动的独立无头浏览器内核**（Rust 自建、按需布局）。可对照"**策略 / 决策层**"与"**内核 / 运行时层**"。
 
 ## 参考来源
 

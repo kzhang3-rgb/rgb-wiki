@@ -86,6 +86,7 @@ README 用 `## Current MCP Tools` 一节列出了服务器对外暴露的 MCP �
 - **同领域的安卓打包/反编译工具**：[Apktool](Apktool-AndroidAPK反编译与打包工具.md)——JADX 侧重反编译读代码，Apktool 侧重资源解码与重打包，逆向 Android 时常常互补。
 - **另一条"把反编译器接给 AI"的路线**：[ghidra-mcp](ghidra-mcp-把Ghidra接给AI的MCP服务器.md)——同样是 MCP 服务器，但对接的是 Ghidra，可对比不同反编译器暴露给 AI 的工具设计。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同为"把反编译结果交给 AI"，交付形态相反**：[IDA-NO-MCP：把 IDA 反编译结果导出成源码文件交给 AI 的免 MCP 工具](IDA-NO-MCP-把IDA反编译结果导出成源码交给AI的工具.md)——那篇面向 IDA（原生二进制宿主）、走**把反编译结果导出成源码文件**的路线（**不做 MCP**）；本篇是 JADX 的 MCP 服务器。可对照"**MCP 实时工具**"与"**导出 + IDE 索引**"两种交付形态。
 
 ## 参考来源
 

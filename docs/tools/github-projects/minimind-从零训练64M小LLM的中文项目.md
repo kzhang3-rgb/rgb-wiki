@@ -86,6 +86,7 @@ README 明确"当前默认仅需下载两个 mini 数据文件，即可较快复
 - **同为"小模型 / 端侧"方向的另一条路线**（[kev：一次前向输出校准概率的小模型](kev-一次前向输出概率的小模型.md)）——那个是 0.5B 上挂 LoRA 做结构化决策（不生成文本、只出概率），本篇是从零预训练做生成；可用于对比"微调做决策"与"预训练做生成"的取舍。
 - **模型结构那套架构的原始论文**（[Attention Is All You Need](../../papers/Attention-Is-All-You-Need-纯自注意力取代循环与卷积的Transformer.md)）——本篇的 Decoder-only 结构（Pre-Norm / RMSNorm / RoPE / SwiGLU）都源自那一支；想搞清"代码里每一层对应论文哪一跳"，两篇对着看最省事。
 - **把 "Agentic RL" 这一节单独拆开做实验的仓库**（[agentic-rl-lab：用 PyTRIO 复现 LLM / Agent 强化学习算法的中文实验手册](agentic-rl-lab-复现LLMAgent的强化学习算法实验手册.md)）——本篇链路里的 Agentic RL 只是其中一段，那仓库把这一段扩成 16 个章节（GRPO / DAPO / GSPO / OPSD / Search-R1 / ReTool / ALFWorld…），并用远程 Train API 回避多卡环境。想深入某一篇 RL 算法时从那边找最小实现。
+- **同为"从零训练一个小 LLM"，但走"跟着书逐节手写"的路线**（[LLMs-from-scratch：从零手写并训练一个 GPT 式 LLM 的官方配套代码仓库](LLMs-from-scratch-从零手写并训练一个GPT式LLM的官方配套代码仓库.md)）——本篇是 64M、单卡 3090 约 2 小时、覆盖完整后训练链路的工程教程；那是英文商业书的可运行配套代码，强调"不用外部 LLM 库、与纸书逐节对应"。可对照"工程全流程"与"教学逐节实现"两种从零路线。
 
 ## 参考来源
 

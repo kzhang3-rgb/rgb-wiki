@@ -106,6 +106,7 @@ codex plugin add vibe-wise@vibe-wise
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同属"给 Claude Code / Codex 装能力"的插件与技能**：[jobflow-for-codex：面向 Codex 的本地求职工作流](jobflow-for-codex-面向Codex的本地求职工作流.md)（把求职流程做成技能 + 台账）· [svg-diagram：手写 SVG 图表的 Agent 技能与 linter](svg-diagram-手写SVG图表的Agent技能与linter.md)（house style + 零依赖 linter）。几篇都是"**把一类流程 / 规则固化进 Agent 插件**"，可对照它们的**技能组织、检查点与边界写法**。
 - **同属"用 AI 学习 / 提升"的取向**：[book-to-skill：把技术书转成 Claude Code 技能](book-to-skill-把技术书转成ClaudeCode技能.md)——那篇把**技术书**转成可被 Agent 调用的技能；本篇在**真实编码过程中**陪你推理。一个偏"**把知识装进技能**"，一个偏"**在动手中学习**"，可对照。
+- **同为"给 Claude Code / Codex 装能力"的插件 / 技能**：[Ponytail：让 AI 编码像"最懒的资深开发"一样思考的技能](ponytail-让AI编码像最懒的资深开发一样思考的技能.md)——那篇把**"懒得写代码"**做成 always-on 规则（本体是一份 `SKILL.md` / `AGENTS.md`）；本篇把**教学检查点**做成固定交互。一个偏"**在动手中削减**"，一个偏"**在动手中学习**"。
 
 ## 参考来源
 

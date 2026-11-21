@@ -106,6 +106,7 @@ README 明说"**这是多组件仓库，每个组件按自己的许可证发布�
 - **同为"系统设计"方向**：[SystemDesign：系统设计面试内幕指南中译](SystemDesign-系统设计面试内幕指南中译.md)——那篇是**通用系统设计面试**材料；本篇的 `StaffML` 是**面向 ML 系统的 9000+ 设计题**，可对照两者的题目口径。
 - **同为"从零手写"的教学项目**：[minimind：从零训练 64M 小 LLM 的中文项目](minimind-从零训练64M小LLM的中文项目.md) 与 [NamiAgent：从零手写 Agent 的中文可运行教程](NamiAgent-从零手写Agent的中文可运行教程.md)——前者从零训一个小 LLM，后者从零手写 Agent；**`TinyTorch` 则从零写 ML 框架**，三者都是"**building from scratch**"路线。
 - **同为"复现 / 实验手册"型学习资料**：[agentic-rl-lab：复现 LLM Agent 的强化学习算法实验手册](agentic-rl-lab-复现LLMAgent的强化学习算法实验手册.md)——可对照"实验驱动"与"教材 + 配套工具驱动"两种学习组织方式。
+- **同为"教材 + 可运行配套代码"的开源项目**：[LLMs-from-scratch：从零手写并训练一个 GPT 式 LLM 的官方配套代码仓库](LLMs-from-scratch-从零手写并训练一个GPT式LLM的官方配套代码仓库.md)——本篇讲"**模型之外**"的 ML 系统（并有 `TinyTorch` 从零写框架），那是从零手写**模型本身**（注意力 / GPT）的配套代码。两者都走"教材 + 能跑代码"路线，可对照"讲系统"与"讲模型"的分工。
 
 ## 参考来源
 

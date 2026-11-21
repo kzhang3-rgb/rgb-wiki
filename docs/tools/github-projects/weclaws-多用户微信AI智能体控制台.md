@@ -148,6 +148,7 @@ docker compose --env-file infra/compose/.env -f infra/compose/docker-compose.yml
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同为"把 Agent 接进聊天工具 + 一个控制面"，但宿主与隔离取向相反**：[openclaw：自托管的个人 AI 助手](openclaw-自托管个人AI助手.md)——那是**本地 Gateway 作控制平面**、把助手接进 20 多个聊天渠道、面向**个人**；本篇是**自托管服务端**、只做**微信**一个通道、面向**多用户**。**最关键的差别是沙盒**：openclaw **默认无沙箱、工具直接跑在宿主机**，本篇**默认按用户开远程沙盒**。两篇合看正好覆盖"聊天通道 + Agent"的**个人单机**与**团队托管**两种形态。
 - **都强调"控制面不持有长跑运行态"，领域不同**：[QuantDinger：开源的 AI 交易操作系统](QuantDinger-开源AI交易操作系统.md)——那篇的分界线是"**HTTP API 不再持有长跑的交易 / 调度循环**"，交易 / 调度 / 异步任务 / 迁移各自独立进程；本篇的分界线是"**网页只写入运行意图，supervisor 才拥有运行时，FastAgent CLI 才执行**"。**同一个架构纪律，一个落在交易系统、一个落在多用户 Agent 控制台**，可对照"控制面 / 运行面分离"在不同领域的写法。
+- **同为"把真实微信交给 Agent 操作"，形态相反**：[wechat-use：把 Linux 微信打包成给 Agent 用的 MCP 容器](wechat-use-把Linux微信打包成给Agent用的MCP容器.md)——本篇是**自托管服务端 + 多用户控制台**（网页写运行意图、supervisor 拥有运行时、FastAgent CLI 执行、按用户开远程沙盒）；那篇是**单个容器化的真实 Linux 微信桌面 + 带 token 的 MCP 端点**，Agent 与人类共用同一会话。一个"**多用户托管平台**"，一个"**给一个 Agent 开一扇真实桌面**"，可对照两种把 Agent 接进微信的边界与风险。
 
 ## 参考来源
 

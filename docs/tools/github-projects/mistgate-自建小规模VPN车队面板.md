@@ -69,6 +69,8 @@
 - **同为"自托管服务"的样本**：[tymeslot：Calendly / Cal.com 的开源自托管替代](tymeslot-开源自托管的日程预约平台.md)——那是"单容器内含 Postgres"的日程预约平台，与本篇的 Go 单二进制 + SQLite 可对照**自托管产品的打包与分发形态**。
 - **同为"运维面板 / 自托管服务"，体量不同**：[openITCOCKPIT：给 Nagios / Naemon / Prometheus 做配置界面的开源监控平台](openITCOCKPIT-给Nagios与Prometheus做配置界面的监控平台.md)——那是 `development` 分支、PHP + MySQL、前后端分仓的企业向监控平台，本篇是轻量自托管面板；可对照两种体量与部署方式。
 
+- **同为代理主题、取向相反（买机场 vs 自建）**：[Paolujichang：记录"跑路机场"的社区众包名单仓库](Paolujichang-记录跑路机场的社区众包名单仓库.md)——本篇是**自建面板 + 节点车队**；那篇记录的是**购买"机场"订阅这条路线的风险（跑路 / 异常）**（众包投稿、**未经核实**）。想对比"自己搭"与"买服务"时，两篇合看。
+
 ## 参考来源
 
 - 仓库主页：https://github.com/Mistgate/mistgate （核验日期 2026-11-04）

@@ -83,6 +83,7 @@ pnpm dsh web
 - **同一个官方组织维护的另一份仓库**：[awesome-deepseek-integration：DeepSeek 官方的"实用集成"清单](awesome-deepseek-integration-DeepSeek官方实用集成清单.md)——两份都属 `deepseek-ai`；那份是"官方收录第三方集成"的索引（已停更约 8.5 个月），本篇是"官方自己做的工具"。
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同属"Agent 框架 / harness"，形态不同**：[dontbemichael：用现有订阅跑一屋子 Agent 的本地多 Agent 框架](dontbemichael-用现有订阅跑一屋子Agent的本地多Agent框架.md)——本篇是**可编程的 Agent 框架**，那篇是**开箱即用的桌面编排应用**（一屋子会员 + 邮箱 + 审批）；可对照"框架"与"应用"两种形态。
+- **生态里"按标准插件协议挂载"的一例**：[dsh-pixluna：把 PixLuna 图片能力移植成 DSH 插件的图像工具](dsh-pixluna-把PixLuna图片能力移植成DSH插件的图像工具.md)——它走 **Cordis 标准插件形态**（`inject = ['tools']` + `cordis.patch.yml`）把原 Koishi 插件的能力改成模型可调用的工具；可对照"按插件协议挂载"与"直接改宿主文件"（如 dsh-purge）两条扩展路线。
 
 ## 参考来源
 

@@ -80,6 +80,7 @@ Windows 写作 `"command": "C:\\Users\\<you>\\.local\\bin\\bridge-mcp-ghidra.exe
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同属"把逆向能力交给 AI Agent"，粒度不同**：[universal-modder：把改任何 PC 游戏做成一整套 Agent 技能](universal-modder-把改任何PC游戏做成一整套Agent技能.md)——它把逆向**编进 Agent 技能与引擎手册**、按需调用 Ghidra；本篇是**把 Ghidra 单独接成 MCP**。一个偏"**用技能编排整个工作流**"，一个偏"**暴露单个工具给任意客户端**"。
 - **同为"把逆向能力接给 Agent"，接的深度不同**：[REA：用 Agent 把软件从行为逆向到原生二进制](rea-用Agent逆向软件行为与原生二进制.md)——那篇自带本地 MCP，把 Ghidra 当作众多 provider 之一（还含 IDA / Kuna / Hopper 与大量内置静态解析）；本篇只服务 Ghidra 一个宿主。可对照"**单工具深接**"与"**多引擎总闸**"。
+- **路线对照（MCP 的替代方案）**：[IDA-NO-MCP：把 IDA 反编译结果导出成源码文件交给 AI 的免 MCP 工具](IDA-NO-MCP-把IDA反编译结果导出成源码交给AI的工具.md)——那是**反 MCP** 思路：不做实时工具调用，而是把 IDA 反编译结果**一次性导出成源码工作区**（含 `AGENTS.md` 导航上下文）让 AI IDE 自己去索引；本篇是把 Ghidra **实时接成 MCP**（自述 219 个工具）。可对照"**实时工具调用**"与"**一次性导出 + IDE 索引**"两种交付形态，以及各自对宿主（Ghidra vs IDA）与平台构建的依赖。
 
 ## 参考来源
 

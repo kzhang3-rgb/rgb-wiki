@@ -80,6 +80,7 @@ uv run python train/run.py   # 分词器 → 训练 → 验收 → Web Demo
 - 同为小模型方向的另一条路线：[kev](kev-一次前向输出概率的小模型.md)——那是用 LoRA 微调 0.5B 模型做分类，本篇是从零训练 3.37M 做生成，可用于对比"微调"与"预训练"的取舍。
 - 同为"从零训练一个小 LLM"的另一档规模：[minimind](minimind-从零训练64M小LLM的中文项目.md)——那是 64M、单卡 3090 约 2 小时、覆盖 Pretrain→SFT→LoRA→RLHF/RLAIF→Agentic RL 全链路的工程教程；本篇是 3.37M、CPU 45 分钟、带"Transformer 透视镜"的课堂教具。**一个走"全流程深度"，一个走"极低门槛+可观测"**，可对照两种从零路线的取舍。
 - 本篇实现的架构来源：[Attention Is All You Need](../../papers/Attention-Is-All-You-Need-纯自注意力取代循环与卷积的Transformer.md)——那是提出 Transformer 的原始论文（arXiv 1706.03762，已发表于 NeurIPS 2017），给了架构与论证，本篇是能跑起来的最小实现；想搞清"代码里的每一层对应论文哪一节"，两篇对着看最省事。
+- 同为"能从零跑通的教材配套代码"：[LLMs-from-scratch](LLMs-from-scratch-从零手写并训练一个GPT式LLM的官方配套代码仓库.md)——那是配套英文商业书、逐节手写注意力与 GPT 的实现；本篇是 3.37M、CPU 45 分钟、带"Transformer 透视镜"的中文课堂教具。可对照"体系化教材代码"与"极低门槛可观测教具"的取舍。
 
 ## 参考来源
 

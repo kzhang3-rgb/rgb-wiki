@@ -126,6 +126,7 @@ dsh plugin --profile web add https://codeload.github.com/HunYiSage/dsh-purge/tar
 - **同类"越狱/去审查"主题**：[jailbreaks：大模型越狱提示词集合](jailbreaks-大模型越狱提示词集合.md)——那是提示词样本集合，本篇把注入做成插件并打进客户端；两者都属本站"仅记元数据与结构"的敏感类别。
 - **Prompt 攻防的体系化中文手册**：[PromptJailbreakManual：Prompt 越狱手册](PromptJailbreakManual-Prompt越狱手册.md)——那是人读的手册（含 Prompt 注入 / 泄露 / 越狱三章），本篇把手法做成插件、随会话自动注入。
 - 索引位置：[GitHub 项目收藏](README.md)。
+- **同属"DSH 插件"，激进程度相反**：[dsh-pixluna：把 PixLuna 图片能力移植成 DSH 插件的图像工具](dsh-pixluna-把PixLuna图片能力移植成DSH插件的图像工具.md)——那篇走 **Cordis 标准插件形态**（`dsh.bundle` + `cordis.patch.yml`）挂在宿主外侧；本篇**直接备份并替换 `@deepseek-ai/*` 包内文件**。可对照"**按插件协议挂载**"与"**改宿主文件**"两条路线。
 
 ## 参考来源
 

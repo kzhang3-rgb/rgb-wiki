@@ -146,6 +146,7 @@ docker run -d --name paseo \
 - **"跑与编排 Agent" ↔ "量它们花了多少钱"**：[codeburn：本地追踪 AI 编码 Token 用量与成本](codeburn-本地追踪AI编码Token用量与成本.md)——Paseo 的官方插件仓库里就有一组 **`claude-usage-source` / `codex-usage-source` / `copilot-usage-source` / `cursor-usage-source` / `grok-usage-source` / `kimi-usage-source` / `minimax-usage-source` / `zai-usage-source` / `opencode-go-usage-source`** 插件；两篇正好是这条链的两端。
 - **都是"编排多个 Agent"，面向不同**：[dontbemichael：用现有订阅跑一屋子 Agent 的本地多 Agent 框架](dontbemichael-用现有订阅跑一屋子Agent的本地多Agent框架.md)——本篇是**面向开发者的多 Agent 工作台**（桌面 + 移动），那篇是**面向业务所有者的 AI 办公室**（角色 + 邮箱 + 审批）；可对照"开发者编排"与"业务组织"。
 - **都在"多 provider"这件事上用力，层不同**：[aimux：用 Rust 写的统一 LLM 接入层](aimux-用Rust写的统一LLM接入层.md)——paseo 在 **Agent 编排层**做多 provider（原生 Claude Code / Codex / OpenCode 等 + ACP 目录），aimux 在**服务接入层**做多 provider（统一各家 HTTP API）；可对照"**编排层的多 provider**"与"**接入层的多 provider**"。
+- **"跑与编排 Agent" ↔ "回放它们到底做了什么"**：[agentplay：把编码 Agent 会话回放成地图与时间线的本地查看器](agentplay-把编码Agent会话回放成地图与时间线的本地查看器.md)——那是**事后回放某个 Agent 的会话**（读本机 transcript → 脱敏地图 + 时间线，本地查看器）；本篇是**把多个编码 Agent CLI 编排进同一工作区**（跨设备、worktree 并行）。两者覆盖编码 Agent 的不同环节，可对照"**编排运行**"与"**复盘观测**"。
 - **同为"桌面 + 移动编排多个编码 Agent"，授权与遥测取向不同**：[agent-orchestrator：编排编码 Agent 编队的桌面与移动工作台](agent-orchestrator-编排编码Agent编队的桌面与移动工作台.md)——形态最接近（都是桌面 + 手机看一队编码 Agent），但本篇是**自托管、无遥测、个人维护**，那篇是**商业公司出品的开放核心**（含机房侧 `contracts/cloud/openapi.yaml`、`public-boundary.yml` 与私有子模块）、**默认开遥测**、并有市场化的 Cloud 托管面；可对照"个人自托管"与"公司开放核心 + 托管增值"两种取向。
 
 ## 参考来源

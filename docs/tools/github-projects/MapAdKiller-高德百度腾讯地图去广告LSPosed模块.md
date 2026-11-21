@@ -78,6 +78,7 @@
 - 索引位置：[GitHub 项目收藏](README.md)。
 - **同类"Android 应用 / 系统改造"工具，但改的是 APK 打包与反编译**：[Apktool：Android APK 反编译与打包工具](Apktool-AndroidAPK反编译与打包工具.md)——MapAdKiller 免 root 内置版本质是重签名宿主 APK，两者在做"改包"这件事上互为上下游。
 - **同为"免 root 的特殊改动"安卓工具**：[Nrfr：免 Root 修改 SIM 卡国家码](Nrfr-免Root修改SIM卡国家码.md)——都在不 root 的前提下改动宿主行为，可对照其"免 root 路径"与风险提示的写法。
+- **同为"改设备 / 系统自报值绕地区门控"，平台相对**：[GestaltX：给 iOS 改 MobileGestalt 设备配置的编辑器](GestaltX-给iOS改MobileGestalt设备配置的编辑器.md)——那是 **iOS** 侧改 **MobileGestalt 设备配置缓存**（含 Region Code）以尝试启用地区受限功能；本篇是 **Android** 侧 hook 宿主 App 去广告。两者都把"**可能改坏系统**"写进 README 并给出还原路径，可对照两平台的改动层面与风险提示写法。
 
 ## 参考来源
 

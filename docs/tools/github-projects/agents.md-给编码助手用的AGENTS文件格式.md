@@ -77,6 +77,7 @@ pnpm run dev
 - **同属"给编码助手用的指令 / 角色资产"，载体不同**：[agency-agents：326 个 AI 专家角色的 Agent 定义库](agency-agents-326个AI专家角色的Agent定义库与多工具安装器.md)——它把角色定义**转成约 15 种工具格式**（Cursor `.mdc`、Codex TOML、Kimi YAML、OpenClaw `SOUL`/`AGENTS`/`IDENTITY` 等），可作"**`AGENTS.md` 之外的其它指令载体长什么样**"的对照样本。
 
 - **"给 AI 的静态说明"与"自动积累的动态记忆"之分**：[memorax-code：给 AI 编程助手加一层跨会话记忆的插件](memorax-code-给AI编程助手加跨会话记忆的插件.md)——`AGENTS.md` 是**人写的、随仓库走的静态指令文件**，那篇是**Agent 后台自动积累、需连云端的动态记忆**（其 Repo Memory 与 `AGENTS.md` 目的重叠）；可对照"**静态约定**"与"**动态记忆**"两条路线。
+- **把 `AGENTS.md` 当"精简本体"的一例**：[Ponytail：让 AI 编码像"最懒的资深开发"一样思考的技能](ponytail-让AI编码像最懒的资深开发一样思考的技能.md)——它的**精简版本体就是一份 `AGENTS.md`**（完整版是 `skills/ponytail/SKILL.md`）；可作"这份规则文件被真实项目怎么用"的样本。
 
 ## 参考来源
 

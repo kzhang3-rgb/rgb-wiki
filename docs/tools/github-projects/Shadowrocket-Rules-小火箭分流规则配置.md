@@ -81,6 +81,8 @@ https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/m
 - **同属代理主题**：[FreeSubsCheck](FreeSubsCheck-自动爬取并校验的免费节点订阅仓库.md)——本篇是分流规则（节点自备），那篇是用 GitHub Actions 定时爬取与校验的**外部节点订阅产物**（无许可证，来源为第三方公开池，**本库不为其来源背书**）。
 - **同为"客户端侧的分流 / 规则"，平台不同**：[B-box：基于 sing-box 换 Flutter 新界面的安卓客户端](B-box-基于sing-box换Flutter新界面的安卓客户端.md)——那是 **Android 上带完整 Flutter 界面的 sing-box 客户端**（非官方分支）；本篇是 iOS 小火箭的分流规则集（另有 Clash 版本）。一个管"**规则怎么写**"，一个管"**客户端怎么用**"。
 
+- **同属"代理"主题、指向节点来源的风险**：[Paolujichang：记录"跑路机场"的社区众包名单仓库](Paolujichang-记录跑路机场的社区众包名单仓库.md)——本篇的规则**不含节点**，节点通常来自"机场"订阅；那篇正是**对"机场"这类服务商的社区风险名单**（众包投稿、**未经核实**）。可对照"规则 / 客户端"与"服务商风险"两端。
+
 ## 参考来源
 
 - 项目仓库与 README：https://github.com/LingJingMaster/Shadowrocket-Rules

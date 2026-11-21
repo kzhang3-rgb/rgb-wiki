@@ -75,6 +75,7 @@
 - **同组三个开源语音项目**：[Qwen3-TTS：阿里开源的端到端语音生成与克隆模型](Qwen3-TTS-阿里开源的端到端语音生成与克隆模型.md)（**Apache-2.0、10 语言、可商用**）与 [VibeVoice：微软开源语音 AI 的 TTS 下架与 ASR 演进](VibeVoice-微软开源语音AI的TTS下架与ASR演进.md)（**TTS 已下架**）——**三篇的许可证与开放尺度各不相同**（社区许可带门槛 / Apache-2.0 / 下架），**选型时建议三篇对着读**。
 - **与"清单类"笔记的关系**：[free-voice-clone：本地免费语音克隆与音乐生成模型清单](free-voice-clone-本地免费语音克隆与音乐生成模型清单.md)——那份清单的 TTS 板块收录了 **Fish Audio S2 Pro**（许可标注为 **Fish Audio Research License**），**可视为本篇在"模型清单"里的条目**。
 - **同属本地语音软件侧**：[voicebox：本地优先的开源 AI 语音工作室](voicebox-本地优先的开源AI语音工作室.md)——它把多个第三方 TTS 引擎统一进一个本地 App（其一为 Qwen3-TTS），**是"把这类引擎做成成品"的另一种路线**。
+- **同为"代码许可 ≠ 权重许可"的开源模型仓库，模态不同**：[RelateAnything：实时预测开放词汇视觉关系的开源模型](RelateAnything-实时开放词汇视觉关系预测的开源模型.md)——那篇是**视觉**关系模型（代码 AGPL-3.0-only + NOTICE、权重是 Meta DINOv3 衍生、标注带 Gemma 条款、检测器另按 ultralytics AGPL）；本篇是**语音**模型（代码 FACL v1.0、S2-Pro 权重另按 Research License）。两篇可对照"**一个仓库里代码 / 权重 / 数据 / 第三方组件各挂不同许可**"的写法。
 
 ## 参考来源
 

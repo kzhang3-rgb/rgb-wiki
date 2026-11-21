@@ -114,6 +114,7 @@ qil bench --suite bench/suite.json --preset max       # 复现公开 benchmark
 - **同属"AI 生成素材做出成品"**：[dioramas：用 AI 生成素材做电影感 3D 网站](dioramas-用AI生成素材做电影感3D网站.md)——那篇把 AI 素材组装成 3D 网站；本篇**产出图像本身**。可对照"**素材生成**"与"**素材组装**"。
 - **同为"给 Agent 的图像能力"，一个出提示词、一个出图**：[image-prompt-reverse：给 Codex 用的"图片反推提示词"技能](image-prompt-reverse-Codex图片反推提示词技能.md)——那篇是**从参考图反推提示词**（纯文本技能，仓库**无一行代码**）；本篇是**本地跑权重出图的桌面工具**。可作为"**提示词侧**"与"**出图侧**"的配对：先用前者把参考图变成 Prompt，再用后者本地出图。
 - **同为"本地跑 Qwen-Image"，封装与门槛不同**：[qwen21-nsfw-pose-skill：Qwen-Image 2.1 的本地姿势出图配方技能](qwen21-nsfw-pose-skill-本地NSFW姿势出图配方技能.md)——那篇是 **ComfyUI + 提示词配方 + 3D 人偶姿势库**的本地出图技能（**NSFW 取向**，画面以无身份特征的 3D 人偶做姿势参考）；本篇是**面向 Qwen-Image 文生图与编辑的桌面应用 + CLI**（锁定版 ComfyUI、自动装权重）。可对照"**配方 / 姿势控制**"与"**开箱即用的单模型应用**"。
+- **同为"把开源视觉模型落到本地 / 端侧"，路线不同**：[RelateAnything：实时预测开放词汇视觉关系的开源模型](RelateAnything-实时开放词汇视觉关系预测的开源模型.md)——那篇是**研究型开放词汇视觉关系（场景图）预测模型**（Python 库 `relsgg`，提供 PyTorch / TensorRT / ONNX-OpenVINO 与浏览器 WebGPU·WASM demo）；本篇是**面向 8 GB 显存的 Qwen-Image 文生图 / 编辑桌面工具**（一次只载一个阶段、int8 权重）。可对照"**提供多后端与浏览器演示的模型库**"与"**把模型塞进消费级硬件的成品应用**"两种落地。
 
 ## 参考来源
 

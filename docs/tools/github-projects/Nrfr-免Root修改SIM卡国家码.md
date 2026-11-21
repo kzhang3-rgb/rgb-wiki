@@ -77,6 +77,7 @@ README 列的典型场景：
 - 索引位置：[GitHub 项目收藏](README.md)。
 - 同属"绕开地区限制"的另一个层面：[Shadowrocket-Rules](Shadowrocket-Rules-小火箭分流规则配置.md)——那篇在网络流量层处理，本篇在设备识别层处理。
 - **同为"免 root 的安卓特殊改动"**：[MapAdKiller](MapAdKiller-高德百度腾讯地图去广告LSPosed模块.md)——那是高德 / 百度 / 腾讯地图去广告与界面定制（含免 root 内置重签名路线，GPL-3.0），本篇是免 root 改 SIM 卡国家码；可对照两者的免 root 路径与风险提示写法。
+- **"绕地区限制"在 iOS 侧的对照**：[GestaltX](GestaltX-给iOS改MobileGestalt设备配置的编辑器.md)——同为绕开地区 / 功能门控，但平台与层面不同：本篇改 **SIM 卡国家码**（Android、改系统读取的运营商配置），GestaltX 改 **MobileGestalt 设备配置缓存**（iOS，改设备自报的 Region Code 等）。两篇都强调"**可还原**"与"**可能违反服务条款**"，可对照两平台的机制差异与风险提示写法。
 
 ## 参考来源
 
